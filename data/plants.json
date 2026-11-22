@@ -1,0 +1,3508 @@
+{
+ "source": "https://sparrowhawknativeplants.com",
+ "updated": "2026-11-21",
+ "lightLabels": {
+  "full-sun": "Full sun",
+  "part-shade": "Part sun / part shade",
+  "full-shade": "Full shade"
+ },
+ "plants": [
+  {
+   "id": "common-yarrow",
+   "name": "Common Yarrow",
+   "catalogName": "Western Yarrow",
+   "qty": 25,
+   "size": "3.5\"",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/common-yarrow-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/common-yarrow-2.webp",
+     "w": 980,
+     "h": 654
+    },
+    {
+     "src": "images/common-yarrow-3.webp",
+     "w": 750,
+     "h": 1000
+    }
+   ],
+   "scientificName": "Achillea millefolium",
+   "description": "Western yarrow is a staple in sunny pollinator gardens and parking strips. It has an impressive bloom-time, sporting flat-topped clusters of showy, white flowers from spring to fall. The flowers sit upon hardy stalks making them ideal for fresh or dried arrangements – or to simply leave in the low-maintenance winter garden for birds and overwintering insects. Yarrow is highly attractive to pollinators, butterflies, and other beneficial insects – providing them with nectar and a larval food source. The foliage is delightfully-delicate, lacy and fernlike. It can also be also used as a lawn substitute if mown infrequently.",
+   "gardening": "Hardy, easy to grow - an excellent addition for sunny wildflower meadows and pollinator parking strips. It spreads vigorously, but not obnoxiously, by rhizome and seed. Incredibly low-maintenance and drought tolerant. Over time, you’ll have enough to share with friends. The spent flowers stay upright on a sturdy stalk and, if left, can provide winter interest and habitat resources for birds and overwintering beneficial insects. Seed Sowing Instructions: Can be fall or spring sown - no stratification required. Spring seeds on the surface of bare earth at a rate of about 60 seeds/sq ft. Do not cover. If planting in small pots outside, put one small pinch per pot. Then, protect from heavy rains so the seed does not get washed away. Alternatively, can be directly sown in situ, one small pinch in each area you want it to grow. Fall-winter sown seed may not germinate until temps warm in the spring. Spring sown should germinate within a couple of weeks. Each packet contains approximately 650 seeds.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, herbaceous plant",
+    "Size at maturity": "12-24\" tall, 24\" wide",
+    "Light requirements": "full sun",
+    "Moisture requirements": "moist to dry soil",
+    "Growth rate/ease": "fast growth rate, easy to grow",
+    "Bloom time": "April - October",
+    "Wildlife support": "flowers attract and provide nectar to adult butterflies, bees and other insect pollinators; overall plant attracts and support beneficial and other pest eating insects and is a caterpillar host plant and larval food source for native butterflies and moths",
+    "Special features & uses": "drought tolerant, beneficial insect, pollinator and wildlife favorite, medicinal, lawn substitute"
+   },
+   "lightTags": [
+    "full sun"
+   ],
+   "lights": [
+    "full-sun"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "beat the heat",
+    "oakscape",
+    "pollinator meadow",
+    "rain garden",
+    "sunny yard"
+   ],
+   "special": [
+    "groundcover",
+    "medicinal",
+    "pollinator plant - blooms early",
+    "pollinator plant - blooms late",
+    "pollinator plant - blooms mid-season",
+    "wildflower"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [],
+   "photoCredit": "Photo Credit 1: \"Yarrow (Achillea millefolium)\" by Peter O'Connor aka anemoneprojectors is licensed under CC BY-SA 2.0.",
+   "productUrl": "https://sparrowhawknativeplants.com/products/yarrow",
+   "handle": "yarrow",
+   "companions": [
+    {
+     "name": "Blue Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/blue-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Kinnikinnick",
+     "lights": [
+      "full-sun"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/kinnikinnick",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  },
+  {
+   "id": "western-columbine",
+   "name": "Western Columbine",
+   "catalogName": "Red Columbine",
+   "qty": 5,
+   "size": "1 gal",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/western-columbine-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/western-columbine-2.webp",
+     "w": 980,
+     "h": 653
+    },
+    {
+     "src": "images/western-columbine-3.webp",
+     "w": 980,
+     "h": 735
+    }
+   ],
+   "scientificName": "Aquilegia formosa",
+   "description": "Red columbine (or western columbine) is a stunning wildflower that will beckon neighborhood hummingbirds, butterflies and pest-eating insects to your garden. The nodding blossoms consist of dramatically-spurred red to orange sepals surrounding yellow petals blooming late spring to late summer, followed by seed heads in the late summer and fall that are preferred by finches and other songbirds. Overall, native columbine is an outstanding and attractive addition to any wildlife garden.",
+   "gardening": "This stunning species is an excellent option for partially-shady, moist areas with compost-rich, well-drained soils - such as a raingarden, moist meadowscape or brighter edges of a woodland garden. Areas near vegetable beds can be excellent micro climates as well, since supplemental moisture is already being provided during the summer drought. Generally, the more sun it receives, the more moisture it will require. Excellent companion plants include Douglas fir (Pseudotsuga menziesii), meadowrue (Thalictrum occidental), yellow monkeyflower (Mimulus guttatus), western azalea (Rhododendron occidentale), and evergreen huckleberry (Vaccinum ovatum). This species can self-sow, but it is not overly aggressive and its spread is usually welcomed. When overly stressed by drought and where there is not good airflow, it is susceptible to powdery mildew on its leaves, especially late in the season as it's already dying back. If this occurs, consider transplanting to a more favorable area or simply pinch off and dispose of affected leaves in your curbside roll bin - or do nothing and know it will return just fine next spring.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, herbaceous plant",
+    "Size at maturity": "36\" tall, 12-24\" wide",
+    "Light requirements": "part-sun/part-shade",
+    "Moisture requirements": "moist soil, prefers well-drained",
+    "Bloom time": "April - August (April - July in the Portland Metro area)",
+    "Growth rate/ease": "moderate growth rate, easy to grow.",
+    "Wildlife support": "flowers are a nectar source for hummingbirds, adult butterflies, bees and other insect pollinators; nature seed heads are consumed by finches and at least six other species of local birds, as well as small mammal; overall plant attracts and supports beneficial and other pest eating insects and is a caterpillar host plant and larval food source for native butterflies and moths including the Orange Tortrix Moth.",
+    "Native habitat/range": "native to and common in many habitats, including chaparral, oak woodland, and mixed-evergreen or coniferous forest of the western North America, from Alaska to Baja California and eastward to Montana and Wyoming. Portland Plant List - yes.",
+    "Special features & uses": "from pollinators and other beneficial insects to songbirds, it's a wildlife magnet; deer resistant; ethnobotanically it was historically consumed by indigenous peoples only as a famine food and used medicinally to treat a variety of maladies, though it is rarely used in herbalism today; landscape uses include raingardens, pollinator gardens, moist meadowscapes and woodland garden edges"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "moist soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "newbie",
+    "oakscape",
+    "pollinator meadow",
+    "rain garden",
+    "sunny yard"
+   ],
+   "special": [
+    "deer resistant",
+    "pollinator plant - blooms early",
+    "pollinator plant - blooms mid-season",
+    "supports hummingbirds",
+    "wildflower"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [],
+   "photoCredit": "Photo Credits 1, 2: Tara Lemezis, Tiny Seed Photography Photo Credits 3, 4: Nikkie West, Sparrowhawk Native Plants",
+   "productUrl": "https://sparrowhawknativeplants.com/products/red-columbine",
+   "handle": "red-columbine",
+   "companions": [
+    {
+     "name": "Black Twinberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/black-twinberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Blue Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/blue-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  },
+  {
+   "id": "chokecherry",
+   "name": "Chokecherry",
+   "catalogName": "Common Chokecherry",
+   "qty": 3,
+   "size": "1 gal",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/chokecherry-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/chokecherry-2.webp",
+     "w": 980,
+     "h": 735
+    },
+    {
+     "src": "images/chokecherry-3.webp",
+     "w": 980,
+     "h": 653
+    }
+   ],
+   "scientificName": "Prunus virginiana",
+   "description": "Chokecherry is a small tree or large shrub (aka an arborescent shrub) with an upright form that provides year-round interest in the habitat garden. Its deciduous foliage emerges dark and glossy in early spring from dark-reddish, brown branches. By April or May, long-cylindrical clusters of creamy white, pleasantly-fragrant flowers dangle in the breeze, beckoning and supporting pollinators. In fall, the leaves offer hues of yellow, gold and even red while its edible deep purple-to-black sour chokecherries are a beloved and nutrient-packed food source for birds, small mammals, and bears and an excellent (albeit sour) choice for jams and wine.",
+   "gardening": "This deciduous tree/shrub is exceptionally easy to grow and packs a formidable punch as a wildlife plant. It tolerates pretty much any soil type and moisture, as well as a range of light exposures except deep shade. That said, it will flower more with more sunlight. It also wants to become a small grove or thicket and will send up suckers that are a welcomed addition for folks trying to revegetate an oversized property and/or are interested in creating a large habitat-haven. On smaller, more tightly manicured properties, suckers can be controlled by cutting them back or ripping them out as they regularly emerge.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, small tree or large shrub",
+    "Size at maturity": "15-35' tall, 15-20' wide",
+    "Light requirements": "full sun, part-sun/part-shade",
+    "Moisture requirements": "seasonally wet, moist to dry soil",
+    "Bloom time": "April - July",
+    "Growth rate/ease": "grows quickly, very easy to grow",
+    "Wildlife support": "flowers attract and provide nectar to hummingbirds, adult butterflies (pale swallowtail, silvery blue, spring azure, and painted lady), bees and other insect pollinators; fruits are adored by and an important source of food for backyard birds (more than 30 species of birds are known to eat it in the Portland metro area), as well as small mammals, bears and humans; young twigs and foliage are grazed by deer and elk; overall plant attracts and supports beneficial and other pest eating insects and is a caterpillar host plant and larval food source for native butterflies and moths including Lorquin's Admiral and Tiger Swallowtail.",
+    "Native habitat/range": "found on rocky slopes, along streams, in wooded areas and forest edges, at low to mid-elevations, throughout western North America excluding Alaska. In the Pacific Northwest, although more common on the east side of the Cascades, it can be found west of the Cascades, often in drier, prairie habitats. Portland Plant List - yes.",
+    "Special features & uses": "hummingbird, pollinator and wildlife magnet; edible berries, though they contain trace amounts of cyanide that diminishes as they mature - so select the darkest ones, in moderation; medicinal; landscape uses include pollinator gardens, rock gardens, woodland gardens, erosion control, habitat hedgerows and windbreaks/screens"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "small tree"
+   ],
+   "collections": [
+    "newbie",
+    "oakscape",
+    "rain garden",
+    "sunny yard"
+   ],
+   "special": [
+    "medicinal",
+    "wildlife favorite"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Photo Credit 1: \"Common Chokeberry (Prunus virginiana)\" by wackybadger is licensed under CC BY-SA 2.0 Photo Credit 2 & 6: \"Prunus virginiana\" by Matt Lavin is licensed under CC BY-",
+   "productUrl": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+   "handle": "common-chokecherry",
+   "companions": [
+    {
+     "name": "Black Twinberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/black-twinberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Lady Fern",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/lady-fern",
+     "inList": false,
+     "why": "shares newbie"
+    },
+    {
+     "name": "Red Alder",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-alder",
+     "inList": false,
+     "why": "shares newbie"
+    }
+   ]
+  },
+  {
+   "id": "oxalis",
+   "name": "Oxalis",
+   "catalogName": "Oregon Oxalis",
+   "qty": null,
+   "size": "",
+   "note": "None exist",
+   "available": false,
+   "images": [
+    {
+     "src": "images/oxalis-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/oxalis-2.webp",
+     "w": 980,
+     "h": 653
+    },
+    {
+     "src": "images/oxalis-3.webp",
+     "w": 980,
+     "h": 653
+    }
+   ],
+   "scientificName": "Oxalis oregana",
+   "description": "Oregon oxalis (aka redwood sorrel) is a semi-evergreen, highly attractive ground cover ideal for woodland gardens. In shady undergrowth, its cheerful shamrock-shaped leaves stick around for most of the year, forming delicate carpets reminiscent of fairy tales. Singular small white blooms suspend above the leaves on a slender stalk.",
+   "gardening": "Oxalis is ideal under conifers and other overstory trees and shrubs and can spread happily in acidic, well-drained soils that are high in organic matter. It pairs well with native ferns, salal, snowberry and countless other shade-loving small shrubs and perennials.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "semi-evergreen, perennial, herbaceous plant",
+    "Size at maturity": "up to 8” tall, spreading laterally via rhizomes",
+    "Light requirements": "part sun/part shade, full shade",
+    "Moisture requirements": "moist to dry soil, well-drained",
+    "Bloom time": "March - September (generally April - May in the Portland Metro area)",
+    "Growth rate/ease": "medium growth rate, easy to grow",
+    "Wildlife support": "flowers attract and provide nectar for adult butterflies, bees and other insect pollinators; overall plant is a caterpillar host and larval food source for native butterflies and moths",
+    "Native habitat/range": "common in moist Douglas-fir and coast redwood forests from the western Cascades to the coast, from British Columbia south to California. Portland Plant List - yes.",
+    "Special features & uses": "groundcover; semi-evergreen; tangy leaves are edible in small quantities since they contain mildly toxic oxalic acid; landscape uses include woodland gardens and shady pollinator gardens"
+   },
+   "lightTags": [
+    "full shade",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "newbie",
+    "rain garden",
+    "shady woodland"
+   ],
+   "special": [
+    "edible",
+    "groundcover",
+    "wildflower"
+   ],
+   "evergreen": [
+    "semi-evergreen"
+   ],
+   "growth": [],
+   "photoCredit": "Photo Credits 1: Tara Lemezis, Tiny Seed Photography Photo Credits 2 - 4, 7 - 9: Nikkie West, Sparrowhawk Native Plants Photo Credits 5, 6: Hoddick Photography",
+   "productUrl": "https://sparrowhawknativeplants.com/products/oregon-oxalis",
+   "handle": "oregon-oxalis",
+   "companions": [
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Early Blue Violet",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/early-blue-violet",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Evergreen Huckleberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/evergreen-huckleberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  },
+  {
+   "id": "false-lily-of-the-valley",
+   "name": "False Lily of the Valley",
+   "catalogName": "False Lily-of-the-Valley",
+   "qty": 25,
+   "size": "3.5\"",
+   "note": "Only 3.5\" available",
+   "available": true,
+   "images": [
+    {
+     "src": "images/false-lily-of-the-valley-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/false-lily-of-the-valley-2.webp",
+     "w": 980,
+     "h": 653
+    },
+    {
+     "src": "images/false-lily-of-the-valley-3.webp",
+     "w": 980,
+     "h": 653
+    }
+   ],
+   "scientificName": "Maianthemum dilatatum",
+   "description": "This luscious woodland groundcover will flourish into a continuous blanket of rich green leaves when planted in moist shady areas with mature soils. Clusters of creamy white blooms float above its broad leaves on a central stalk and eventually mature into unique, attractive bright red berries.",
+   "gardening": "This sweet little plant spreads by rhizome into a continuous groundcover in moist soils that are high in organic matter. It even tolerates very wet soils in winter, making it a great choice for a shady raingarden. Infrequent water in summer (i.e. once every two weeks) may be needed if soils are too dry.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, herbaceous plant",
+    "Size at maturity": "12\" tall, groundcover that spreads laterally",
+    "Light requirements": "full shade, part sun/part shade",
+    "Moisture requirements": "moist soil",
+    "Bloom time": "May - July",
+    "Growth rate/ease": "medium growth rate, easy to grow",
+    "Wildlife support": "flowers attract and support bees and other insect pollinators; overall plant attracts and supports beneficial pest eating insects",
+    "Native habitat/range": "grows near streams and bogs, damp woods under trees up to 1300m, across Western Oregon north to Alaska and south into California. Portland Plant List - yes.",
+    "Special features & uses": "groundcover; landscape uses include pollinator gardens, woodland gardens, and raingardens"
+   },
+   "lightTags": [
+    "full shade",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "moist soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "newbie",
+    "shady woodland"
+   ],
+   "special": [
+    "groundcover",
+    "pollinator plant - blooms mid-season",
+    "wildflower"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Photo Credits 1-4, 6 & 7: Nikkie West, Sparrowhawk Native Plants Photo Credit 5: \"Lily-of-the-valley (Maianthemum dilatatum) berries\" by La.Catholique is licensed under CC BY 2.0.",
+   "productUrl": "https://sparrowhawknativeplants.com/products/false-lily-of-the-valley",
+   "handle": "false-lily-of-the-valley",
+   "companions": [
+    {
+     "name": "Evergreen Huckleberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/evergreen-huckleberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Candyflower",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/candy-flower",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  },
+  {
+   "id": "false-solomons-seal",
+   "name": "False Solomon's Seal",
+   "catalogName": "Starry False Solomon's Seal",
+   "qty": 3,
+   "size": "1 gal",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/false-solomons-seal-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/false-solomons-seal-2.webp",
+     "w": 980,
+     "h": 653
+    },
+    {
+     "src": "images/false-solomons-seal-3.webp",
+     "w": 980,
+     "h": 735
+    }
+   ],
+   "scientificName": "Maianthemum stellatum",
+   "description": "This lush perennial emerges each spring with delicate bluish-green leaves on arching stems. In May and June, it flaunts dainty star shaped white flowers that alternate along the stem and mature into dark fruits that are eaten by wildlife in the fall.",
+   "gardening": "This lovely woodland plant prefers most-to-full shade and moist, mature soils that are rich in organic matter. When put in the right place, it will spread nicely from rhizomes, eventually forming a lush colony that will be a sweet addition to your woodland garden. NOTE: This plant will likely be dormant at October pick-up events. Depending on late with and early spring weather, it may still be dormant or just emerging at April pick-up events.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, herbaceous plant",
+    "Size at maturity": "8-12\" tall, spreads laterally by rhizomes",
+    "Light requirements": "full shade, part-sun/part-shade",
+    "Moisture requirements": "moist soil",
+    "Bloom time": "April - August (May - June in the Portland Metro area)",
+    "Growth rate/ease": "medium growth rate, easy to grow",
+    "Wildlife support": "flowers attract and support bees, other insect pollinators; overall plant attracts and supports beneficial and pest eating insects, birds and small mammals",
+    "Native habitat/range": "common in creek banks, mesic meadows, woods, swamps, from sea level up to 2300m, from south western Canada all the way to northwestern Mexico. Portland Plant List - yes.",
+    "Special features & uses": "groundcover; pollinator plant; landscape uses include shady pollinator gardens and woodland gardens"
+   },
+   "lightTags": [
+    "full shade",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "moist soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "shady woodland"
+   ],
+   "special": [
+    "groundcover",
+    "wildflower"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [],
+   "photoCredit": "Photo Credit 1: Starry False Solomon's Seal (Maianthemum stellata)\" by La.Catholique is licensed under CC BY 2.0 Photo Credits 2 - 6: Nikkie West, Sparrowhawk Native Plants Photo C",
+   "productUrl": "https://sparrowhawknativeplants.com/products/starry-false-solomons-seal",
+   "handle": "starry-false-solomons-seal",
+   "companions": [
+    {
+     "name": "Evergreen Huckleberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/evergreen-huckleberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Red Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  },
+  {
+   "id": "pacific-bleeding-heart",
+   "name": "Pacific Bleeding Heart",
+   "catalogName": "Pacific Bleeding Heart",
+   "qty": 25,
+   "size": "3.5\"",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/pacific-bleeding-heart-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/pacific-bleeding-heart-2.webp",
+     "w": 980,
+     "h": 1306
+    },
+    {
+     "src": "images/pacific-bleeding-heart-3.webp",
+     "w": 980,
+     "h": 653
+    }
+   ],
+   "scientificName": "Dicentra formosa",
+   "description": "Pacific bleeding heart is easily one of the most beloved plants in a shady woodland Northwest Garden. In early spring, a carpet of delicate bright to blueish-green foliage emerges from the earth, soon followed by a plethora of enchanting heart-shaped purplish-pink blooms bobbing above the leaves on upright stems, beckoning hummingbirds and other pollinators.",
+   "gardening": "Try establishing a ground cover of pacific bleeding heart beneath native conifers or other trees like alder or vine maple, in areas that are moist and rich in organic matter and topped with a blanket of fine mulch, fallen leaves left in place or raked from one area of your garden to another. No need to reinvent the wheel on mulch. 4.6 billion years of evolution already created the perfect product and applies it for us annually, at just the right time. Go figure. If put in the right place, Pacific bleeding heart will spread vigorously through rhizomes - and, occasionally, even produce a second bloom later in the season. Try accompanying it with understory species like evergreen huckleberry, salal, osoberry, and native ferns - and other ground covers like stream violet, false Solomon’s seal, and Hooker’s fairy bells.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, herbaceous plant",
+    "Size at maturity": "12-18\" tall, 18-24\" wide",
+    "Light requirements": "full shade to part sun",
+    "Moisture requirements": "moist to wet soil",
+    "Bloom time": "March - August (April - June in the Portland Metro area)",
+    "Growth rate/ease": "fast growth rate, easy to grow",
+    "Wildlife support": "nectar-rich flowers attract and support hummingbirds, adult butterflies, syrphid flies, bumblebees and other native bees; foliage provides food source for larval butterflies as well as cover for small creatures like amphibians and various arthropods.",
+    "Native habitat/range": "common in damp forests and woodlands, in ravines, and near streams from low to middle elevations from western British Columbia south through western Washington, Oregon and into the western portions of central California. Portland Plant List - yes.",
+    "Special features & uses": "ground cover; hummingbird favorite; medicinal"
+   },
+   "lightTags": [
+    "full shade",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "newbie",
+    "rain garden",
+    "shady woodland"
+   ],
+   "special": [
+    "groundcover",
+    "medicinal",
+    "supports hummingbirds",
+    "wildflower"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [],
+   "photoCredit": "Photo Credits 1-3: Nikkie West, Sparrowhawk Native Plants",
+   "productUrl": "https://sparrowhawknativeplants.com/products/pacific-bleeding-heart",
+   "handle": "pacific-bleeding-heart",
+   "companions": [
+    {
+     "name": "Red Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Streambank Violet",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/streambank-violet",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  },
+  {
+   "id": "bearberry-kinnikinnick",
+   "name": "Bearberry Kinnikinnick",
+   "catalogName": "Kinnikinnick",
+   "qty": 5,
+   "size": "1 gal",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/bearberry-kinnikinnick-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/bearberry-kinnikinnick-2.webp",
+     "w": 980,
+     "h": 1470
+    },
+    {
+     "src": "images/bearberry-kinnikinnick-3.webp",
+     "w": 980,
+     "h": 654
+    }
+   ],
+   "scientificName": "Arctostaphylos uva-ursi",
+   "description": "Kinnikinnick is a versatile low-growing shrub that functions extraordinarily as a dynamic groundcover in exposed, sunny, dry areas. In spring, this trailing evergreen shoots off cheery new growth with a lemony-green hue, followed by small white to pink, urn-shaped flowers. By late summer the foliage shifts to a reddish purple and the flowers mature into small red or orange berries that persist into winter. Kinnikinnick is used extensively by insects and wildlife and has been recognized for its medicinal properties by native peoples for thousands of years.",
+   "gardening": "Kinnikinnick is ideal for sunny locations with soils that are nutrient-poor, acidic, rocky or sandy and have limited water input. It is extremely tolerant of the elements, including salt and wind and can be used on tough exposed slopes and other sunny problem areas. It will also cascade nicely over ornamental rocks and borders.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "evergreen, perennial, small shrub (prostrate)",
+    "Size at maturity": "5-8\" tall, 2-5' wide",
+    "Light requirements": "full sun",
+    "Moisture requirements": "dry to moist soil",
+    "Growth rate/ease": "fast growth rate, easy to grow",
+    "Bloom time": "April - July",
+    "Wildlife support": "flowers attract and supports hummingbirds, adult butterflies, bees and other insect pollinators; overall plant attracts and supports, beneficial and pest eating insects and is a caterpillar host plant and larval food source",
+    "Native habitat/range": "thrives in a wide range of habitats including ocean bluffs, sandy flats, rocky hillsides, mixed woods and co­niferous forests, up to 2800m, in the Pacific Northwest from Alaska to northern California, as well across most northern states and Canada. Portland Plant List - yes.",
+    "Special features & uses": "evergreen; supports hummingbirds; medicinally, it contains the glycoside arbutin, which has antimicrobial properties and acts as a mild diuretic; landscape uses include as a groundcover in pollinator gardens and rock garden and erosion control"
+   },
+   "lightTags": [
+    "full sun"
+   ],
+   "lights": [
+    "full-sun"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil"
+   ],
+   "canopy": [
+    "small shrub/fern"
+   ],
+   "collections": [
+    "beat the heat",
+    "newbie",
+    "oakscape",
+    "sunny yard"
+   ],
+   "special": [
+    "groundcover",
+    "medicinal",
+    "pollinator plant - blooms early",
+    "pollinator plant - blooms mid-season",
+    "supports hummingbirds"
+   ],
+   "evergreen": [
+    "evergreen"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Photo Credit 1: \"Arctostaphylos uva-ursi\" by Jörg Hempel is licensed under CC BY-SA 2.0.",
+   "productUrl": "https://sparrowhawknativeplants.com/products/kinnikinnick",
+   "handle": "kinnikinnick",
+   "companions": [
+    {
+     "name": "Blue Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/blue-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Big Leaf Maple",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/big-leaf-maple",
+     "inList": false,
+     "why": "shares beat the heat"
+    }
+   ]
+  },
+  {
+   "id": "common-camas",
+   "name": "Common Camas",
+   "catalogName": "Common Camas",
+   "qty": 5,
+   "size": "1 gal",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/common-camas-1.webp",
+     "w": 787,
+     "h": 787
+    },
+    {
+     "src": "images/common-camas-2.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/common-camas-3.webp",
+     "w": 801,
+     "h": 1200
+    }
+   ],
+   "scientificName": "Camassia quamash",
+   "description": "Common camas is an attractive and versatile spring bulb. Countless star-shaped, blue-purple flowers explode into bloom atop erect, tall stems each spring. The bright yellow pollen within is both ornamental and attractive to beneficial insects, pollinators and hummingbirds. A true Oregonian, it perfectly evolved to thrive being inundated with water in the winters and bone dry in the summers. The bulbs are also edible, extremely high in protein, and delicious and are an important plant for indigenous peoples.",
+   "gardening": "For spring orders, depending on the weather and the date of your order pick-up, bulbs may be just emerging or already dying back for the season. Bulbs can be fragile when they're actively growing in spring. So, either plant with care or keep it in its pot and wait until it dies back before planting. By early summer, the plant will die back completely and the bulb will be easy to transplant. If you go this route, leave the pot in a sheltered place and water sparingly, so that you don't rot the bulb. For fall orders, you can expect what looks like a pot of dirt. The bulb inside may appear slightly shriveled, which is its normal, dormant fall look. Fall is generally considered an ideal time to plant bulbs. This beauty is the crown jewel of the sunny raingarden or meadowscape, as well as an excellent replacement for conventional, ornamental spring bulbs. It does great with winter flooding, and even some shade, provided it can dry out and bask in the summer sun. After blooming, common camas die back completely, so it's ideal to intermix this plant among other perennials and wildflowers that will take the stage once camas’ glory has passed.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, herbaceous plant",
+    "Size at maturity": "30\" tall, 6-12\" wide",
+    "Light requirements": "full sun, part sun/part shade",
+    "Moisture requirements": "moist to wet winters, dry summers",
+    "Bloom time": "April - July (April - June in the Portland Metro area)",
+    "Growth rate/ease": "medium growth rate, easy to grow",
+    "Wildlife support": "flowers attract and provide nectar for hummingbirds, adult butterflies, bees and other insect pollinators; overall plant supports beneficial and pest eating insects",
+    "Native habitat/range": "common in meadows, bogs, fens, wetlands and vernal pools. There are eight subspecies of C. quamash, and between them the species covers most of the Pacific Northwest. Portland Plant List - yes.",
+    "Special features & uses": "edible, supports hummingbirds"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "newbie",
+    "pollinator meadow",
+    "rain garden",
+    "sunny yard"
+   ],
+   "special": [
+    "edible",
+    "groundcover",
+    "pollinator plant - blooms early",
+    "pollinator plant - blooms mid-season",
+    "supports hummingbirds",
+    "wildflower"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [],
+   "photoCredit": "Photo Credits 1, 2, 4 - 7: Nikkie West, Sparrowhawk Native Plants Photo Credit 3: Hoddick Photography Photo Credit 8: \"Camas\" by born1945 is licensed under CC BY 2.0",
+   "productUrl": "https://sparrowhawknativeplants.com/products/tall-camas",
+   "handle": "tall-camas",
+   "companions": [
+    {
+     "name": "Nootka Rose",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/nootka-rose",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Western Serviceberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/western-serviceberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Red Alder",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-alder",
+     "inList": false,
+     "why": "shares newbie"
+    }
+   ]
+  },
+  {
+   "id": "black-twinberry",
+   "name": "Black Twinberry",
+   "catalogName": "Black Twinberry",
+   "qty": 3,
+   "size": "2 gal",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/black-twinberry-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/black-twinberry-2.webp",
+     "w": 980,
+     "h": 653
+    },
+    {
+     "src": "images/black-twinberry-3.webp",
+     "w": 980,
+     "h": 653
+    }
+   ],
+   "scientificName": "Lonicera involucrata",
+   "description": "Black Twinberry is a member of the Honeysuckle family, forming a beautifully arching tall and wide upright shrub. Seemingly thousands of pairs of yellow, tubular flowers emerge in April and continue blooming all summer long, providing nectar to countless species of insect pollinators and making it a magnet for hummingbirds. As the season progresses, the flowers become encased in showy red bracts that eventually hold its shiny black, “twin” berries, the namesake of this lovely garden shrub.",
+   "gardening": "This fast growing shrub is carefree when planted in the right place. Be sure to give it a part to full sun location with moist soil, such as a sunny raingarden. It can even tolerate seasonal flooding and will help stabilize soils in these areas. Since it is adored by hummingbirds, place it in an area where it can be viewed from a window to enjoy entertainment all summer long.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, large shrub",
+    "Size at maturity": "5-8' tall, 2-8' wide",
+    "Light requirements": "full sun to part shade",
+    "Moisture requirements": "moist to wet soil",
+    "Bloom time": "March - August (April - Aug in the Portland Metro area)",
+    "Growth rate/ease": "fast growing, easy to grow",
+    "Wildlife support": "flowers are a favored nectar source for hummingbirds, adult butterflies, bees, and other insect pollinators; berries are eaten by many species of resident and migratory birds; overall plant attracts and supports beneficial and other pest eating insects and is a caterpillar host plant and larval food source for native moths and butterflies",
+    "Native habitat/range": "locally common in meadows, forest edges, bogs, fens and wetlands across much of south western Canada and all of Washington, Oregon south into California. Portland Plant List - yes.",
+    "Special features & uses": "hummingbird magnet; landscape uses include pollinator gardens, raingardens, erosion control and habitat hedgerows"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "large shrub"
+   ],
+   "collections": [
+    "newbie",
+    "rain garden",
+    "sunny yard"
+   ],
+   "special": [
+    "pollinator plant - blooms early",
+    "pollinator plant - blooms late",
+    "pollinator plant - blooms mid-season",
+    "supports hummingbirds",
+    "wildlife favorite"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Photo Credits 1-5 & 7: Nikkie West Photo Credit 6: Photo Credit 2: \"Kayaking, looking for the beaver found cedar waxwings feeding on the lonicera involucrata... black twinberry.\" b",
+   "productUrl": "https://sparrowhawknativeplants.com/products/black-twinberry",
+   "handle": "black-twinberry",
+   "companions": [
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Nootka Rose",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/nootka-rose",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Lady Fern",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/lady-fern",
+     "inList": false,
+     "why": "shares newbie"
+    }
+   ]
+  },
+  {
+   "id": "nootka-rose",
+   "name": "Nootka Rose",
+   "catalogName": "Nootka Rose",
+   "qty": 5,
+   "size": "1 gal",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/nootka-rose-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/nootka-rose-2.webp",
+     "w": 980,
+     "h": 1318
+    },
+    {
+     "src": "images/nootka-rose-3.webp",
+     "w": 980,
+     "h": 1305
+    }
+   ],
+   "scientificName": "Rosa nutkana",
+   "description": "Nootka rose is an upright, thicket-forming, deciduous shrub with unrivaled wildlife value. Large, sweet-scented pink flowers appear at the branch tips in mid-to-late spring. These attractive flowers mature into summer fruits, called hips, that are highly nutritious in tea and eaten by countless species of birds and mammals, especially in the winter months when other foods are scarce.",
+   "gardening": "Nootka rose is a gorgeous wildlife magnet that prefers full to partial sun and tolerates most types of soils - including drought and seasonal wetness! That said, it is aggressive and eventually forms large, impenetrable thickets over time. It is valuable for stabilizing banks, especially along streams and is ideal for colonizing large spaces and habitat-friendly hedgerows where space allows.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, large shrub",
+    "Size at maturity": "4-10' tall, 2-3' wide",
+    "Light requirements": "full sun, part sun/part shade",
+    "Moisture requirements": "dry to wet soil",
+    "Bloom time": "April - August (April - May in the Portland Metro area)",
+    "Growth rate/ease": "fast growing, easy to grow",
+    "Wildlife support": "leaves/twigs are a food source for squirrels, beavers, porcupines, deer, elk, moose, caribou and bighorn sheep; young shoots are also popular with aphids which in turn provide food for a wide range of predators including ladybugs and songbirds; flowers attract and provide nectar for hummingbirds, adult butterflies and bees and are well-known as “deer candy”; hips provide food to several bird and mammal species including grouse, bluebirds, juncos, grosbeaks, quail, pheasants, and thrushes - plus chipmunks, rabbits, hares, porcupines, coyotes, deer, elk, and bear; seeds are used by birds as a source of grit; the overall plant attracts and supports predatory and other beneficial insects and is a caterpillar host plant and larval food source for several species of native bees and butterflies including mourning cloak butterfly; thickets provide critical shelter and habitat for birds such as pheasants and grouses",
+    "Native habitat/range": "locally common in thickets, riparian areas, along forest edges, and on rocky slopes from Alaska to California, and east to the Rocky Mountains. Portland Plant List - yes.",
+    "Special features & uses": "bird and wildlife favorite; fragrant flowers; landscape uses include pollinator gardens, raingardens, habitat hedgerows; traditionally used medicinally by many indigenous groups in the Pacific Northwest (including the Bella Coola, Cowichan, Lummi, Nlaka'pamux, and others), an infusion of roots and sprouts can be used as eyewash, decoction of bark can be used in tea to ease labor pains during childbirth and as a hair/body wash, poultice of chewed leaves eases bee stings, decoction of roots can treat sore throats, decoction of branches treats diarrhea and vomiting, poultice of ashes can heal skin swellings; young shoots are edible raw, boiled, dried, made into a jam or tea, and used as a spice, hips can be made into a delicious tea, exceptionally high in vitamins A, C & E; roots can be used to make reef nets, branches for hand brooms, to remove human scent before hunting and are believed by some to bring good luck; dried flower petals make excellent potpourri"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "large shrub"
+   ],
+   "collections": [
+    "beat the heat",
+    "newbie",
+    "oakscape",
+    "rain garden",
+    "sunny yard"
+   ],
+   "special": [
+    "edible",
+    "medicinal",
+    "pollinator plant - blooms early",
+    "supports hummingbirds",
+    "wildlife favorite"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Photo Credit 1 (flower close-up): © John Brew, some rights reserved (CC-BY-SA) Photo Credits 2, 4-6 (branch with buds, flower with bug, branches in the garden): Karli Del Biondo, B",
+   "productUrl": "https://sparrowhawknativeplants.com/products/nootka-rose",
+   "handle": "nootka-rose",
+   "companions": [
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Western Serviceberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/western-serviceberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Red Alder",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-alder",
+     "inList": false,
+     "why": "shares newbie"
+    }
+   ]
+  },
+  {
+   "id": "serviceberry",
+   "name": "Serviceberry",
+   "catalogName": "Western Serviceberry",
+   "qty": 2,
+   "size": "5 gal",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/serviceberry-1.webp",
+     "w": 768,
+     "h": 768
+    },
+    {
+     "src": "images/serviceberry-2.webp",
+     "w": 750,
+     "h": 1000
+    },
+    {
+     "src": "images/serviceberry-3.webp",
+     "w": 980,
+     "h": 653
+    }
+   ],
+   "scientificName": "Amelanchier alnifolia",
+   "description": "Western serviceberry, also known as saskatoon, is a silver-barked large shrub or multi-stemmed small tree that is beloved equally by gardeners and wildlife. Each spring, it becomes covered with fragrant, white, 1” flowers that supply food for native bees, hummingbirds and butterflies. By summer, the flowers transform into edible reddish berries that eventually turn black when ripe. The berries are delicious, good for jellies, and high in vitamin C, manganese, magnesium and iron - but good luck getting any because they are adored by robins, chickadees, tanagers, and waxwings. Its attractive bluish-green leaves also provide food for many types of butterfly larvae and, in sunnier sites, they will reward you with autumn colors.",
+   "gardening": "Serviceberry prefers full sun to partial shade, and tolerates a wide range of soils - but not heavy clay. They can be quite drought tolerant once established and do best without a lot of root competition - so space them apart from other plants if possible. They are an excellent addition to a native hedgerow, windbreak, thicket, or erosion control planting in your woodland garden. Consider growing serviceberry with associate plants like Oregon white oak, Douglas-fir, Oregon grape and birch-leaved spiraea. On the downside, please be aware that western serviceberry is susceptible to cedar rust, which has become widespread in the region. Cedar rust is transmitted by fungus spores from nearby cedars and junipers and causes bright orange spots on the plant. Avoid planting near cedars or junipers. Remove and dispose of any leaves displaying rust as soon as possible and avoid watering the leaves if the fungus is present, as it will drip down and spread (only water at the base). This fungus is almost always merely a cosmetic concern (and a minor one at that), later in the season, well after the flowers have finished.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, small tree/large shrub",
+    "Size at maturity": "4-12' tall",
+    "Light requirements": "full sun to part sun",
+    "Moisture requirements": "dry, moist to seasonally wet soil",
+    "Bloom time": "March - August (April - June in the Portland Metro area)",
+    "Growth rate/ease": "slow growing, easy to grow",
+    "Wildlife support": "flowers attract and provide nectar to hummingbirds, adult butterflies, bees and other insect pollinators; berries are eaten by 21 species of local birds and five mammals; overall plant attracts and supports beneficial and other pest eating insects and is a host plant and larval food source for native butterflies and moths",
+    "Native habitat/range": "common in open meadows, woodlands, streambanks and conifer forests at low to mid elevations from Alaska to California, and across Great Plains into eastern Canada. Portland Plant List - yes.",
+    "Special features & uses": "edible and highly nutritious berries; pollinator powerhouse; medicinal; landscape uses include habitat hedgerows, windbreaks, and erosion control"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "large shrub",
+    "small tree"
+   ],
+   "collections": [
+    "oakscape",
+    "sunny yard"
+   ],
+   "special": [
+    "edible",
+    "pollinator plant - blooms early",
+    "pollinator plant - blooms mid-season",
+    "wildlife favorite"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Photo Credits 1: © Wendy Feltham, some rights reserved (CC-BY-NC) Photo Credit 2: © Séraphin Poudrier, some rights reserved (CC-BY-NC) Photo Credits 3 - 7: Nikkie West, Sparrowhawk",
+   "productUrl": "https://sparrowhawknativeplants.com/products/western-serviceberry",
+   "handle": "western-serviceberry",
+   "companions": [
+    {
+     "name": "Nootka Rose",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/nootka-rose",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Red Alder",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-alder",
+     "inList": false,
+     "why": "shares sunny yard"
+    }
+   ]
+  },
+  {
+   "id": "blue-elderberry",
+   "name": "Blue Elderberry",
+   "catalogName": "Blue Elderberry",
+   "qty": 3,
+   "size": "1 gal",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/blue-elderberry-1.webp",
+     "w": 749,
+     "h": 749
+    },
+    {
+     "src": "images/blue-elderberry-2.webp",
+     "w": 980,
+     "h": 653
+    },
+    {
+     "src": "images/blue-elderberry-3.webp",
+     "w": 768,
+     "h": 1024
+    }
+   ],
+   "scientificName": "Sambucus cerulea",
+   "description": "Sambucus caerulea (syn S. nigra ssp. caerulea, S. mexicana, S. mexicana ssp caerulea) Blue elderberry is a very large, deciduous shrub with countless ecological and wildlife benefits and a rich ethnobotanical legacy. It is extraordinarily fast growing and hardy in the right conditions, quickly establishing many small trunks that create a fountain shape that becomes covered with dense flat-tops clusters (aka umbels) of creamy white flowers in late spring and early summer. The pollinated flowers become powdery blue berries that usually ripen in September and are edible to humans and adored by 30+ species of bird that feast on them as a critical food source during their fall migration.",
+   "gardening": "This miracle sprout can grow from a one gallon pot into a 15’ plant in just a couple years, making it an ideal choice for new gardens and/or places where you want a hedge or barrier established quickly. It also provides a lovely mid-layer between taller trees and low perennials, that is highly attractive to the human eye, as well as wildlife. Planting several will encourage more flowers and fruit. Be sure to plant it in most-to-full sun locations, where it has plenty of space to grow huge. It tolerates a variety of soils, but will be happiest with medium to fast drainage. Once established, it is highly drought tolerant and only needs to be deeply watered once per month, if at all. It also readily accepts pruning, which some gardeners appreciate because its form can get a little bonkers. But most habitat gardeners quickly learn that most birds seem to prefer the wild form. Plus, superstition declares that one must apologize three times to an elder when pruning or cutting it down, lest you be struck by bad luck! Elderberry can be difficult for us to source in the quantities we need because it is a difficult species for growers to hold in the pot over the winter without rotting. Therefore, they usually just pot up a small crop in late winter that will sell-out by fall, so they don't have to risk holding it over. These plants that are potted in late winter usually will not be well-rooted until May. If you pick-up this plant at a spring event, it needs to be planted with care or held in the pot until fall. Companion Plants: Try it in open areas with other shrubs such as serviceberry (Amelanchier alnifolia), baldhip rose (Rosa gymnocarpa), and red flowering currant (Ribes sanguineum); larger herbaceous plants such as lady fern (Athyrium filix–femina) and goatsbeard (Aruncus dioicus var. acuminatus); with sweet groundcovers such as candyflower (Claytonia sibirica), Western buttercup (Ranunculus occidentalis), fringecup (Tellima grandiflora) and dagger-leaf rush (Juncus ensifolius).",
+   "companionText": "Try it in open areas with other shrubs such as serviceberry (Amelanchier alnifolia), baldhip rose (Rosa gymnocarpa), and red flowering currant (Ribes sanguineum); larger herbaceous plants such as lady fern (Athyrium filix–femina) and goatsbeard (Aruncus dioicus var. acuminatus); with sweet groundcovers such as candyflower (Claytonia sibirica), Western buttercup (Ranunculus occidentalis), fringecup (Tellima grandiflora) and dagger-leaf rush (Juncus ensifolius).",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, large shrub",
+    "Size at maturity": "10'-30' tall, equally as wide (lower branches can easily be pruned up so it occupies less space down low)",
+    "Light requirements": "full sun, part sun/part shade",
+    "Moisture requirements": "moist to dry soil",
+    "Bloom time": "May - Aug (May - June in the Portland Metro area)",
+    "Growth rate/ease": "fast growing, easy to grow in the right conditions",
+    "Wildlife support": "young shoots and leaves are food for deer and elk; pithy stems are excellent habitat for mason bees; flowers attract and provide nectar to hummingbirds, adult butterflies, bees and other insect pollinators, as well as beneficial, pest-eating insects; berries attract and are an important food source for squirrels, chipmunks, and over 30 species of local birds including jays, woodpeckers, pigeons, grosbeaks, robins, thrushes, bluebirds, towhees, and tanagers; overall plant is a caterpillar host and larval food source for over a dozen of species of native butterflies and moths such as the White-lined Sphinx moth and Virginian Tiger Moth aka Yellow Wooly Bear moth and provides cover and nesting sites for birds; dead elder wood is the preferred habitat of the mushroom Auricularia auricula-judae, also known as Judas’ ear fungus or wood ear fungus",
+    "Native habitat/range": "common in open areas of mixed conifer forests and forest-steppe transitions, in chaparral, sage scrub, grassland, and wetland-riparian habitats, from sea level to 3000m, southern British Columbia to California and western Montana through west Texas. Portland Plant List - yes.",
+    "Special features & uses": "wildlife favorite; relatively deer resistant once established (young shoots may need protection in rural landscapes); landscape uses include butterfly and pollinator gardens, erosion control, slope stabilization, and hedgerows. Elderflowers can be used in syrups, cordials and liqueurs. The fully-ripe fruit is edible, highly nutritious and is traditionally eaten fresh, dried, steamed or boiled and used in wine, jellies, candy, pies and sauces. Please take note that unripe fruit can cause an upset stomach and all green parts of the plant are poisonous and create cyanide-producing glycosides. Many people choose to cook and strain the berries before consumption. Always verify recipes from multiple sources when preparing wild foods. Most plant parts are considered highly medicinal; bark and leaves can be to induce vomiting and as a laxative and applied externally for pain, bruises, swelling, and as an antiseptic; flowers and berries can be made into a tea or syrup to treat cold and flu symptoms. This species has many other ethnobotanical values as well; the berries can be used to make black or purple dye, the stems make an orange or yellow dye and are excellent as twisting sticks to start a fire and as a bellow to blow air into it; hollow stems have been used in instruments for thousands of years and can also be made into pipes, blowguns, squirt guns and whistles, which indigenous people use to call elk; the pith was traditionally used by watchmakers for intricately cleaning tools. Lastly, elder trees are also considered sacred in Celtic folklore and mythology and used in making wands."
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil"
+   ],
+   "canopy": [
+    "large shrub",
+    "small tree"
+   ],
+   "collections": [
+    "newbie",
+    "oakscape",
+    "sunny yard"
+   ],
+   "special": [
+    "edible",
+    "medicinal",
+    "pollinator plant - blooms mid-season",
+    "supports hummingbirds",
+    "wildlife favorite"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Photo Credit 1 (berries): River Wild Photography: Facebook, Instagram Photo Credits 2, 3, 6 (young shrub in habitat garden, flowers, berries): Karli Del Biondo, Beetles and Bees Ph",
+   "productUrl": "https://sparrowhawknativeplants.com/products/blue-elderberry",
+   "handle": "blue-elderberry",
+   "companions": [
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Nootka Rose",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/nootka-rose",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Kinnikinnick",
+     "lights": [
+      "full-sun"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/kinnikinnick",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  },
+  {
+   "id": "yellow-monkeyflower",
+   "name": "Yellow Monkeyflower",
+   "catalogName": "Yellow Monkeyflower",
+   "qty": null,
+   "size": "",
+   "note": "None carried",
+   "available": false,
+   "images": [
+    {
+     "src": "images/yellow-monkeyflower-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/yellow-monkeyflower-2.webp",
+     "w": 684,
+     "h": 912
+    },
+    {
+     "src": "images/yellow-monkeyflower-3.webp",
+     "w": 980,
+     "h": 735
+    }
+   ],
+   "scientificName": "Erythranthe guttata",
+   "description": "Yellow monkeyflower is a highly variable plant which naturally occurs in a wide range of habitats such as wetlands, vernal pool edges and urban raingardens where its fibrous root systems improve water quality. It sports spectacularly-bright yellow, bearded flowers from late spring into summer that are favored by pollinators. With the arrival of fall, flowers mature to seeds that are eaten by small mammals and birds and dispersed readily in the garden.",
+   "gardening": "This plant will thrive in sunny no-fuss locations that have naturally moist to seasonally wet soils of nearly any kind, such as a raingarden or wet meadow. In the natural world, it is often found near streams, seeps or vernal pools that are seasonally wet but dry out by summer and where they effortlessly create a sweet, diminutive groundcover. It can even grow with its roots submerged, and its foliage and flowers floating on the surface of the water. Its stature ranges considerably based on sunlight and soil conditions. Thin soils and summer drought can keep this plant more diminutive, whereas rich garden soil and excessive supplemental water will produce a leggier, more aggressive population. Deadhead for a better appearance, to prolong blooming, or to minimize seed dispersal. Unwanted plants can be easily pulled or dug up and shared with family and friends. Companion Plants: Try it with other plants that thrive in moist to wet soil such as red twig dogwood (Cornus sericea), Pacific ninebark (Physocarpus capitatus) and Douglas spirea (Spiraea douglasii) in the shrub layer and Willamette Valley gumweed (Grindelia integrifolia), common camas (Camas quamash) and various Carex and Juncus species in the herbaceous layer. Seed Sowing Instructions: Can be fall or spring sown. Fall-winter sown seed may not germinate until temps warm in the spring. Spring sown should germinate within a couple of weeks. Scatter seeds at a rate of 60 seeds/sq ft on loose-weed free soil. Alternatively, you can seed a VERY small \"pinch\" per pot or directly in situ. Sowing in situ vs. pots tends to produce sturdier, more robust plants. Leave the seeds on the surface of the soil. Do not rake in. In pots outside, protect from heavy rains so seed does not get washed away and water gently. Keep soil moist. Each seed packet contains approximately 25000 seeds (appear like dust)",
+   "companionText": "Try it with other plants that thrive in moist to wet soil such as red twig dogwood (Cornus sericea), Pacific ninebark (Physocarpus capitatus) and Douglas spirea (Spiraea douglasii) in the shrub layer and Willamette Valley gumweed (Grindelia integrifolia), common camas (Camas quamash) and various Carex and Juncus species in the herbaceous layer.",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, annual and perennial, herbaceous plant",
+    "Size at maturity": "6-36\" tall (varies widely depending on conditions), 1-3' wide",
+    "Light requirements": "full sun, part-sun/part-shade",
+    "Moisture requirements": "moist to wet soil",
+    "Bloom time": "April - September",
+    "Growth rate/ease": "fast growing, easy to grow",
+    "Wildlife support": "seeds are food for small mammals and birds; flowers attract and provide nectar to hummingbirds, adult butterflies, bees and other insect pollinators; this plant also attracts and supports beneficial and other pest eating insects and is a caterpillar host plant and larval food source for native butterflies and moths",
+    "Native habitat/range": "common in bogs, fens, wetlands, vernal pool edges and moist to wet forest openings across much of western North America, from Alaska to California and east to the northern Great Plains. Portland Plant List - yes.",
+    "Special features & uses": "hummingbird and pollinator favorite; deer resistant; landscape uses include pollinator gardens, raingardens and meadowscapes"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "pollinator meadow",
+    "rain garden"
+   ],
+   "special": [
+    "deer resistant",
+    "groundcover",
+    "pollinator plant - blooms early",
+    "pollinator plant - blooms late",
+    "pollinator plant - blooms mid-season",
+    "supports hummingbirds",
+    "wildflower",
+    "wildlife favorite"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Photo Credits 1-3 (flowers): Nikkie West, Sparrowhawk Native Plants Photo Credit 4 (with flowers and seed heads): © Alex, some rights reserved (CC-BY) Photo Credit 5 (in meadow): ©",
+   "productUrl": "https://sparrowhawknativeplants.com/products/yellow-monkeyflower",
+   "handle": "yellow-monkeyflower",
+   "companions": [
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Black Twinberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/black-twinberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Lady Fern",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/lady-fern",
+     "inList": false,
+     "why": "shares rain garden"
+    }
+   ]
+  },
+  {
+   "id": "purple-monkeyflower",
+   "name": "Purple Monkeyflower",
+   "catalogName": "Purple Monkeyflower",
+   "qty": null,
+   "size": "",
+   "note": "None exist",
+   "available": false,
+   "images": [
+    {
+     "src": "images/purple-monkeyflower-1.webp",
+     "w": 717,
+     "h": 717
+    },
+    {
+     "src": "images/purple-monkeyflower-2.webp",
+     "w": 980,
+     "h": 735
+    },
+    {
+     "src": "images/purple-monkeyflower-3.webp",
+     "w": 980,
+     "h": 653
+    }
+   ],
+   "scientificName": "Erythranthe lewisii",
+   "description": "Purple monkeyflower (aka pink monkeyflower or Lewis' monkeyflower) is a perennial wildflower that typically grows as a compact, clump-forming species with soft, oval leaves and stems that typically range from 12 to 24 inches in height. In spring, it bursts into a spectacular display of vibrant, funnel-shaped pinkish-purple flowers that are adored by hummingbirds. Throughout summer, its blossoms persist, adding a cheerful splash of color to gardens and landscapes, especially in cooler climates. This plant thrives in moist, well-drained soils near streams, meadows, and wetland areas, offering valuable habitat and nourishment for pollinators and wildlife.",
+   "gardening": "To successfully garden with this species, it’s important to choose a planting site that most closely replicates its native habitat; such as a moist, well-drained area in partial to full sun. It will thrive in areas with regular water, so be sure it's getting near-consistent moisture, either from rain or irrigation (during the dry summer months), while ensuring good drainage to prevent root rot. To encourage healthy growth and abundant blooms, amend the soil with organic matter, and avoid heavy fertilization, since, like many native plants, it is adapted to nutrient-poor environments. This species can tolerate a range of temperatures, making it ideal for Oregon’s diverse climates, but it will perform best in cooler coastal or mountain gardens. Additionally, since this plant attracts bees and hummingbirds, it can be incorporated into pollinator-friendly landscapes or garden beds alongside other native plants that support local wildlife.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, herbaceous plant",
+    "Size at maturity": "up to 36” tall, but usually shorter, about 12\" wide",
+    "Light requirements": "full sun",
+    "Moisture requirements": "moist to wet soil, may require moderate summer water",
+    "Bloom time": "May - Aug",
+    "Growth rate/ease": "medium growth rate, easy to grow in the right conditions",
+    "Wildlife support": "flowers attract and provide nectar for hummingbirds, adult butterflies, bees and other insect pollinators; fruits/seeds are food for birds; overall plant is a host and larval food source for caterpillars/larvae of several species of native butterflies and moths",
+    "Native habitat/range": "grows along moist riverbanks, wet-meadows and forested, alpine and subalpine areas from Alaska to California and east to Montana, Wyoming, and Colorado - specifically common on both sides of the Cascade crest throughout the Pacific Northwest. Portland Plant List - no (though there are documented occurrences in east Multnomah County)",
+    "Special features & uses": "hummingbird and butterfly favorite; deer resistant; landscape uses include sunny pollinator gardens, rain gardens and bogs"
+   },
+   "lightTags": [
+    "full sun"
+   ],
+   "lights": [
+    "full-sun"
+   ],
+   "moistureTags": [
+    "wet soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "rain garden",
+    "sunny yard"
+   ],
+   "special": [
+    "deer resistant",
+    "pollinator plant - blooms late",
+    "pollinator plant - blooms mid-season",
+    "supports hummingbirds",
+    "wildflower"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Photo Credit 1 (many blooms): © Ryan Sorrells, some rights reserved (CC-BY) Photo Credit 2 (blooms close-up): Nikkie West, Sparrowhawk Native Plants Photo Credit 3 (with log): © Ga",
+   "productUrl": "https://sparrowhawknativeplants.com/products/purple-monkeyflower",
+   "handle": "purple-monkeyflower",
+   "companions": [
+    {
+     "name": "Black Twinberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/black-twinberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Red Alder",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-alder",
+     "inList": false,
+     "why": "shares rain garden"
+    }
+   ]
+  },
+  {
+   "id": "grand-collomia",
+   "name": "Grand Collomia",
+   "catalogName": "Grand Collomia (Seeds)",
+   "qty": null,
+   "size": "",
+   "note": "None exist",
+   "available": false,
+   "images": [
+    {
+     "src": "images/grand-collomia-1.webp",
+     "w": 746,
+     "h": 746
+    },
+    {
+     "src": "images/grand-collomia-2.webp",
+     "w": 980,
+     "h": 1303
+    },
+    {
+     "src": "images/grand-collomia-3.webp",
+     "w": 786,
+     "h": 524
+    }
+   ],
+   "scientificName": "Collomia grandiflora",
+   "description": "Grand Collomia is a stunning annual wildflower ideal for sowing throughout bare areas of your sunny habitat garden. It produces an upright, fuzzy stem, which may be red to green in color, with attractive lance-shaped leaves. By late spring or early summer, each plant is gorgeously topped with a terminal cluster of sticky buds that burst into trumpet-shaped peach flowers that have visible blue anthers. Not only are both of these colors rare in a Pacific Northwest habitat garden, but Collomia holds its showy blooms longer than many wildflowers, attracting and supporting bumblebees and other native pollinators for weeks.",
+   "gardening": "This beautiful wildflower prefers fully to mostly sunny sites with well-drained soil of average fertility. Although it is an annual, it can readily reseed itself around the garden, if planted in a favorable location. It is fascinating to note how dynamic it typically is. It may boom in your garden for a few years, providing spectacular floral shows, then have years where there are only a few individuals scattered about. Sowing instructions: Scatter seed on loose-weed free soil. between September and November or in March so that seeds will benefit from seasonal rains. If sowing in April or May, seeds will benefit from supplemental water to encourage strong growth and blooms the first year. Raked in the seeds to increase seed-to-soil contact, but be careful not to cover the seed with more than 1/4\" soil.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "functionally deciduous, annual, herbaceous plant",
+    "Size at maturity": "18\"-24\" tall, 6”-12” wide",
+    "Light requirements": "full sun, part sun/part shade",
+    "Moisture requirements": "dry to moist soil",
+    "Bloom time": "April - July (May - June in the Portland Metro area)",
+    "Growth rate/ease": "medium growth rate, easy to grow",
+    "Wildlife support": "flowers attract and supports hummingbirds, adult bumblebees, butterflies and other native pollinators; overall plant attracts and supports beneficial and other pest eating insects",
+    "Native habitat/range": "found in open woods and dry clearings, from sea level to mid-elevation, across the Pacific Northwest from northern California to British Columbia. Portland Plant List - yes.",
+    "Special features & uses": "drought-tolerant; landscape uses include pollinator gardens, meadowscapes, and woodland gardens"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "newbie",
+    "oakscape",
+    "pollinator meadow",
+    "seeds",
+    "sunny yard"
+   ],
+   "special": [
+    "pollinator plant - blooms mid-season",
+    "wildflower"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Photo Credit 1: \"Collomia grandiflora\" by John Game is licensed under CC BY 2.0.",
+   "productUrl": "https://sparrowhawknativeplants.com/products/grand-collomia-seed-packet",
+   "handle": "grand-collomia-seed-packet",
+   "companions": [
+    {
+     "name": "Blue Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/blue-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Nootka Rose",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/nootka-rose",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  },
+  {
+   "id": "early-blue-violet",
+   "name": "Early-blue Violet",
+   "catalogName": "Early Blue Violet",
+   "qty": null,
+   "size": "",
+   "note": "None exist",
+   "available": false,
+   "images": [
+    {
+     "src": "images/early-blue-violet-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/early-blue-violet-2.webp",
+     "w": 980,
+     "h": 735
+    },
+    {
+     "src": "images/early-blue-violet-3.webp",
+     "w": 980,
+     "h": 735
+    }
+   ],
+   "scientificName": "Viola adunca",
+   "description": "Early-blue violet, aka hooked-spur violet, is a diminutive groundcover capable of beautifying any corner of your garden. Each spring, its fragrant purple blooms won’t fail to delight - and can be a highly decorative addition to salads and baked goods. The foliage is composed of delicate heart-shaped leaves, often curled into cute little cups, and is a larval host plant to a number of endangered butterflies.",
+   "gardening": "This sweet, versatile little plant is exceptionally tolerant of whatever mother nature, or your garden, can throw at it - such as salt spray, seasonal drought, fluctuating moisture levels, and disturbance. But, as with many plants, it will perform best in mature soils with high organic matter. Its explosive seed pods will hurl seed an impressive distance for such a small stature. And, thanks to our friends the ants, new plants can even turn up in far-flung corners of your yard - or your neighbors - which is great news for the pollinators!",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, herbaceous plant",
+    "Size at maturity": "6\" tall, 0-8\" wide, spreading nicely by seed",
+    "Light requirements": "full sun to full shade",
+    "Moisture requirements": "dry to moist soil",
+    "Bloom time": "March - August (May - July in the Portland Metro area)",
+    "Growth rate/ease": "fast growing, easy to grow",
+    "Wildlife support": "flowers attract and provide nectar to adult butterflies, bees and other insect pollinators; overall plant attracts and supports beneficial and other pest eating insects and is a caterpillar host plant/larval food source for native butterflies and moths",
+    "Native habitat/range": "common growing in meadows, forest edges and along damp streambanks, at all elevations in nearly every county of the Pacific Northwest. Portland Plant List - yes.",
+    "Special features & uses": "groundcover; medicinally the leaves have long been used for cough and lung congestion, in poultices to relieve pain (note - only leave on for a few hours as they can cause skin irritation), and as a laxative; flowers are edible and can be used in salads, cakes decorations and medicinal teas; landscape uses include pollinator gardens, woodland gardens, meadowscapes; often a critical component of butterfly habitat restoration projects"
+   },
+   "lightTags": [
+    "full shade",
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "newbie",
+    "shady woodland"
+   ],
+   "special": [
+    "edible",
+    "groundcover",
+    "medicinal",
+    "pollinator plant - blooms mid-season",
+    "wildflower"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Photo Credit 1 (flowerclose): \"Hookedspur Violet - Viola adunca\" by YellowstoneNPS is marked with Public Domain Mark 1.0.",
+   "productUrl": "https://sparrowhawknativeplants.com/products/early-blue-violet",
+   "handle": "early-blue-violet",
+   "companions": [
+    {
+     "name": "Evergreen Huckleberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/evergreen-huckleberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Baldhip Rose",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/baldhip-rose",
+     "inList": false,
+     "why": "shares newbie"
+    },
+    {
+     "name": "Grand Fir",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/grand-fir",
+     "inList": false,
+     "why": "shares newbie"
+    }
+   ]
+  },
+  {
+   "id": "streambank-violet",
+   "name": "Streambank Violet",
+   "catalogName": "Streambank Violet",
+   "qty": null,
+   "size": "",
+   "note": "None exist",
+   "available": false,
+   "images": [
+    {
+     "src": "images/streambank-violet-1.webp",
+     "w": 655,
+     "h": 655
+    },
+    {
+     "src": "images/streambank-violet-2.webp",
+     "w": 980,
+     "h": 735
+    },
+    {
+     "src": "images/streambank-violet-3.webp",
+     "w": 980,
+     "h": 653
+    }
+   ],
+   "scientificName": "Viola glabella",
+   "description": "Streambank violet (aka yellow wood violet or pioneer violet) has small yellow flowers above delicate, heart-shaped leaves that are a common sight for hikers as they make their way near streams in shady moist forests. Bring them into your own woodland garden for the cheery yellow blooms and for the beneficial insects they support. Look closely at the bottom petal and you’ll see the fine dark purple guide lines leading pollinators to their nectar source.",
+   "gardening": "Add this woodland sweetheart to your shady raingarden, along paths or under deciduous trees in your habitat garden. To help it thrive, be sure it's planted in soil that's evenly moist and rich with organic material, surrounded by decomposing leaves, and minimize disturbance. This gentle plant is reluctant to spread, so be sure to plant in multiples to achieve a groundcover effect. that can grow together to create a lovely green carpet groundcover.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, herbaceous plant",
+    "Size at maturity": "4-9” tall, 6-12” wide",
+    "Light requirements": "full shade, part sun / part shade",
+    "Moisture requirements": "moist to wet soil, well-drained",
+    "Bloom time": "March to August (April-July in the Portland Metro area)",
+    "Growth rate/ease": "fast growing, easy to grow",
+    "Wildlife support": "flowers attract and provide nectar to adult butterflies, bees and other insect pollinators; overall plant attracts and supports beneficial and other pest eating insects and is a caterpillar host plant/larval food source for native butterflies and moths",
+    "Native habitat/range": "common in wet open forests, at low to subalpine elevations, from Alaska to northern California. In Oregon and Washington it occurs primarily west of the Cascade crest. Portland Plant List - yes.",
+    "Special features & uses": "groundcover; landscape uses include pollinator gardens, raingardens, woodland gardens"
+   },
+   "lightTags": [
+    "full shade",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "rain garden",
+    "shady woodland"
+   ],
+   "special": [
+    "groundcover",
+    "wildflower"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [],
+   "photoCredit": "Photo Credit 1 (flowerleaf): © Lauren Vorona, some rights reserved (CC-BY) Photo Credit 2 (sideview): © elik03, some rights reserved (CC-BY) Photo Credit 3 (wet): © Jeremiah Degenh",
+   "productUrl": "https://sparrowhawknativeplants.com/products/streambank-violet",
+   "handle": "streambank-violet",
+   "companions": [
+    {
+     "name": "Red Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Pacific Bleeding Heart",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/pacific-bleeding-heart",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  },
+  {
+   "id": "mahala-mat",
+   "name": "Mahala Mat",
+   "catalogName": "Mahala Mat",
+   "qty": null,
+   "size": "",
+   "note": "None exist",
+   "available": false,
+   "images": [
+    {
+     "src": "images/mahala-mat-1.webp",
+     "w": 980,
+     "h": 962
+    },
+    {
+     "src": "images/mahala-mat-2.webp",
+     "w": 980,
+     "h": 735
+    },
+    {
+     "src": "images/mahala-mat-3.webp",
+     "w": 768,
+     "h": 1024
+    }
+   ],
+   "scientificName": "Ceanothus prostratus",
+   "description": "With its low, spreading, evergreen form, Mahala Mat crawls across the ground like a rich, deep green carpet sprinkled with powder blue woodland stars. Its leathery foliage provides year-round structure - but it is particularly stunning in late spring to early summer when clusters of delicate flowers, ranging in color from blue to nearly white, burst into bloom. These blooms give way to bright red seed pods in late summer and fall, which are enjoyed by birds and small mammals. A beautiful Pacific Northwest native for sunny, dry landscapes with excellent drainage, Mahala Mat also attracts a diversity of pollinators—including native bees, bumblebees, flies, beetles, butterflies, and other beneficial insects—and makes an excellent low-water groundcover for rock gardens, slopes, open woodland edges, and habitat plantings where its spreading form can weave naturally among other native plants.",
+   "gardening": "Mahala Mat thrives in full to mostly sunny areas with very dry, sharply-draining soil, making it especially well-suited to drought-tolerant landscapes. In a habitat garden, use its low, spreading form as a living groundcover for rock gardens, tough sunny slopes, dry woodland edges, or beneath taller native shrubs and perennials where it can weave through the planting. Once established, minimize or eliminate summer irrigation and avoid adding rich, heavily amended soil and take care not to disturb the roots.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "evergreen, perennial, small shrub",
+    "Size at maturity": "0-1' tall; 3-8' wide",
+    "Light requirements": "full sun, part sun/part shade",
+    "Moisture requirements": "dry soil, must be fast-draining",
+    "Bloom time": "May - July",
+    "Growth rate/ease": "medium growth rate, difficult to grow",
+    "Wildlife support": "flowers provide nectar to adult butterflies, bees and other insect pollinators; overall plant is a caterpillar host and larval food source for native butterflies and moths",
+    "Native habitat/range": "relatively less-common in natural setting, and even more rare to find in retail nurseries. Most common in northwestern California and southwestern Oregon, with some populations further north in east and west-side forests of the Oregon and Washington Cascades. Portland Plant List - no.",
+    "Special features & uses": "groundcover; landscape uses include pollinator gardens and rock gardens, erosion control and green roofs; deer resistant; drought tolerant"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "dry soil"
+   ],
+   "canopy": [
+    "small shrub/fern"
+   ],
+   "collections": [
+    "beat the heat",
+    "sunny yard"
+   ],
+   "special": [
+    "deer resistant",
+    "groundcover",
+    "pollinator plant - blooms mid-season"
+   ],
+   "evergreen": [
+    "evergreen"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Photo Credit 1 (flowers and stems): © Laura Gaudette, some rights reserved (CC-BY) Photo Credit 2 (foliage): © Evan M. Raskin, some rights reserved (CC-BY) Photo Credit 3 (reddish ",
+   "productUrl": "https://sparrowhawknativeplants.com/products/mahala-mat",
+   "handle": "mahala-mat",
+   "companions": [
+    {
+     "name": "Nootka Rose",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/nootka-rose",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Blue Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/blue-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Big Leaf Maple",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/big-leaf-maple",
+     "inList": false,
+     "why": "shares beat the heat"
+    }
+   ]
+  },
+  {
+   "id": "spreading-wood-fern",
+   "name": "Spreading Wood Fern",
+   "catalogName": "Spreading Wood Fern",
+   "qty": 6,
+   "size": "1 gal",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/spreading-wood-fern-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/spreading-wood-fern-2.webp",
+     "w": 768,
+     "h": 1024
+    }
+   ],
+   "scientificName": "Dryopteris expansa",
+   "description": "Spreading wood fern is perhaps the least common of native ferns in the garden setting - only due to the fact that it's hard to find in nurseries. Like lady fern, it is deciduous with a lacey, delicate quality. It emerges each spring it grows 2-3 foot long, deeply divided fronds with dramatically tapered tips, before dying back each fall.",
+   "gardening": "Tuck this fern into your rotting nurse logs or shaded water feature or other low-light areas of your garden that are rich in organic matter and moist year-round. Like other ferns, it is deer resistant and can provide a lush cover on the forest floor.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, fern",
+    "Size at maturity": "0-24\" tall, 12\"-36\" wide",
+    "Light requirements": "full shade, part sun/part shade",
+    "Moisture requirements": "moist soil",
+    "Bloom time": "n/a",
+    "Growth rate/ease": "moderate growth rate, easy to grow",
+    "Wildlife support": "supports hummingbirds",
+    "Native habitat/range": "generally found in cool forests or rocky slopes, from sea level to 2100m, across most of the western Pacific Northwest from Washington to northern California. It is also present in areas of northeastern North America, Eurasia, and Greenland. Portland Plant List - yes.",
+    "Special features & uses": "supports hummingbirds; deer resistant; rootstock is edible; landscape uses include raingardens, bioswales and woodland gardens"
+   },
+   "lightTags": [
+    "full shade",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "moist soil"
+   ],
+   "canopy": [
+    "small shrub/fern"
+   ],
+   "collections": [
+    "shady woodland"
+   ],
+   "special": [
+    "deer resistant",
+    "edible",
+    "supports hummingbirds"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Photo Credit 1: \"Dryopteris expansa\" by Joan Simon is licensed under CC BY-SA 2.0 Photo Credit 2: \"Dryopteris expansa\" by Joan Simon is licensed under CC BY-SA 2.0",
+   "productUrl": "https://sparrowhawknativeplants.com/products/spreading-wood-fern",
+   "handle": "spreading-wood-fern",
+   "companions": [
+    {
+     "name": "Candyflower",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/candy-flower",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Early Blue Violet",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/early-blue-violet",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Evergreen Huckleberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/evergreen-huckleberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  },
+  {
+   "id": "evergreen-huckleberry",
+   "name": "Evergreen Huckleberry",
+   "catalogName": "Evergreen Huckleberry",
+   "qty": null,
+   "size": "",
+   "note": "None available",
+   "available": false,
+   "images": [
+    {
+     "src": "images/evergreen-huckleberry-1.webp",
+     "w": 903,
+     "h": 903
+    },
+    {
+     "src": "images/evergreen-huckleberry-2.webp",
+     "w": 980,
+     "h": 1470
+    },
+    {
+     "src": "images/evergreen-huckleberry-3.webp",
+     "w": 980,
+     "h": 1470
+    }
+   ],
+   "scientificName": "Vaccinium ovatum",
+   "description": "Evergreen huckleberry is a medium-sized evergreen shrub that is ornamental, versatile and low-maintenance in NW native gardens. During the growing season, its new growth emerges in attractive hues of reds and bronze then shifts to glossy deep green as it ages. These year-round leaves are complimented by clusters of urn-shaped white and pink flowers that appear to be decadently dripping from the branch tips and attract hummingbirds and insect pollinators. Flowers mature into edible fruits that sweeten with the first light freeze and are delicious in pies, jams or straight into your mouth.",
+   "gardening": "This shrub is popular in naturescapes because it's versatile, attractive, highly-functional and a wildlife favorite. It can thrive in nearly all light conditions, but in the Willamette Valley, it tends to prefer more shade, while on the coast it handles full sun with ease. Its form will vary depending on the light conditions provided; growing more dense in full shade and looser with more sun. Soils should be moist, well-drained and acidic soils. That said, it does tolerate summer drought impressively well, once established. It is slow-growing, but the payoff is worth the wait, especially in wildlife-friendly hedgerows and privacy screens. Companion Plants: Evergreen huckleberry thrives in a wide range of habitats. In shadier areas, try it with California hazelnut (Corlyus cornuta ssp. californica), salal (Gaultheria shallon), snowberry (Symphoricarpos albus) and herbaceous cuties like small-flowered alumroot (Heuchera micrantha), Pacific waterleaf (Hydrophyllum tenuipes), vanillaleaf (Achlys triphylla), fairybells (Prosartes sp), candyflower (Claytonia sibirica) and/or piggyback plant (Tolmiea menziesii). In more open areas, consider Ponderosa pine (Pinus ponderosa), Douglas Fir (Pseudotsuga menziesii) and/or cascara (Frangula purshiana) in the overstory, shrubs such as red flowering currant (Ribes sanguineum), oceanspray (Holodiscus discolor), tall Oregon grape (Mahonia aquifolium) or red-stem ceanothus (Ceanothus sanguineus) and herbaceous plants such as fringecup (Tellima grandiflora), red columbine (Aquilegia formosa), Oregon iris (Iris tenax), celery-leaved lovage (Ligusticum apiifolium) and/or wild straberry (Fragaria virginiana).",
+   "companionText": "Evergreen huckleberry thrives in a wide range of habitats. In shadier areas, try it with California hazelnut (Corlyus cornuta ssp. californica), salal (Gaultheria shallon), snowberry (Symphoricarpos albus) and herbaceous cuties like small-flowered alumroot (Heuchera micrantha), Pacific waterleaf (Hydrophyllum tenuipes), vanillaleaf (Achlys triphylla), fairybells (Prosartes sp), candyflower (Claytonia sibirica) and/or piggyback plant (Tolmiea menziesii). In more open areas, consider Ponderosa pine (Pinus ponderosa), Douglas Fir (Pseudotsuga menziesii) and/or cascara (Frangula purshiana) in the overstory, shrubs such as red flowering currant (Ribes sanguineum), oceanspray (Holodiscus discolor), tall Oregon grape (Mahonia aquifolium) or red-stem ceanothus (Ceanothus sanguineus) and herbaceous plants such as fringecup (Tellima grandiflora), red columbine (Aquilegia formosa), Oregon iris (Iris tenax), celery-leaved lovage (Ligusticum apiifolium) and/or wild straberry (Fragaria virginiana).",
+   "fields": {
+    "Plant type/canopy layer": "evergreen, perennial, med/large shrub",
+    "Size at maturity": "4-8' tall, 3-6' wide",
+    "Light requirements": "full sun to full shade",
+    "Moisture requirements": "moist soil, prefers well-drained",
+    "Bloom time": "March - July (April - July in the Portland Metro area)",
+    "Growth rate/ease": "slow growing, easy to grow",
+    "Wildlife support": "flowers attract and provide nectar to hummingbirds, adult butterflies, bees and other insect pollinators; overall plant is a caterpillar host plant and larval food source; berries are eaten by many songbirds and mammals including chipmunks and black bears; foliage is a browsing food source for deer, elk, rabbits, and grouse and provides shelter for birds and small mammals",
+    "Native habitat/range": "commonly grows along the edges of beaches and along the edges and in openings of second growth conifer forests, at low elevations from the west side of the Cascade Mountains to the coast, from British Columbia in the north to California in the south. Portland Plant List - yes.",
+    "Special features & uses": "wildlife and hummingbird favorite; edible - berries are a valuable traditional food for many indigenous people in the Pacific Northwest fresh or dried into cakes; foliage is used in the floral industry; medicinal; landscape uses include pollinator gardens, woodland gardens, erosion control, hedgerows and screens"
+   },
+   "lightTags": [
+    "full shade",
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "moist soil"
+   ],
+   "canopy": [
+    "large shrub"
+   ],
+   "collections": [
+    "newbie",
+    "shady woodland"
+   ],
+   "special": [
+    "edible",
+    "medicinal",
+    "pollinator plant - blooms early",
+    "pollinator plant - blooms mid-season",
+    "supports hummingbirds",
+    "wildlife favorite"
+   ],
+   "evergreen": [
+    "evergreen"
+   ],
+   "growth": [
+    "slow"
+   ],
+   "photoCredit": "Photo Credit 1 (flowers): © Don Loarie, some rights reserved (CC-BY) Photo Credits 2 & 3 (in habitat garden): Karli Del Biondo, Beetles and Bees Photo Credit 4 (leaves/flowers): © ",
+   "productUrl": "https://sparrowhawknativeplants.com/products/evergreen-huckleberry",
+   "handle": "evergreen-huckleberry",
+   "companions": [
+    {
+     "name": "Early Blue Violet",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/early-blue-violet",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Red Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Baldhip Rose",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/baldhip-rose",
+     "inList": false,
+     "why": "shares newbie"
+    }
+   ]
+  },
+  {
+   "id": "salal",
+   "name": "Salal",
+   "catalogName": "Salal",
+   "qty": null,
+   "size": "",
+   "note": "None available",
+   "available": false,
+   "images": [
+    {
+     "src": "images/salal-1.webp",
+     "w": 978,
+     "h": 978
+    },
+    {
+     "src": "images/salal-2.webp",
+     "w": 980,
+     "h": 653
+    },
+    {
+     "src": "images/salal-3.webp",
+     "w": 980,
+     "h": 653
+    }
+   ],
+   "scientificName": "Gaultheria shallon",
+   "description": "Salal’s attractive, evergreen leaves and dainty, white-to-pink, urn-shaped flowers are a ubiquitous sight on nearly any Pacific Northwest forest or coastal hike and a staple in luscious habitat gardens. The flowers provide nectar to hummingbirds and insect pollinators, while the purple-black berries are edible (though not overly delicious) to people, but exceptionally attractive to birds and other wildlife like the native, Douglas Squirrel.",
+   "gardening": "Salal can be difficult to transplant and slow to establish, but once it's happy, it is a charming and versatile addition to pollinator and/or woodland gardens. It prefers full to partial shade and acidic soils that are moist to dry and rich in organic matter. Over time, when planted in the right conditions it can be thicket forming, providing exceptional hedgerow and erosion control services.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "evergreen, perennial, small shrub",
+    "Size at maturity": "1-6' tall, 1-5' wide",
+    "Light requirements": "part sun to full shade",
+    "Moisture requirements": "dry to moist soil",
+    "Bloom time": "March - July (May - July in the Portland Metro area)",
+    "Growth rate/ease": "slow growing, moderately difficult to grow",
+    "Wildlife support": "flowers attract and provide nectar for hummingbirds, adult butterflies, bees and other insect pollinators; foliage is browsed by deer, elk, and is a preferred by Mountain Beavers (Aplodontia) - which are potentially the cutest animals EVER; fruits are eaten by many kinds of birds and mammals including the native Douglas Squirrel; overall plant attracts and supports beneficial and other pest-eating insects",
+    "Native habitat/range": "common along coastal and westside forests, cliffs, and bluffs from 1-1800m from southeast Alaska to central California. Portland Plant List - yes.",
+    "Special features & uses": "evergreen; supports hummingbirds; medicinal; ethnobotanically the leaves are harvested and sold worldwide for use in floral arrangements and can be used to line cooking pits; edible berries can be consumed fresh, mashed and dried into cakes, or made into jams, jellies or pies, especially in combination with other berries like the more tart Oregon Grape; landscape uses include erosion control, habitat hedgerows, pollinator gardens and woodland gardens"
+   },
+   "lightTags": [
+    "full shade",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil"
+   ],
+   "canopy": [
+    "small shrub/fern"
+   ],
+   "collections": [
+    "rain garden",
+    "shady woodland"
+   ],
+   "special": [
+    "edible",
+    "medicinal",
+    "pollinator plant - blooms mid-season",
+    "supports hummingbirds",
+    "wildlife favorite"
+   ],
+   "evergreen": [
+    "evergreen"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Photo Credits: Nikkie West",
+   "productUrl": "https://sparrowhawknativeplants.com/products/salal",
+   "handle": "salal",
+   "companions": [
+    {
+     "name": "Oregon Oxalis",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/oregon-oxalis",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Early Blue Violet",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/early-blue-violet",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Red Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  },
+  {
+   "id": "vine-maple",
+   "name": "Vine Maple",
+   "catalogName": "Vine Maple",
+   "qty": 3,
+   "size": "1 gal",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/vine-maple-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/vine-maple-2.webp",
+     "w": 771,
+     "h": 1024
+    },
+    {
+     "src": "images/vine-maple-3.webp",
+     "w": 980,
+     "h": 738
+    }
+   ],
+   "scientificName": "Acer circinatum",
+   "description": "Multi-trunked vine maple is both an iconic staple of majestic Pacific Northwest forests and an enchanting element of habitat gardens. Definitely not a vine, the name is derived from its slender branches that sprawl gracefully when planted in deep shade and can root to produce new trees. It flaunts lovely verdant leaves, usually nine pointed like the number of letters in its name - a great ID trick for kids of all ages. By late summer, playful clusters of samaras adorn the leaves and, with the onset of fall, the foliage bursts into showy hues of yellow in shadier spots to brilliant red in sunnier locations.",
+   "gardening": "Vine maple is versatile, relatively small and very easy to grow, making it an ideal choice for all types of properties; from the smallest yards where gardeners want ample wildlife and aesthetic benefits in one punch to large restoration sites where they are planted in groupings to help control erosion. It prefers moist, well-drained soil and partially shaded habitats, often in the understory of other forest or backyard giants. In these shadier spots, it forms an open, loose shape as it spreads its branches in search of the sunlight. However, it also does great in sunnier locations, as long as adequate moisture is naturally present, where it grows into a thicker multi-stemmed tree. It also functions well as a foundation planting. Once established, it prefers no supplemental water.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, small tree",
+    "Size at maturity": "20-30' tall, 15-20' wide",
+    "Light requirements": "full sun, part-sun/part-shade, full shade",
+    "Moisture requirements": "moist to seasonally wet soil, prefers well-drained",
+    "Growth rate/ease": "medium growth rate, very easy to grow",
+    "Bloom time": "March – June",
+    "Wildlife support": "spring flowers attract and provide nectar to adult butterflies, bees and other insect pollinators as well as provide food for birds and small mammals; small twigs and leaves are used by birds for nest building; summer foliage is a preferred food for deer and elk; fall seeds provide food for birds and small mammals, especially squirrels and chipmunks; overall plant provides nesting sites and cover for birds and small mammals, attracts and supports beneficial and pest eating insects and is a caterpillar host plant and larval food source for many species of native moths, including the brown tissue and Polyphemus moths",
+    "Special features & uses": "great fall color; wildlife favorite; thick branches have been traditionally used for firewood, while the thinner, flexible ones are excellent for woven baskets, snowshoe frames, and fish traps; landscape uses include erosion control, habitat hedgerows, pollinator gardens and woodland gardens"
+   },
+   "lightTags": [
+    "full shade",
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "moist soil"
+   ],
+   "canopy": [
+    "small tree"
+   ],
+   "collections": [
+    "newbie",
+    "rain garden",
+    "shady woodland",
+    "sunny yard"
+   ],
+   "special": [
+    "wildlife favorite"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Photo Credit 1: \"Vine maple\" by CAJC: in the PNW is licensed under CC BY-SA 2.0 Photo Credit 2 ((leafing out): © John Brew, some rights reserved (CC-BY) Photo Credits 3 & 12 (float",
+   "productUrl": "https://sparrowhawknativeplants.com/products/vine-maple",
+   "handle": "vine-maple",
+   "companions": [
+    {
+     "name": "Early Blue Violet",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/early-blue-violet",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Evergreen Huckleberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/evergreen-huckleberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Grand Fir",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/grand-fir",
+     "inList": false,
+     "why": "shares newbie"
+    }
+   ]
+  },
+  {
+   "id": "red-elderberry",
+   "name": "Red Elderberry",
+   "catalogName": "Red Elderberry",
+   "qty": 2,
+   "size": "2 gal",
+   "note": "",
+   "available": true,
+   "images": [
+    {
+     "src": "images/red-elderberry-1.webp",
+     "w": 768,
+     "h": 768
+    },
+    {
+     "src": "images/red-elderberry-2.webp",
+     "w": 980,
+     "h": 692
+    },
+    {
+     "src": "images/red-elderberry-3.webp",
+     "w": 980,
+     "h": 1470
+    }
+   ],
+   "scientificName": "Sambucus racemosa var. arborescens",
+   "description": "Red elderberry is a large, deciduous shrub that can easily be pruned to take the form of a small tree. In mid-spring, the branch tips are abounding with tiny fragrant white flowers that provide nectar for butterflies and bees. As spring turns to summer, flowers mature into red berries that are attractive to the gardener's eye and as food for a plethora of backyard birds. Hollow stems provide habitat for mason bees.",
+   "gardening": "This fast-growing, upright shrub tolerates a variety of light conditions, making it a versatile and attractive choice in many garden areas where soils are moist. Try it along the edges of your moist woodland, in a ditch, bioswale or raingarden, or along a shady fence line. It takes well to pruning and can therefore be shaped to fit into smaller gardens, in side-yards or along paths. Note - branches and small sections often die off as quickly as new branches spring forth. Don’t be alarmed as you see branches become leafless and brittle, this process is not only normal, but is creating exceptional habitat for wildlife.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, large shrub",
+    "Size at maturity": "8-18' tall, 10' wide",
+    "Light requirements": "full sun, part sun/part shade, full shade",
+    "Moisture requirements": "moist to wet soil",
+    "Bloom time": "March - August (April - May in the Portland Metro area)",
+    "Growth rate/ease": "fast growing, easy to grow",
+    "Wildlife support": "flowers attracts and supports bees, butterflies and other insect pollinators; berries are eaten by more than 30 species of local birds; brittle, pithy stems are superb insect habitat, particularly for nesting mason bees",
+    "Native habitat/range": "common in seasonally flooded streambanks and wet meadows, logged areas and woods near coast to mid-elevations across the Pacific Northwest. Portland Plant List - yes.",
+    "Special features & uses": "wildlife favorite; supports hummingbirds; landscape uses include woodland gardens and erosion control; berries are edible only when cooked (toxic to humans when raw) and can be made into wine, sauces or jelly, indigenous peoples traditionally steam the berries and store underground or in water for winter; medicinally the leaves, bark or roots can be applied topically to aching muscles and joints, flowers can be boiled down to treat coughs and colds; hollow stems can be used for whistles and pipes."
+   },
+   "lightTags": [
+    "full shade",
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "large shrub"
+   ],
+   "collections": [
+    "rain garden",
+    "shady woodland",
+    "sunny yard"
+   ],
+   "special": [
+    "medicinal",
+    "pollinator plant - blooms early",
+    "supports hummingbirds",
+    "wildlife favorite"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Photo Credit 1 (flowers, leaves): © Hilary Rose Dawson, some rights reserved (CC-BY) Photo Credit 2 (flowers on branch tips): © sprcrkwild, some rights reserved (CC-BY) Photo Credi",
+   "productUrl": "https://sparrowhawknativeplants.com/products/red-elderberry",
+   "handle": "red-elderberry",
+   "companions": [
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Lady Fern",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/lady-fern",
+     "inList": false,
+     "why": "shares rain garden"
+    },
+    {
+     "name": "Black Twinberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/black-twinberry",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  },
+  {
+   "id": "vanilla-leaf",
+   "name": "Vanilla Leaf",
+   "catalogName": "Vanilla Leaf",
+   "qty": null,
+   "size": "",
+   "note": "None available",
+   "available": false,
+   "images": [
+    {
+     "src": "images/vanilla-leaf-1.webp",
+     "w": 980,
+     "h": 980
+    },
+    {
+     "src": "images/vanilla-leaf-2.webp",
+     "w": 750,
+     "h": 1000
+    },
+    {
+     "src": "images/vanilla-leaf-3.webp",
+     "w": 980,
+     "h": 653
+    }
+   ],
+   "scientificName": "Achlys triphylla",
+   "description": "Vanilla leaf has a large delicate, sweet-scented leaf that is divided into three leaflets with scalloped edges that resemble wings. From late spring through early summer, foamy spikes of tiny, white flowers shoot a few inches above its whimsical foliage, followed by reddish-brown, leathery fruits. Over time, in wooded areas with the right soils, it can form an attractive carpet, intermingled with native shrubs.",
+   "gardening": "Vanilla leaf is gorgeous, though moderately difficult to grow, largely because it requires soil that is rich in organic matter and lots of forest duff. It will not grow in clay soils or other depleted urban areas. But if the soils are right, it will spread nicely by rhizomes and create a stunning groundcover in your shady woodland garden. It is often found growing among stands of Lady Fern, Thimbleberry and Salmonberry. It can even tolerate dry summer soils, but may need occasional supplemental water during the summer drought. If your goal is to achieve a continuous groundcover we recommend starting with several to many individual plants (depending on the size of the area you wish to cover) to ensure it establishes with good coverage. NOTE - this plant will likely already be dormant during fall plant pickup dates. Depending on winter and early spring weather, it may not be up or just emerging during the early spring pick-up dates.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, herbaceous plant",
+    "Size at maturity": "12\" tall",
+    "Light requirements": "full shade, part-sun/part-shade",
+    "Moisture requirements": "moist soil",
+    "Bloom time": "March - June",
+    "Growth rate/ease": "medium growth rate, moderately difficult to grow",
+    "Wildlife support": "flowers attract and support bees and other insect pollinators; overall plant is a caterpillar host plant and larval food source for native butterflies and moths."
+   },
+   "lightTags": [
+    "full shade",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "moist soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "shady woodland"
+   ],
+   "special": [
+    "groundcover",
+    "wildflower"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [],
+   "photoCredit": "Photo Credit 1: \"Vanilla Leaf\" by Mount Rainier NPS is licensed under CC BY 2.0 Photo Credits 2, 3: Nikkie West, Sparrowhawk Native Plants",
+   "productUrl": "https://sparrowhawknativeplants.com/products/vanilla-leaf",
+   "handle": "vanilla-leaf",
+   "companions": [
+    {
+     "name": "Evergreen Huckleberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/evergreen-huckleberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Red Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  },
+  {
+   "id": "candyflower",
+   "name": "Candyflower",
+   "catalogName": "Candyflower",
+   "qty": null,
+   "size": "",
+   "note": "None available",
+   "available": false,
+   "images": [
+    {
+     "src": "images/candyflower-1.webp",
+     "w": 530,
+     "h": 530
+    },
+    {
+     "src": "images/candyflower-2.webp",
+     "w": 980,
+     "h": 653
+    },
+    {
+     "src": "images/candyflower-3.webp",
+     "w": 980,
+     "h": 980
+    }
+   ],
+   "scientificName": "Claytonia sibirica",
+   "description": "Candyflower, also known as miner’s lettuce, is a native groundcover with white to pink candy-striped flowers and dark green, semi-succulent, edible leaves. It grows as an annual or short-lived perennial, but will reseed readily, forming lush, self-sustaining patches of groundcover in woodland gardens. It puts on an impressive show of adorable blooms; occasionally beginning in mild winter months, coming into full force by spring and holding through summer.",
+   "gardening": "This succulent groundcover requires most to entirely shady areas with moist, well-drained soil. It combines beautifully with ferns, wild ginger and false Solomon’s seal and will spread nicely by seed, making it a self-sufficient and charming addition to woodland gardens, streambanks, and shady raingardens.",
+   "companionText": "",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, annual or short-lived perennial, herbaceous plant",
+    "Size at maturity": "0-12\" tall, spreading by seed to form a groundcover",
+    "Light requirements": "part sun to full shade",
+    "Moisture requirements": "moist soil, prefers well-drained",
+    "Bloom time": "January - September (May - August in the Portland Metro area)",
+    "Growth rate/ease": "fast growing, easy to grow",
+    "Wildlife support": "flowers attract and support bees and other insect pollinators",
+    "Native habitat/range": "common in moist places, swamps, seeps and streambanks in forests and wet meadows, from the coast up to 2000m, across the Pacific Northwest - but not in the arid areas of central Washington and Oregon. Portland Plant List - yes.",
+    "Special features & uses": "groundcover; leaves are edible raw in salads and as a sauteed green; landscape uses include woodland gardens and shady raingardens"
+   },
+   "lightTags": [
+    "full shade",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "moist soil"
+   ],
+   "canopy": [
+    "herbaceous/ground"
+   ],
+   "collections": [
+    "newbie",
+    "rain garden",
+    "shady woodland"
+   ],
+   "special": [
+    "edible",
+    "groundcover",
+    "pollinator plant - blooms late",
+    "pollinator plant - blooms mid-season",
+    "wildflower"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Photo Credit 1 -3 (flower closeup, leaf/bud, nursery flat): Nikkie West, Sparrowhawk Native Plants Photo Credit 4 (red stems): © sugarsnap_t, some rights reserved (CC-BY) Photo Cre",
+   "productUrl": "https://sparrowhawknativeplants.com/products/candy-flower",
+   "handle": "candy-flower",
+   "companions": [
+    {
+     "name": "Evergreen Huckleberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/evergreen-huckleberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Red Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "also on your list"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yard Ledger — a native plant list for the yard</title>
+<meta name="description" content="A planting ledger for a Portland yard: 26 Pacific Northwest native species from Sparrowhawk Native Plants, with light needs, photos and companion plants.">
+<meta name="theme-color" content="#F3EDDF">
+<link rel="canonical" href="https://divineender.github.io/GardenPlanner/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Yard Ledger — a native plant list for the yard">
+<meta property="og:description" content="26 Pacific Northwest native species from Sparrowhawk Native Plants, with photos, light requirements and companion plants.">
+<meta property="og:url" content="https://divineender.github.io/GardenPlanner/">
+<meta property="og:image" content="https://divineender.github.io/GardenPlanner/images/common-camas-2.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23F3EDDF'/%3E%3Cpath d='M16 27V12' stroke='%232E4430' stroke-width='1.8'/%3E%3Cpath d='M16 17c0-6 4-9 10-9 0 6-4 9-10 9z' fill='%232E4430'/%3E%3Cpath d='M16 22c0-4-3-6-8-6 0 4 3 6 8 6z' fill='%235C7355'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Karla:ital,wght@0,300..700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#plants">Skip to the plant list</a>
+
+<header class="masthead">
+  <div class="wrap masthead__inner">
+    <a class="wordmark" href="#top" aria-label="Yard Ledger, back to top">
+      <svg class="wordmark__mark" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M16 29V11" stroke="currentColor" stroke-width="1.7" fill="none"/>
+        <path d="M16 17c0-6.5 4.4-9.8 11-9.8 0 6.5-4.4 9.8-11 9.8Z" fill="currentColor"/>
+        <path d="M16 22.5c0-4.4-3.3-6.7-8.7-6.7 0 4.4 3.3 6.7 8.7 6.7Z" fill="currentColor" opacity=".62"/>
+      </svg>
+      <span class="wordmark__text">Yard Ledger</span>
+    </a>
+    <p class="masthead__meta">
+      <span>Portland, Oregon</span>
+      <span class="dot" aria-hidden="true"></span>
+      <span>Sparrowhawk Native Plants</span>
+      <span class="dot" aria-hidden="true"></span>
+      <span>Spring 2027 preorder</span>
+    </p>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero__text">
+      <p class="eyebrow">A planting list, kept honestly</p>
+      <h1 id="hero-title">Twenty-six species for <em>one</em> small yard.</h1>
+      <p class="lede">A working list of Pacific Northwest natives for the yard — what to buy, where it wants to grow, and who it likes to grow beside. Everything here is pulled from the plant profiles at Sparrowhawk Native Plants.</p>
+
+      <dl class="stats" id="stats">
+        <div class="stat">
+          <dt>Species</dt>
+          <dd><span data-stat="species">26</span></dd>
+        </div>
+        <div class="stat">
+          <dt>Plants to buy</dt>
+          <dd><span data-stat="plants">120</span></dd>
+        </div>
+        <div class="stat">
+          <dt>In stock now</dt>
+          <dd><span data-stat="stock">15</span><span class="stat__unit"> of 26</span></dd>
+        </div>
+        <div class="stat stat--progress">
+          <dt>In the ground</dt>
+          <dd><span data-stat="planted">0</span><span class="stat__unit"> of 26</span></dd>
+          <div class="stat__bar" aria-hidden="true"><i id="planted-bar"></i></div>
+        </div>
+      </dl>
+    </div>
+
+    <figure class="hero__figure">
+      <div class="hero__frame">
+        <img src="images/common-camas-2.webp" alt="A common camas flower in bloom, violet-blue petals against green foliage." width="980" height="980" fetchpriority="high">
+        <span class="specimen-tag">Plate I</span>
+      </div>
+      <figcaption><span class="latin">Camassia quamash</span> — common camas, the blue that used to fill the Willamette Valley in May.</figcaption>
+    </figure>
+  </section>
+
+  <section class="controls" id="filter" aria-label="Filter the plant list">
+    <div class="wrap">
+      <div class="controls__row">
+        <fieldset class="light-filter">
+          <legend>Filter by light</legend>
+          <div class="chips" id="light-chips">
+            <button class="chip" type="button" data-light="full-sun" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="glyph"><circle cx="12" cy="12" r="4.1"/><g class="rays"><path d="M12 2.4v2.6M12 19v2.6M2.4 12h2.6M19 12h2.6M5.2 5.2l1.9 1.9M16.9 16.9l1.9 1.9M18.8 5.2l-1.9 1.9M7.1 16.9l-1.9 1.9"/></g></svg>
+              <span class="chip__label">Full sun</span>
+              <span class="chip__count" data-count="full-sun">17</span>
+            </button>
+            <button class="chip" type="button" data-light="part-shade" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="glyph"><circle cx="12" cy="12" r="6.2" fill="none"/><path d="M12 5.8a6.2 6.2 0 0 1 0 12.4Z" class="fill"/><path d="M12 1.8v2.2M21.2 12h-2.2M12 20v2.2M2.8 12h2.2"/></svg>
+              <span class="chip__label">Part sun / shade</span>
+              <span class="chip__count" data-count="part-shade">23</span>
+            </button>
+            <button class="chip" type="button" data-light="full-shade" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="glyph"><circle cx="12" cy="12" r="6.4" fill="none"/><path d="M12 5.6a6.4 6.4 0 1 1-4.5 10.9A6.4 6.4 0 0 0 12 5.6Z" class="fill"/></svg>
+              <span class="chip__label">Full shade</span>
+              <span class="chip__count" data-count="full-shade">13</span>
+            </button>
+          </div>
+        </fieldset>
+
+        <div class="controls__tools" id="tools">
+          <div class="search">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.6" cy="8.6" r="5.6" fill="none"/><path d="M12.8 12.8 17 17"/></svg>
+            <label class="sr-only" for="search">Search plants</label>
+            <input id="search" type="search" placeholder="Search a plant…" autocomplete="off" spellcheck="false">
+          </div>
+
+          <button class="toggle" type="button" id="stock-toggle" aria-pressed="false">
+            <span class="toggle__track" aria-hidden="true"><i></i></span>
+            <span>In stock only</span>
+          </button>
+
+          <div class="select">
+            <label class="sr-only" for="sort">Sort plants</label>
+            <select id="sort">
+              <option value="list">List order</option>
+              <option value="name">Name, A–Z</option>
+              <option value="light">Light need</option>
+              <option value="qty">Biggest order</option>
+            </select>
+            <svg viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5l5-5"/></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls__foot">
+        <p class="result" id="result" aria-live="polite">Showing all 26 species</p>
+        <p class="hint" id="active-filters"></p>
+        <button class="linkish" type="button" id="clear-filters" hidden>Clear filters</button>
+        <button class="refine" type="button" id="refine-toggle" aria-expanded="false" aria-controls="tools">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 4.5h12M4.5 8h9M7 11.5h6.5"/><circle cx="5" cy="4.5" r="1.6"/><circle cx="10" cy="8" r="1.6"/><circle cx="13" cy="11.5" r="1.6"/></svg>
+          <span>Refine</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap list-section" aria-labelledby="list-title">
+    <div class="section-head">
+      <h2 id="list-title" class="section-title">The list</h2>
+      <p class="section-note">Tick a plant once it is in the ground — the tick is saved in this browser.</p>
+    </div>
+
+    <div class="grid" id="plants"></div>
+
+    <div class="empty" id="empty" hidden>
+      <p class="empty__title">Nothing here yet.</p>
+      <p>No plants match those filters. Try a different light, or clear the search.</p>
+      <button class="btn" type="button" data-clear>Clear filters</button>
+    </div>
+
+    <noscript>
+      <p class="empty">This list needs JavaScript to load the plant profiles. You can also browse them directly at <a href="https://sparrowhawknativeplants.com/collections/frontpage">Sparrowhawk Native Plants</a>.</p>
+    </noscript>
+  </section>
+
+  <section class="wrap notes-band" aria-labelledby="notes-title">
+    <div class="notes-band__inner">
+      <h2 id="notes-title">How to read this list</h2>
+      <div class="notes-band__cols">
+        <p><strong>Light</strong> is the range each plant will tolerate, not a preference. A plant marked “full sun” and “part shade” will grow in both; it simply blooms hardest in the sun. Use the filter to see everything that will take a given exposure.</p>
+        <p><strong>Companions</strong> are drawn from Sparrowhawk’s own catalogue by shared light and moisture, with a nudge toward a different canopy layer and toward plants already on this list. Where the nursery prints a companion note, it appears in the plant’s panel.</p>
+        <p><strong>Stock</strong> reflects the quantities you recorded. Eleven species are marked unavailable — the profiles are still here so the list is complete when the spring sale opens.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p class="footer__brand">Yard Ledger</p>
+    <p class="footer__note">Plant profiles, photographs and companion notes come from <a href="https://sparrowhawknativeplants.com/collections/frontpage" target="_blank" rel="noopener">Sparrowhawk Native Plants</a>, a Portland nursery whose sales benefit community partners. Photos remain the property of their photographers; most are shared under CC BY 4.0. This is a personal shopping list, not a nursery publication.</p>
+    <p class="footer__meta"><span id="footer-updated">Updated November 2026</span> · <a href="data/plants.json">Raw data</a></p>
+  </div>
+</footer>
+
+<dialog class="drawer" id="drawer" aria-labelledby="drawer-title">
+  <div class="drawer__inner" id="drawer-inner"></div>
+</dialog>
+
+<script src="js/app.js"></script>
+</body>
+</html>

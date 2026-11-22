@@ -147,3 +147,7 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# plant catalogue snapshot (downloaded on demand)
+tools/catalog.json
+__pycache__/
