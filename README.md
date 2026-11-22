@@ -4,7 +4,7 @@ A small, static planting list for the yard: 26 Pacific Northwest native species 
 [Sparrowhawk Native Plants](https://sparrowhawknativeplants.com/collections/frontpage), with
 photographs, light and moisture requirements, bloom times and companion plants.
 
-Live site: **https://divineender.github.io/GardenPlanner/**
+Live site: **https://divineender.github.io/yard-ledger/**
 
 ## What it does
 
