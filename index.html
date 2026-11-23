@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Yard Ledger — a native plant list for the yard</title>
 <meta name="description" content="A planting ledger for a Portland yard: 26 Pacific Northwest native species from Sparrowhawk Native Plants, with light needs, photos and companion plants.">
-<meta name="theme-color" content="#F3EDDF">
+<meta name="theme-color" content="#1C2A20">
 <link rel="canonical" href="https://divineender.github.io/yard-ledger/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Yard Ledger — a native plant list for the yard">
@@ -13,7 +13,7 @@
 <meta property="og:url" content="https://divineender.github.io/yard-ledger/">
 <meta property="og:image" content="https://divineender.github.io/yard-ledger/images/pacific-bleeding-heart-2.webp">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23F3EDDF'/%3E%3Cpath d='M16 27V12' stroke='%232E4430' stroke-width='1.8'/%3E%3Cpath d='M16 17c0-6 4-9 10-9 0 6-4 9-10 9z' fill='%232E4430'/%3E%3Cpath d='M16 22c0-4-3-6-8-6 0 4 3 6 8 6z' fill='%235C7355'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231C2A20'/%3E%3Cpath d='M16 27V12' stroke='%23A7BC8D' stroke-width='1.8'/%3E%3Cpath d='M16 17c0-6 4-9 10-9 0 6-4 9-10 9z' fill='%23A7BC8D'/%3E%3Cpath d='M16 22c0-4-3-6-8-6 0 4 3 6 8 6z' fill='%23789366'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Karla:ital,wght@0,300..700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -144,7 +144,19 @@
   <section class="wrap list-section" aria-labelledby="list-title">
     <div class="section-head">
       <h2 id="list-title" class="section-title">The list</h2>
-      <p class="section-note">Tick a plant once it is in the ground — the tick is saved in this browser.</p>
+      <div class="section-head__tools">
+        <p class="section-note">Tick a plant once it is in the ground — the tick is saved in this browser.</p>
+        <div class="view-switch" role="group" aria-label="Choose list view">
+          <button class="view-switch__btn" type="button" data-view="cards" aria-pressed="true" title="Large picture cards">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="2.5" y="2.5" width="6" height="6"/><rect x="11.5" y="2.5" width="6" height="6"/><rect x="2.5" y="11.5" width="6" height="6"/><rect x="11.5" y="11.5" width="6" height="6"/></svg>
+            <span>Cards</span>
+          </button>
+          <button class="view-switch__btn" type="button" data-view="compact" aria-pressed="false" title="Compact list view">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 4.5h2M8 4.5h9M3 10h2M8 10h9M3 15.5h2M8 15.5h9"/><circle cx="4" cy="4.5" r="1"/><circle cx="4" cy="10" r="1"/><circle cx="4" cy="15.5" r="1"/></svg>
+            <span>List</span>
+          </button>
+        </div>
+      </div>
     </div>
 
     <div class="grid" id="plants"></div>
@@ -165,7 +177,7 @@
       <h2 id="notes-title">How to read this list</h2>
       <div class="notes-band__cols">
         <p><strong>Light</strong> is the range each plant will tolerate, not a preference. A plant marked “full sun” and “part shade” will grow in both; it simply blooms hardest in the sun. Use the filter to see everything that will take a given exposure.</p>
-        <p><strong>Companions</strong> are drawn from Sparrowhawk’s own catalogue by shared light and moisture, with a nudge toward a different canopy layer and toward plants already on this list. Where the nursery prints a companion note, it appears in the plant’s panel.</p>
+        <p><strong>Companions</strong> are habitat-fit suggestions drawn from Sparrowhawk’s catalogue. They combine shared light and moisture with Pacific Northwest ecosystem affinities, canopy layering, and plants already on this list. They are regional matches, not strict planting prescriptions.</p>
         <p><strong>Stock</strong> reflects the quantities you recorded. Eleven species are marked unavailable — the profiles are still here so the list is complete when the spring sale opens.</p>
       </div>
     </div>

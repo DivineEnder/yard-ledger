@@ -4,6 +4,7 @@
 
   const LIGHT_ORDER = ["full-sun", "part-shade", "full-shade"];
   const STORE_KEY = "yardledger.planted.v1";
+  const VIEW_KEY = "yardledger.view.v1";
 
   const state = {
     plants: [],
@@ -14,6 +15,7 @@
     query: "",
     sort: "list",
     planted: new Set(readPlanted()),
+    view: readView(),
   };
 
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -49,6 +51,18 @@
     } catch (err) {
       /* storage may be unavailable; the list still works */
     }
+  }
+
+  function readView() {
+    try {
+      return localStorage.getItem(VIEW_KEY) === "compact" ? "compact" : "cards";
+    } catch (err) {
+      return "cards";
+    }
+  }
+
+  function saveView() {
+    try { localStorage.setItem(VIEW_KEY, state.view); } catch (err) { /* storage may be unavailable */ }
   }
 
   const esc = (s) =>
@@ -196,6 +210,8 @@
 
   function render() {
     const list = visiblePlants();
+    els.grid.classList.toggle("is-compact", state.view === "compact");
+    $$(`[data-view]`).forEach((btn) => btn.setAttribute("aria-pressed", String(btn.dataset.view === state.view)));
     els.grid.innerHTML = list.map(cardHTML).join("");
     els.empty.hidden = list.length > 0;
     els.grid.hidden = list.length === 0;
@@ -438,6 +454,14 @@
   els.sort.addEventListener("change", () => {
     state.sort = els.sort.value;
     render();
+  });
+
+  $$('[data-view]').forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.view = btn.dataset.view;
+      saveView();
+      render();
+    });
   });
 
   const clearAll = () => {
