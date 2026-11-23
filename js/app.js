@@ -6,6 +6,7 @@
   const STORE_KEY = "yardledger.planted.v1";
   const VIEW_KEY = "yardledger.view.v1";
   const ORDER_KEY = "yardledger.order.v1";
+  const GROUP_KEY = "yardledger.groups.v1";
 
   const state = {
     plants: [],
@@ -14,6 +15,7 @@
     availability: [],
     availabilityMeta: {},
     orders: [],
+    groups: [],
     lights: new Set(),
     stock: false,
     query: "",
@@ -45,6 +47,13 @@
     plantScientific: $("#new-plant-scientific"),
     plantSize: $("#new-plant-size"),
     plantSuggestions: $("#plant-suggestions"),
+    groupDialog: $("#group-dialog"),
+    groupForm: $("#group-form"),
+    groupName: $("#group-name"),
+    groupPicker: $("#group-plant-picker"),
+    groupSummary: $("#group-summary"),
+    groupSuggestions: $("#group-suggestions"),
+    savedGroups: $("#saved-groups-list"),
   };
 
   let selectedPlantId = "";
@@ -82,6 +91,17 @@
 
   function saveOrders() {
     try { localStorage.setItem(ORDER_KEY, JSON.stringify(state.orders)); } catch (err) { /* storage may be unavailable */ }
+  }
+
+  function readGroups() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(GROUP_KEY) || "[]");
+      return Array.isArray(saved) ? saved.filter((g) => g && g.id && g.name && Array.isArray(g.plantIds)) : [];
+    } catch (err) { return []; }
+  }
+
+  function saveGroups() {
+    try { localStorage.setItem(GROUP_KEY, JSON.stringify(state.groups)); } catch (err) { /* storage may be unavailable */ }
   }
 
   function norm(text) {
@@ -529,6 +549,45 @@
     document.body.style.overflow = "";
   }
 
+  /* --------------------------- planting groups --------------------------- */
+  const CANOPY_ORDER = ["canopy", "large tree", "small tree", "shrub", "herbaceous/ground"];
+  function groupPlants(group) { return group.plantIds.map((id) => state.plants.find((p) => p.id === id)).filter(Boolean); }
+  function groupProfile(group) {
+    const plants = groupPlants(group);
+    const sets = plants.map((p) => new Set(p.lights || []));
+    const sharedLights = LIGHT_ORDER.filter((l) => sets.length && sets.every((set) => set.has(l)));
+    const allLights = LIGHT_ORDER.filter((l) => sets.some((set) => set.has(l)));
+    const canopy = [...new Set(plants.flatMap((p) => p.canopy || []))];
+    const missingCanopy = CANOPY_ORDER.filter((layer) => !canopy.some((value) => norm(value).includes(norm(layer))));
+    const sizes = plants.map((p) => `${p.name}: ${(p.fields || {})["Size at maturity"] || "size not recorded"}`);
+    const moisture = [...new Set(plants.flatMap((p) => p.moistureTags || []))];
+    return { plants, sharedLights, allLights, canopy, missingCanopy, sizes, moisture };
+  }
+  function renderGroupPicker(selected = []) {
+    els.groupPicker.innerHTML = state.plants.map((p) => `<label class="group-plant-option"><input type="checkbox" data-group-plant value="${esc(p.id)}" ${selected.includes(p.id) ? "checked" : ""}><span><strong>${esc(p.name)}</strong><em>${esc(p.scientificName)}</em></span></label>`).join("");
+  }
+  function currentGroupSelection() { return $$('input[data-group-plant]:checked', els.groupPicker).map((input) => input.value); }
+  function renderGroupAnalysis() {
+    const profile = groupProfile({ plantIds: currentGroupSelection() });
+    if (!profile.plants.length) { els.groupSummary.innerHTML = `<p class="group-empty">Choose at least one plant to see the group’s shape.</p>`; els.groupSuggestions.innerHTML = ""; return; }
+    const lights = profile.sharedLights.length ? profile.sharedLights : profile.allLights;
+    const lightText = lights.map((l) => l === "full-sun" ? "Full sun" : l === "part-shade" ? "Part sun / shade" : "Full shade").join(", ");
+    els.groupSummary.innerHTML = `<div class="group-summary__facts"><div><dt>Light fit</dt><dd>${esc(profile.sharedLights.length ? lightText : `${lightText} (mixed exposure)`)}</dd></div><div><dt>Canopy layers</dt><dd>${esc(profile.canopy.join(", ") || "Not recorded")}</dd></div><div><dt>Moisture</dt><dd>${esc(profile.moisture.join(", ") || "Not recorded")}</dd></div></div><h3>Selected mature sizes</h3><ul class="group-size-list">${profile.sizes.map((size) => `<li>${esc(size)}</li>`).join("")}</ul>`;
+    const selected = new Set(profile.plants.map((p) => p.id));
+    const suggestions = state.plants.filter((p) => !selected.has(p.id)).map((p) => {
+      const shared = (p.lights || []).some((l) => profile.allLights.includes(l));
+      const fills = profile.missingCanopy.filter((layer) => (p.canopy || []).some((value) => norm(value).includes(norm(layer))));
+      const moist = (p.moistureTags || []).some((m) => profile.moisture.includes(m));
+      return { p, fills, score: (shared ? 2 : 0) + fills.length * 3 + (moist ? 1 : 0) };
+    }).filter((x) => x.score > 0).sort((a, b) => b.score - a.score || a.p.name.localeCompare(b.p.name)).slice(0, 6);
+    els.groupSuggestions.innerHTML = `<h3>Suggested gap-fillers</h3>${profile.missingCanopy.length ? `<p class="group-suggestion-note">Open layers: ${esc(profile.missingCanopy.join(", "))}</p>` : `<p class="group-suggestion-note">The group covers the main canopy layers represented in this catalogue.</p>`}<div class="group-suggestion-list">${suggestions.length ? suggestions.map(({ p, fills }) => `<article class="group-suggestion"><strong>${esc(p.name)}</strong><em>${esc(lightPhrase(p.lights))} · ${esc((p.fields || {})["Size at maturity"] || "size not recorded")}</em><span>${esc(fills.length ? `Fills: ${fills.join(", ")}` : "Matches the group exposure")}</span><button type="button" class="linkish" data-add-group-plant="${esc(p.id)}">Add to group</button></article>`).join("") : `<p class="group-empty">No close catalogue matches yet. Try adding another plant or mixing the light exposure.</p>`}</div>`;
+  }
+  function renderSavedGroups() {
+    els.savedGroups.innerHTML = state.groups.length ? state.groups.map((group) => { const profile = groupProfile(group); return `<article class="saved-group"><div><strong>${esc(group.name)}</strong><span>${profile.plants.length} plants · ${esc(profile.canopy.join(", ") || "layers not recorded")}</span></div><button type="button" class="linkish" data-delete-group="${esc(group.id)}">Remove</button></article>`; }).join("") : `<p class="group-empty">No saved groups yet.</p>`;
+  }
+  function openGroupPlanner() { renderGroupPicker(); renderGroupAnalysis(); renderSavedGroups(); if (typeof els.groupDialog.showModal === "function") els.groupDialog.showModal(); else els.groupDialog.setAttribute("open", ""); document.body.style.overflow = "hidden"; }
+  function closeGroupPlanner() { if (els.groupDialog.open && typeof els.groupDialog.close === "function") els.groupDialog.close(); else els.groupDialog.removeAttribute("open"); document.body.style.overflow = ""; }
+
   /* ----------------------------- order editor ----------------------------- */
 
   function renderOrderRows() {
@@ -610,6 +669,28 @@
   }
 
   /* -------------------------------- events -------------------------------- */
+
+  $("#group-open").addEventListener("click", openGroupPlanner);
+  $("#group-close").addEventListener("click", closeGroupPlanner);
+  els.groupDialog.addEventListener("click", (e) => { if (e.target === els.groupDialog) closeGroupPlanner(); });
+  els.groupPicker.addEventListener("change", renderGroupAnalysis);
+  els.groupSuggestions.addEventListener("click", (e) => {
+    const add = e.target.closest("[data-add-group-plant]");
+    if (add) { const box = $(`input[data-group-plant][value="${CSS.escape(add.dataset.addGroupPlant)}"]`, els.groupPicker); if (box) box.checked = true; renderGroupAnalysis(); }
+  });
+  els.savedGroups.addEventListener("click", (e) => {
+    const remove = e.target.closest("[data-delete-group]");
+    if (!remove) return;
+    state.groups = state.groups.filter((group) => group.id !== remove.dataset.deleteGroup);
+    saveGroups(); renderSavedGroups();
+  });
+  els.groupForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const plantIds = currentGroupSelection();
+    if (!plantIds.length) { els.groupSummary.innerHTML = `<p class="group-empty">Choose at least one plant before saving.</p>`; return; }
+    state.groups.push({ id: `group-${Date.now()}`, name: els.groupName.value.trim(), plantIds });
+    saveGroups(); els.groupForm.reset(); renderGroupPicker(); renderGroupAnalysis(); renderSavedGroups();
+  });
 
   $("#order-open").addEventListener("click", openOrderEditor);
   $("#order-close").addEventListener("click", closeOrderEditor);
@@ -783,6 +864,7 @@
       state.companionSources = data.companionSources || [];
       state.availability = availability && availability.rows ? availability.rows : [];
       state.availabilityMeta = availability || {};
+      state.groups = readGroups();
       renderAddSizeOptions();
       state.orders = readOrders(state.plants);
       state.orders.forEach((o) => { const p = state.plants.find((x) => x.id === o.id); if (p) { p.qty = o.qty; p.size = o.size; } });

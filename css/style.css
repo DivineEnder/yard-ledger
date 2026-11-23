@@ -1208,6 +1208,34 @@ button { cursor: pointer; }
 .plant-suggestion:hover, .plant-suggestion:focus-visible { background: rgba(120,147,102,.22); }
 .plant-suggestion strong { font-family: var(--serif); font-size: .95rem; font-weight: 400; }
 .plant-suggestion em { color: var(--muted); font-family: var(--serif); font-size: .72rem; }
+.group-form > label { display: flex; flex-direction: column; gap: .3rem; font-family: var(--mono); font-size: .58rem; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); }
+.group-form > label input { width: 100%; margin-top: .2rem; padding: .55rem .6rem; border: 1px solid var(--line-2); background: rgba(28,42,32,.55); color: var(--ink); font: .95rem var(--serif); letter-spacing: normal; text-transform: none; }
+.group-picker { min-width: 0; margin: 1.2rem 0 0; padding: .8rem; border: 1px solid var(--line-2); }
+.group-picker legend { padding: 0 .35rem; font: .62rem var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.group-plant-picker { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .35rem; max-height: 260px; overflow: auto; }
+.group-plant-option { display: flex; align-items: flex-start; gap: .55rem; padding: .45rem; border: 1px solid transparent; cursor: pointer; }
+.group-plant-option:hover { border-color: var(--line-2); background: rgba(120,147,102,.1); }
+.group-plant-option input { accent-color: var(--moss-2); margin-top: .2rem; }
+.group-plant-option span { display: flex; flex-direction: column; gap: .08rem; }
+.group-plant-option strong { font: .92rem var(--serif); color: var(--ink); }
+.group-plant-option em { font: .7rem var(--serif); color: var(--muted); }
+.group-summary { margin-top: 1.6rem; padding: .9rem; border-left: 2px solid var(--moss-2); background: rgba(42,60,45,.42); }
+.group-summary__facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+.group-summary__facts dt { font: .55rem var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--moss-2); }
+.group-summary__facts dd { margin: .2rem 0 0; font-size: .84rem; line-height: 1.4; color: var(--ink-2); }
+.group-summary h3, .group-suggestions h3, .saved-groups h3 { margin-top: 1.25rem; }
+.group-size-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .25rem 1rem; margin: 0; padding-left: 1rem; color: var(--ink-2); font-size: .8rem; }
+.group-suggestion-note, .group-empty { color: var(--muted); font-size: .8rem; }
+.group-suggestion-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .55rem; }
+.group-suggestion { display: flex; flex-direction: column; gap: .2rem; padding: .7rem; border: 1px solid var(--line-2); background: rgba(28,42,32,.35); }
+.group-suggestion strong { font: 1rem var(--serif); }
+.group-suggestion em, .group-suggestion span { color: var(--muted); font-size: .72rem; line-height: 1.35; }
+.group-suggestion .linkish { align-self: flex-start; margin-top: .25rem; }
+.saved-groups { margin-top: 1.8rem; }
+.saved-group { display: flex; justify-content: space-between; gap: 1rem; align-items: center; padding: .7rem 0; border-top: 1px solid var(--line); }
+.saved-group div { display: flex; flex-direction: column; gap: .15rem; }
+.saved-group strong { font: 1rem var(--serif); }
+.saved-group span { color: var(--muted); font-size: .72rem; }
 .availability-foot { margin: 1.7rem 0 0; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .76rem; line-height: 1.55; }
 .availability-foot a { color: var(--moss-2); }
 .card__placeholder { aspect-ratio: 4 / 3.15; display: grid; place-items: center; background: linear-gradient(135deg, rgba(118,81,60,.25), rgba(42,60,45,.95)); color: var(--moss-2); font-family: var(--serif); font-size: 2.5rem; }
@@ -1218,6 +1246,8 @@ button { cursor: pointer; }
   .availability-status { grid-column: 1 / 3; }
   .order-remove { grid-column: 3; grid-row: 2; }
   .add-plant-form__grid { grid-template-columns: 1fr 1fr; }
+  .group-plant-picker, .group-suggestion-list { grid-template-columns: 1fr; }
+  .group-summary__facts { grid-template-columns: 1fr; gap: .55rem; }
 }
 @media (max-width: 520px) {
   .order-dialog { width: calc(100% - 1rem); }
@@ -1226,6 +1256,7 @@ button { cursor: pointer; }
   .availability-status { grid-column: 1 / -1; }
   .order-remove { grid-column: 2; grid-row: auto; justify-self: end; }
   .add-plant-form__grid { grid-template-columns: 1fr; }
+  .group-size-list { grid-template-columns: 1fr; }
 }
 
 /* ------------------------------ budget display ------------------------------ */

@@ -138,6 +138,7 @@
       <h2 id="list-title" class="section-title">The list</h2>
       <div class="section-head__tools">
         <p class="section-note">Tick a plant once it is in the ground — the tick is saved in this browser.</p>
+        <button class="order-button" type="button" id="group-open">Plan a group</button>
         <button class="order-button" type="button" id="order-open">Edit order</button>
         <div class="view-switch" role="group" aria-label="Choose list view">
           <button class="view-switch__btn" type="button" data-view="cards" aria-pressed="true" title="Large picture cards">
@@ -215,6 +216,25 @@
   </div>
 </dialog>
 
-<script src="js/app.js?v=typeahead-20261123"></script>
+<dialog class="order-dialog group-dialog" id="group-dialog" aria-labelledby="group-title">
+  <div class="order-dialog__inner">
+    <button class="drawer__close order-dialog__close" type="button" id="group-close" aria-label="Close planting group planner">✕</button>
+    <div class="order-dialog__content">
+      <p class="drawer__kicker">Planting notebook<span class="sep"></span>Planning groups saved locally</p>
+      <h2 id="group-title">Plan a planting group</h2>
+      <p class="drawer__desc">Choose plants that belong together. Yard Ledger will summarize their shared light, canopy layers, mature sizes, and suggest catalogue plants that fill missing layers.</p>
+      <form id="group-form" class="group-form">
+        <label>Group name<input id="group-name" required placeholder="e.g. Shady woodland edge"></label>
+        <fieldset class="group-picker"><legend>Plants in this group</legend><div id="group-plant-picker" class="group-plant-picker"></div></fieldset>
+        <button class="btn" type="submit">Save planting group</button>
+      </form>
+      <div id="group-summary" class="group-summary" aria-live="polite"></div>
+      <div id="group-suggestions" class="group-suggestions"></div>
+      <section class="saved-groups"><h3>Saved groups</h3><div id="saved-groups-list"></div></section>
+    </div>
+  </div>
+</dialog>
+
+<script src="js/app.js?v=groups-20261123"></script>
 </body>
 </html>
