@@ -134,6 +134,7 @@
       <h2 id="list-title" class="section-title">The list</h2>
       <div class="section-head__tools">
         <p class="section-note">Tick a plant once it is in the ground — the tick is saved in this browser.</p>
+        <button class="order-button" type="button" id="order-open">Edit order</button>
         <div class="view-switch" role="group" aria-label="Choose list view">
           <button class="view-switch__btn" type="button" data-view="cards" aria-pressed="true" title="Large picture cards">
             <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="2.5" y="2.5" width="6" height="6"/><rect x="11.5" y="2.5" width="6" height="6"/><rect x="2.5" y="11.5" width="6" height="6"/><rect x="11.5" y="11.5" width="6" height="6"/></svg>
@@ -183,6 +184,31 @@
 
 <dialog class="drawer" id="drawer" aria-labelledby="drawer-title">
   <div class="drawer__inner" id="drawer-inner"></div>
+</dialog>
+
+<dialog class="order-dialog" id="order-dialog" aria-labelledby="order-title">
+  <div class="order-dialog__inner">
+    <button class="drawer__close order-dialog__close" type="button" id="order-close" aria-label="Close order editor">✕</button>
+    <div class="order-dialog__content">
+      <p class="drawer__kicker">Order notebook<span class="sep"></span>Local to this browser</p>
+      <h2 id="order-title">Build your order</h2>
+      <p class="drawer__desc">Change quantities, remove plants, or add a new one. Each row checks the latest Beaver Lake availability snapshot by plant and pot size.</p>
+      <div id="order-status" class="order-status" aria-live="polite"></div>
+      <div id="order-rows" class="order-rows"></div>
+      <form id="add-plant-form" class="add-plant-form">
+        <h3>Add a plant</h3>
+        <div class="add-plant-form__grid">
+          <label>Plant name<input id="new-plant-name" name="name" required placeholder="e.g. Douglas fir"></label>
+          <label>Scientific name <span>(optional)</span><input id="new-plant-scientific" name="scientificName" placeholder="e.g. Pseudotsuga menziesii"></label>
+          <label>Quantity<input id="new-plant-qty" name="qty" type="number" min="0" step="1" value="1" required></label>
+          <label>Pot size<input id="new-plant-size" name="size" placeholder="e.g. 1 Gallon" value="1 Gallon" required></label>
+        </div>
+        <button class="btn" type="submit">Add to order</button>
+        <p id="add-plant-match" class="add-plant-match"></p>
+      </form>
+      <p class="availability-foot">Beaver Lake availability snapshot: <span id="availability-date">November 2026</span>. Quantities can change; <a href="https://beaverlakenursery.com/" target="_blank" rel="noopener">open the nursery site</a> or <a href="https://img1.wsimg.com/blobby/go/df08d2a5-9308-49f3-9e70-6c4751548f66/downloads/796cff73-5de1-49fb-bc3d-a4bf700d6112/Beaverlake%20Nursery%20Fall%20Availability%20R2.xlsx" target="_blank" rel="noopener">download its spreadsheet</a> before ordering.</p>
+    </div>
+  </div>
 </dialog>
 
 <script src="js/app.js"></script>

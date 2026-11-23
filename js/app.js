@@ -5,11 +5,15 @@
   const LIGHT_ORDER = ["full-sun", "part-shade", "full-shade"];
   const STORE_KEY = "yardledger.planted.v1";
   const VIEW_KEY = "yardledger.view.v1";
+  const ORDER_KEY = "yardledger.order.v1";
 
   const state = {
     plants: [],
     companionMethod: "",
     companionSources: [],
+    availability: [],
+    availabilityMeta: {},
+    orders: [],
     lights: new Set(),
     stock: false,
     query: "",
@@ -32,6 +36,11 @@
     sort: $("#sort"),
     drawer: $("#drawer"),
     drawerInner: $("#drawer-inner"),
+    orderDialog: $("#order-dialog"),
+    orderRows: $("#order-rows"),
+    orderStatus: $("#order-status"),
+    addForm: $("#add-plant-form"),
+    addMatch: $("#add-plant-match"),
   };
 
   /* ------------------------------ helpers ------------------------------ */
@@ -63,6 +72,53 @@
 
   function saveView() {
     try { localStorage.setItem(VIEW_KEY, state.view); } catch (err) { /* storage may be unavailable */ }
+  }
+
+  function saveOrders() {
+    try { localStorage.setItem(ORDER_KEY, JSON.stringify(state.orders)); } catch (err) { /* storage may be unavailable */ }
+  }
+
+  function norm(text) {
+    return String(text || "").toLowerCase().replace(/[.’'’]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+  }
+
+  function slugify(text) {
+    return String(text || "plant").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 50) || "plant";
+  }
+
+  function readOrders(plants) {
+    try {
+      const saved = JSON.parse(localStorage.getItem(ORDER_KEY) || "null");
+      if (Array.isArray(saved)) return saved.filter((x) => x && x.id && Number(x.qty) > 0).map((x) => ({ ...x, qty: Number(x.qty) }));
+    } catch (err) { /* fall through to catalogue order */ }
+    return plants.filter((p) => p.qty > 0).map((p) => ({ id: p.id, name: p.name, scientificName: p.scientificName || "", size: p.size || "", qty: p.qty }));
+  }
+
+  function orderFor(id) { return state.orders.find((x) => x.id === id); }
+
+  function availabilityFor(item) {
+    const sci = norm(item.scientificName), name = norm(item.name);
+    let matches = sci ? state.availability.filter((r) => norm(r.scientificName) === sci) : [];
+    if (!matches.length && name) matches = state.availability.filter((r) => norm(r.name) === name);
+    if (!matches.length && name) matches = state.availability.filter((r) => norm(r.name).includes(name) || name.includes(norm(r.name)));
+    if (item.size) {
+      const size = norm(item.size);
+      const exact = matches.filter((r) => norm(r.size) === size || norm(r.size).replace(/s$/, "") === size.replace(/s$/, ""));
+      if (exact.length) matches = exact;
+    }
+    return matches;
+  }
+
+  function availabilitySummary(item) {
+    const rows = availabilityFor(item);
+    if (!rows.length) return "Not listed in Beaver Lake snapshot";
+    const now = rows.reduce((n, r) => n + (r.availableNow || 0), 0);
+    const spring = rows.reduce((n, r) => n + (r.spring || 0), 0);
+    const future = rows.reduce((n, r) => n + (r.future || 0), 0);
+    if (now) return `${now.toLocaleString()} available now`;
+    if (spring) return `${spring.toLocaleString()} projected for spring`;
+    if (future) return `${future.toLocaleString()} projected for future`;
+    return "Listed, none available now";
   }
 
   const esc = (s) =>
@@ -174,16 +230,18 @@
     const planted = state.planted.has(p.id);
     const comps = (p.companions || []).slice(0, 2).map((c) => c.name);
     const extra = Math.max(0, (p.companions || []).length - comps.length);
-    const bloom = shortBloom(p.fields["Bloom time"]);
+    const bloom = shortBloom((p.fields || {})["Bloom time"]);
+    const images = p.images || [];
     const meta = [];
-    if (p.qty) meta.push(`<span class="card__qty">${p.qty} × ${esc(p.size)}</span>`);
+    const order = orderFor(p.id);
+    if (order && order.qty) meta.push(`<span class="card__qty">${order.qty} × ${esc(order.size)}</span>`);
     if (bloom) meta.push(`<span>Blooms ${esc(bloom)}</span>`);
 
     return `
       <article class="card${out ? " is-out" : ""}${planted ? " is-planted" : ""}" data-id="${esc(p.id)}" style="animation-delay:${Math.min(i * 35, 320)}ms">
         <div class="card__media">
-          <img src="${esc(p.images[0] ? p.images[0].src : "")}" alt="${esc(p.name)} (${esc(p.scientificName)})" loading="lazy" decoding="async" width="${p.images[0] ? p.images[0].w : 980}" height="${p.images[0] ? p.images[0].h : 735}">
-          <span class="card__no">No. ${String(ORDER.get(p.id) + 1).padStart(2, "0")}</span>
+          ${p.images && p.images[0] ? `<img src="${esc(images[0].src)}" alt="${esc(p.name)} (${esc(p.scientificName)})" loading="lazy" decoding="async" width="${images[0].w}" height="${images[0].h}">` : `<div class="card__placeholder" aria-hidden="true"><span>✦</span></div>`}
+          <span class="card__no">No. ${String((ORDER.get(p.id) ?? 0) + 1).padStart(2, "0")}</span>
           ${out ? `<span class="card__badge">${esc(p.note || "Not available")}</span>` : ""}
         </div>
         <div class="card__body">
@@ -191,7 +249,7 @@
           <p class="card__sci">${esc(p.scientificName)}</p>
           <div class="lights">
             <span class="lights__glyphs">${lightGlyphs(p.lights)}</span>
-            <span class="lights__text">${esc(lightPhrase(p.lights))}</span>
+            <span class="lights__text">${esc((p.lights || []).length ? lightPhrase(p.lights) : "Light not recorded")}</span>
           </div>
           <p class="card__meta">${meta.join("")}</p>
           ${p.note && p.available ? `<p class="card__meta"><span class="card__note">${esc(p.note)}</span></p>` : ""}
@@ -203,7 +261,7 @@
             <span class="planted__box"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 6.4 4.7 9 10 3.2"/></svg></span>
             <span class="planted__label">Planted</span>
           </label>
-          <a class="card__link" href="${esc(p.productUrl)}" target="_blank" rel="noopener">Sparrowhawk ↗</a>
+          ${p.productUrl ? `<a class="card__link" href="${esc(p.productUrl)}" target="_blank" rel="noopener">Sparrowhawk ↗</a>` : `<span class="card__link">Local plant</span>`}
         </div>
       </article>`;
   }
@@ -242,7 +300,7 @@
 
   function updateStats() {
     const total = state.plants.length;
-    const plantsToBuy = state.plants.reduce((n, p) => n + (p.qty || 0), 0);
+    const plantsToBuy = state.orders.reduce((n, p) => n + (p.qty || 0), 0);
     const inStock = state.plants.filter((p) => p.available).length;
     const planted = state.planted.size;
 
@@ -300,10 +358,11 @@
     const f = p.fields || {};
     const planted = state.planted.has(p.id);
 
-    const gallery = p.images.length
+    const images = p.images || [];
+    const gallery = images.length
       ? `<div class="drawer__gallery">
-           <img class="drawer__hero" id="drawer-hero" src="${esc(p.images[0].src)}" alt="${esc(p.name)}" width="${p.images[0].w}" height="${p.images[0].h}">
-           ${p.images.length > 1 ? `<div class="thumbs">${p.images
+           <img class="drawer__hero" id="drawer-hero" src="${esc(images[0].src)}" alt="${esc(p.name)}" width="${images[0].w}" height="${images[0].h}">
+           ${images.length > 1 ? `<div class="thumbs">${images
              .map((img, i) => `<button type="button" data-thumb="${i}" aria-current="${i === 0}" aria-label="Photo ${i + 1}"><img src="${esc(img.src)}" alt="" loading="lazy"></button>`)
              .join("")}</div>` : ""}
          </div>`
@@ -326,7 +385,7 @@
       <button class="drawer__close" type="button" data-close aria-label="Close plant details">✕</button>
       ${gallery}
       <div class="drawer__content">
-        <p class="drawer__kicker">No. ${String(ORDER.get(p.id) + 1).padStart(2, "0")}<span class="sep"></span>${esc(lightPhrase(p.lights))}<span class="sep"></span>${esc(p.available ? "In stock" : "Not available")}</p>
+        <p class="drawer__kicker">No. ${String((ORDER.get(p.id) ?? 0) + 1).padStart(2, "0")}<span class="sep"></span>${esc((p.lights || []).length ? lightPhrase(p.lights) : "Light not recorded")}<span class="sep"></span>${esc(p.available ? "In stock" : "Not available")}</p>
         <h2 id="drawer-title">${esc(p.name)}</h2>
         <p class="drawer__sci">${esc(p.scientificName)}</p>
 
@@ -341,11 +400,11 @@
           <button class="pill ${planted ? "pill--moss" : ""}" type="button" data-drawer-planted="${esc(p.id)}"><span>${planted ? "Planted ✓" : "Mark as planted"}</span></button>
         </div>
 
-        ${p.description ? `<p class="drawer__desc">${esc(p.description)}</p>` : ""}
+        ${p.description ? `<p class="drawer__desc">${esc(p.description)}</p>` : `<p class="drawer__desc">This plant was added to the local order. Use the Beaver Lake availability check in the order editor to confirm current nursery quantities.</p>`}
 
         <dl class="facts">
           ${fact("Light", prettyList(f["Light requirements"]) || lightPhrase(p.lights))}
-          ${fact("Moisture", prettyList(f["Moisture requirements"]) || prettyList(p.moistureTags.join(", ")))}
+          ${fact("Moisture", prettyList(f["Moisture requirements"]) || prettyList((p.moistureTags || []).join(", ")))}
           ${fact("Bloom time", (f["Bloom time"] || "").replace(/\s+-\s+/g, "–"))}
           ${fact("Size at maturity", f["Size at maturity"])}
           ${fact("Foliage", (p.evergreen || []).join(", "))}
@@ -379,7 +438,71 @@
     document.body.style.overflow = "";
   }
 
+  /* ----------------------------- order editor ----------------------------- */
+
+  function renderOrderRows() {
+    if (!state.orders.length) {
+      els.orderRows.innerHTML = `<p class="order-empty">Your order is empty. Add a plant below.</p>`;
+    } else {
+      els.orderRows.innerHTML = state.orders.map((item) => `
+        <div class="order-row" data-order-id="${esc(item.id)}">
+          <div class="order-row__name"><strong>${esc(item.name)}</strong><em>${esc(item.scientificName || "Scientific name not recorded")}</em></div>
+          <label>Qty<input type="number" min="1" step="1" data-order-field="qty" value="${Number(item.qty) || 1}"></label>
+          <label>Pot size<input type="text" data-order-field="size" value="${esc(item.size || "1 Gallon")}"></label>
+          <div class="availability-status ${availabilityFor(item).length ? "is-listed" : "is-missing"}">${esc(availabilitySummary(item))}</div>
+          <button class="order-remove" type="button" data-order-remove aria-label="Remove ${esc(item.name)}">Remove</button>
+        </div>`).join("");
+    }
+    const total = state.orders.reduce((n, x) => n + (Number(x.qty) || 0), 0);
+    els.orderStatus.textContent = `${state.orders.length} ${state.orders.length === 1 ? "plant" : "plants"} · ${total} total plants`;
+  }
+
+  function openOrderEditor() {
+    renderOrderRows();
+    if (typeof els.orderDialog.showModal === "function") els.orderDialog.showModal();
+    else els.orderDialog.setAttribute("open", "");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeOrderEditor() {
+    if (els.orderDialog.open && typeof els.orderDialog.close === "function") els.orderDialog.close();
+    else els.orderDialog.removeAttribute("open");
+    document.body.style.overflow = "";
+  }
+
+  function updateOrderItem(id, field, value) {
+    const item = orderFor(id);
+    if (!item) return;
+    if (field === "qty") item.qty = Math.max(1, Number(value) || 1);
+    if (field === "size") item.size = value.trim() || "1 Gallon";
+    const plant = state.plants.find((p) => p.id === id);
+    if (plant) { plant.qty = item.qty; plant.size = item.size; }
+    saveOrders(); render(); renderOrderRows();
+  }
+
+  function findAvailability(name, scientificName) {
+    const q = norm(name), sci = norm(scientificName);
+    if (sci) { const hit = state.availability.find((r) => norm(r.scientificName) === sci); if (hit) return hit; }
+    if (q) return state.availability.find((r) => norm(r.name) === q) || state.availability.find((r) => norm(r.name).includes(q) || q.includes(norm(r.name)));
+    return null;
+  }
+
+  function updateAddMatch() {
+    const name = $("#new-plant-name").value, sci = $("#new-plant-scientific").value;
+    if (!name && !sci) { els.addMatch.textContent = ""; return; }
+    const hit = findAvailability(name, sci);
+    els.addMatch.textContent = hit ? `Beaver Lake match: ${hit.name} (${hit.scientificName}) · ${availabilitySummary({ name: hit.name, scientificName: hit.scientificName, size: $("#new-plant-size").value })}` : "No exact Beaver Lake match yet — you can still add this as a custom plant.";
+  }
+
   /* -------------------------------- events -------------------------------- */
+
+  $("#order-open").addEventListener("click", openOrderEditor);
+  $("#order-close").addEventListener("click", closeOrderEditor);
+  els.orderDialog.addEventListener("click", (e) => { if (e.target === els.orderDialog) closeOrderEditor(); });
+  els.orderRows.addEventListener("input", (e) => { const row = e.target.closest("[data-order-id]"); const field = e.target.dataset.orderField; if (row && field) updateOrderItem(row.dataset.orderId, field, e.target.value); });
+  els.orderRows.addEventListener("click", (e) => { const btn = e.target.closest("[data-order-remove]"); if (!btn) return; const row = btn.closest("[data-order-id]"); state.orders = state.orders.filter((x) => x.id !== row.dataset.orderId); state.plants = state.plants.filter((p) => p.id !== row.dataset.orderId); saveOrders(); render(); renderOrderRows(); });
+  ["#new-plant-name", "#new-plant-scientific", "#new-plant-size"].forEach((sel) => $(sel).addEventListener("input", updateAddMatch));
+  els.addForm.addEventListener("submit", (e) => { e.preventDefault(); const name = $("#new-plant-name").value.trim(); const scientificName = $("#new-plant-scientific").value.trim(); const qty = Math.max(1, Number($("#new-plant-qty").value) || 1); const size = $("#new-plant-size").value.trim() || "1 Gallon"; if (!name) return; const hit = findAvailability(name, scientificName); const id = `custom-${slugify(name)}-${Date.now()}`; const p = { id, name: hit ? hit.name : name, scientificName: hit ? hit.scientificName : scientificName, qty, size, available: Boolean(hit && availabilityFor({ name: hit.name, scientificName: hit.scientificName, size }).some((r) => r.availableNow > 0)), note: hit ? "Beaver Lake snapshot match" : "Custom plant", lights: [], images: [], companions: [], fields: {}, productUrl: "" }; state.plants.push(p); ORDER.set(id, state.plants.length - 1); state.orders.push({ id, name: p.name, scientificName: p.scientificName, qty, size }); saveOrders(); render(); renderOrderRows(); els.addForm.reset(); $("#new-plant-qty").value = 1; $("#new-plant-size").value = "1 Gallon"; els.addMatch.textContent = `${p.name} added to your order.`; });
 
   els.grid.addEventListener("click", (e) => {
     const openBtn = e.target.closest("[data-open]");
@@ -502,19 +625,22 @@
 
   /* --------------------------------- boot --------------------------------- */
 
-  fetch("data/plants.json")
-    .then((r) => {
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      return r.json();
-    })
-    .then((data) => {
+  Promise.all([
+    fetch("data/plants.json").then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
+    fetch("data/beaverlake-availability.json").then((r) => r.ok ? r.json() : null).catch(() => null),
+  ]).then(([data, availability]) => {
       state.plants = data.plants;
       state.companionMethod = data.companionMethod || "";
       state.companionSources = data.companionSources || [];
+      state.availability = availability && availability.rows ? availability.rows : [];
+      state.availabilityMeta = availability || {};
+      state.orders = readOrders(state.plants);
+      state.orders.forEach((o) => { const p = state.plants.find((x) => x.id === o.id); if (p) { p.qty = o.qty; p.size = o.size; } });
       state.plants.forEach((p, i) => ORDER.set(p.id, i));
+      if (availability && availability.snapshot) { const d = new Date(`${availability.snapshot}T12:00:00`); const el = $("#availability-date"); if (el) el.textContent = d.toLocaleDateString("en-US", { month: "long", year: "numeric" }); }
 
       const species = state.plants.length;
-      const toBuy = state.plants.reduce((n, p) => n + (p.qty || 0), 0);
+      const toBuy = state.orders.reduce((n, p) => n + (p.qty || 0), 0);
       const stock = state.plants.filter((p) => p.available).length;
       $('[data-stat="species"]').textContent = species;
       $('[data-stat="plants"]').textContent = toBuy;

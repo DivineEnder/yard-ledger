@@ -1119,3 +1119,54 @@ button { cursor: pointer; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
 }
+
+
+/* ----------------------------- order editor ----------------------------- */
+.order-button {
+  border: 1px solid var(--moss-2); background: var(--moss); color: var(--paper);
+  padding: .48rem .8rem; border-radius: 2px; font-family: var(--mono); font-size: .62rem;
+  letter-spacing: .08em; text-transform: uppercase;
+}
+.order-button:hover { background: var(--moss-2); color: var(--paper); }
+.order-dialog { width: min(940px, calc(100% - 2rem)); max-width: 940px; max-height: min(92dvh, 900px); padding: 0; border: 1px solid var(--line-2); background: var(--card); color: var(--ink); box-shadow: 0 24px 80px rgba(0,0,0,.45); }
+.order-dialog::backdrop { background: rgba(15, 23, 17, .72); backdrop-filter: blur(3px); }
+.order-dialog__inner { max-height: min(92dvh, 900px); overflow: auto; }
+.order-dialog__close { position: absolute; top: .65rem; right: .65rem; }
+.order-dialog__content { padding: 2.2rem clamp(1.1rem, 4vw, 2.5rem) 2.4rem; }
+.order-dialog h2 { font-family: var(--serif); font-size: clamp(2rem, 5vw, 3rem); font-weight: 400; line-height: 1; margin: 0 0 .45rem; }
+.order-dialog h3 { margin: 2rem 0 .7rem; font-family: var(--mono); font-size: .65rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--line-2); padding-bottom: .5rem; }
+.order-status { margin: 1rem 0; font-family: var(--mono); font-size: .65rem; letter-spacing: .08em; text-transform: uppercase; color: var(--moss-2); }
+.order-rows { border-top: 1px solid var(--line-2); }
+.order-row { display: grid; grid-template-columns: minmax(11rem, 1.3fr) 5.2rem 8.5rem minmax(10rem, 1fr) auto; align-items: center; gap: .7rem; padding: .85rem 0; border-bottom: 1px solid var(--line); }
+.order-row__name { min-width: 0; display: flex; flex-direction: column; gap: .12rem; }
+.order-row__name strong { font-family: var(--serif); font-weight: 400; font-size: 1.05rem; }
+.order-row__name em { font-family: var(--serif); color: var(--muted); font-size: .76rem; }
+.order-row label, .add-plant-form label { display: flex; flex-direction: column; gap: .25rem; font-family: var(--mono); font-size: .57rem; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); }
+.order-row input, .add-plant-form input { width: 100%; padding: .42rem .48rem; border: 1px solid var(--line-2); background: rgba(28,42,32,.55); color: var(--ink); font-size: .86rem; letter-spacing: normal; text-transform: none; }
+.availability-status { font-size: .72rem; line-height: 1.35; color: var(--clay); }
+.availability-status.is-listed { color: var(--moss-2); }
+.order-remove { border: 0; background: transparent; color: var(--muted); font-family: var(--mono); font-size: .58rem; text-transform: uppercase; letter-spacing: .08em; padding: .35rem; }
+.order-remove:hover { color: var(--clay); }
+.order-empty { color: var(--muted); font-style: italic; }
+.add-plant-form { margin-top: 1.5rem; padding-top: .2rem; border-top: 1px solid var(--line-2); }
+.add-plant-form__grid { display: grid; grid-template-columns: 1.35fr 1.35fr .65fr .9fr; gap: .7rem; }
+.add-plant-match { min-height: 1.4rem; margin: .8rem 0 0; color: var(--moss-2); font-size: .8rem; }
+.availability-foot { margin: 1.7rem 0 0; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .76rem; line-height: 1.55; }
+.availability-foot a { color: var(--moss-2); }
+.card__placeholder { aspect-ratio: 4 / 3.15; display: grid; place-items: center; background: linear-gradient(135deg, rgba(118,81,60,.25), rgba(42,60,45,.95)); color: var(--moss-2); font-family: var(--serif); font-size: 2.5rem; }
+.grid.is-compact .card__placeholder { aspect-ratio: 1 / 1; font-size: 1.4rem; }
+@media (max-width: 820px) {
+  .order-row { grid-template-columns: 1fr 5rem 8rem; }
+  .order-row__name { grid-column: 1 / -1; }
+  .availability-status { grid-column: 1 / 3; }
+  .order-remove { grid-column: 3; grid-row: 2; }
+  .add-plant-form__grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 520px) {
+  .order-dialog { width: calc(100% - 1rem); }
+  .order-dialog__content { padding-inline: .9rem; }
+  .order-row { grid-template-columns: 1fr 1fr; }
+  .availability-status { grid-column: 1 / -1; }
+  .order-remove { grid-column: 2; grid-row: auto; justify-self: end; }
+  .add-plant-form__grid { grid-template-columns: 1fr; }
+}
