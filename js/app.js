@@ -161,6 +161,19 @@
     return text.join("  /  ") + (shown.length < (rows.length || allRows.length) ? "  /  +more sizes" : "");
   }
 
+  function nurseryDetailHTML(plant) {
+    const rows = nurseryRowsFor(plant);
+    if (!rows.length) return `<section class="drawer__nursery"><h3>Beaver Lake availability</h3><p class="drawer__nursery-empty">Not listed in the current snapshot.</p></section>`;
+    return `<section class="drawer__nursery">
+      <h3>Beaver Lake availability</h3>
+      <p class="drawer__nursery-note">Snapshot pricing by container size. Confirm current quantities with the nursery before ordering.</p>
+      <div class="nursery-table" role="table" aria-label="Beaver Lake availability by pot size">
+        <div class="nursery-table__row nursery-table__head" role="row"><span>Size</span><span>Price</span><span>Available now</span><span>Spring</span><span>Future</span></div>
+        ${rows.map((r) => `<div class="nursery-table__row" role="row"><span>${esc(r.size)}</span><span>${formatMoney(Number.isFinite(Number(r.price)) ? Number(r.price) : null)}</span><span>${Number(r.availableNow || 0).toLocaleString()}</span><span>${Number(r.spring || 0).toLocaleString()}</span><span>${Number(r.future || 0).toLocaleString()}</span></div>`).join("")}
+      </div>
+    </section>`;
+  }
+
   function budgetTotals() {
     return state.orders.reduce((out, item) => {
       const unit = priceFor(item);
@@ -446,6 +459,8 @@
           ${p.qty && p.note ? `<span class="pill pill--clay">${esc(p.note)}</span>` : ""}
           <span class="pill">${esc(shortType(f["Plant type/canopy layer"]) || "Native perennial")}</span>
         </div>
+
+        ${nurseryDetailHTML(p)}
 
         <div class="drawer__planted">
           <p>${planted ? "This one is in the ground." : "Still to plant."}</p>
