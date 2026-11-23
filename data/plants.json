@@ -4206,6 +4206,226 @@
      "why": "shares shady woodland"
     }
    ]
+  },
+  {
+   "id": "oregon-honeysuckle",
+   "name": "Oregon Honeysuckle",
+   "catalogName": "Orange Honeysuckle",
+   "qty": 0,
+   "size": "",
+   "note": "Added from Sparrowhawk catalogue",
+   "available": true,
+   "images": [
+    {
+     "src": "images/oregon-honeysuckle-1.jpg",
+     "w": 840,
+     "h": 840
+    },
+    {
+     "src": "images/oregon-honeysuckle-2.jpg",
+     "w": 1024,
+     "h": 768
+    },
+    {
+     "src": "images/oregon-honeysuckle-3.jpg",
+     "w": 1024,
+     "h": 1024
+    }
+   ],
+   "scientificName": "Lonicera ciliosa",
+   "description": "Oregon honeysuckle, listed by Sparrowhawk as orange honeysuckle, is a native northwest vine with lightly fragrant, tangerine-toned trumpet flowers that attract hummingbirds and insect pollinators. Its vines provide nesting and refuge opportunities, while orange-red berries feed birds and small mammals.",
+   "gardening": "Give this sprawling vine a trellis, arbor, fence, or woodland edge where it can climb or ramble. It tolerates part sun through full shade and moist to dry soil, with more summer moisture needed in brighter locations.",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, vine",
+    "Size at maturity": "vine can grow up to 30' long",
+    "Light requirements": "part sun/part shade, full shade",
+    "Moisture requirements": "moist to dry soil",
+    "Bloom time": "April - July",
+    "Growth rate/ease": "fast growing, moderately easy to grow",
+    "Wildlife support": "flowers provide nectar for hummingbirds, butterflies, bees and other pollinators; berries feed birds and small mammals; vines provide nesting and refuge habitat",
+    "Native habitat/range": "open woodlands, forest edges, north-facing slopes and streambanks from British Columbia through western Washington and Oregon into northern California. Portland Plant List - yes.",
+    "Special features & uses": "hummingbird magnet; drought-tolerant; landscape uses include habitat hedgerows, pollinator gardens and woodland gardens"
+   },
+   "lightTags": [
+    "part sun / part shade",
+    "full shade"
+   ],
+   "lights": [
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil"
+   ],
+   "canopy": [
+    "vine"
+   ],
+   "collections": [
+    "newbie",
+    "woodland"
+   ],
+   "special": [
+    "supports hummingbirds",
+    "wildlife favorite"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Images and plant profile from Sparrowhawk Native Plants; image credits remain with the original photographers.",
+   "productUrl": "https://sparrowhawknativeplants.com/products/orange-honeysuckle-1",
+   "handle": "orange-honeysuckle",
+   "companions": []
+  },
+  {
+   "id": "hairy-honeysuckle",
+   "name": "Hairy Honeysuckle",
+   "catalogName": "Hairy Honeysuckle",
+   "qty": 0,
+   "size": "",
+   "note": "Added from Sparrowhawk catalogue",
+   "available": true,
+   "images": [
+    {
+     "src": "images/hairy-honeysuckle-1.jpg",
+     "w": 1536,
+     "h": 1536
+    },
+    {
+     "src": "images/hairy-honeysuckle-2.jpg",
+     "w": 642,
+     "h": 899
+    },
+    {
+     "src": "images/hairy-honeysuckle-3.jpg",
+     "w": 1536,
+     "h": 2048
+    }
+   ],
+   "scientificName": "Lonicera hispidula",
+   "description": "Hairy honeysuckle is one of the region's few native vines, with lightly perfumed pink to purple tubular flowers, twining branches, and bright red fall berries. Its foliage and structure support pollinators, birds, and native moths and butterflies.",
+   "gardening": "Use it on a trellis or let it sprawl along a woodland edge, slope, or hedgerow. It tolerates full sun through full shade and moist to dry soil, but prefers partial sunshine, acidic well-drained soil, and summer-dry conditions once established.",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, sprawling vine/small shrub",
+    "Size at maturity": "vine can grow up to 20' long",
+    "Light requirements": "part sun/part shade, full sun, full shade",
+    "Moisture requirements": "moist to dry soil",
+    "Bloom time": "May - August",
+    "Growth rate/ease": "fast growing, relatively easy to grow",
+    "Wildlife support": "flowers attract hummingbirds and insect pollinators; berries feed birds; branches provide nesting sites; foliage supports native butterflies and moths",
+    "Native habitat/range": "open mixed woods, clearings, slopes and streambanks west of the Cascade crest throughout British Columbia, Washington and Oregon and into California. Portland Plant List - yes.",
+    "Special features & uses": "wildlife favorite; deer resistant; landscape uses include pollinator gardens, open woodland gardens, bank stabilization, erosion control and habitat hedgerows"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade",
+    "full shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil"
+   ],
+   "canopy": [
+    "vine",
+    "small shrub"
+   ],
+   "collections": [
+    "newbie",
+    "woodland"
+   ],
+   "special": [
+    "wildlife favorite",
+    "deer resistant"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Images and plant profile from Sparrowhawk Native Plants; image credits remain with the original photographers.",
+   "productUrl": "https://sparrowhawknativeplants.com/products/hairy-honeysuckle",
+   "handle": "hairy-honeysuckle",
+   "companions": []
+  },
+  {
+   "id": "oregon-white-oak",
+   "name": "Oregon White Oak",
+   "catalogName": "Oregon White Oak",
+   "qty": 0,
+   "size": "",
+   "note": "Added from Sparrowhawk catalogue",
+   "available": true,
+   "images": [
+    {
+     "src": "images/oregon-white-oak-1.jpg",
+     "w": 683,
+     "h": 683
+    },
+    {
+     "src": "images/oregon-white-oak-2.jpg",
+     "w": 1024,
+     "h": 683
+    },
+    {
+     "src": "images/oregon-white-oak-3.jpg",
+     "w": 1024,
+     "h": 683
+    }
+   ],
+   "scientificName": "Quercus garryana",
+   "description": "Oregon white oak is a long-lived, drought-tolerant legacy tree whose sweeping branches and hollow trunks support an exceptional range of wildlife. It is a defining species of Willamette Valley oak woodlands and savannas.",
+   "gardening": "Give this tree ample sun, room for its mature canopy, and well-drained dry to moist soil. Water deeply but infrequently during the first two to three years while it establishes its extensive root system.",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, large tree",
+    "Size at maturity": "40-65' tall, 30-70' wide",
+    "Light requirements": "full sun",
+    "Moisture requirements": "dry to moist soil, well-drained",
+    "Bloom time": "April - June",
+    "Growth rate/ease": "medium growth over the long term, moderately easy to grow",
+    "Wildlife support": "supports hundreds of species of insects, birds and mammals; flowers support pollinators, leaves host larvae, and acorns feed birds and mammals",
+    "Native habitat/range": "open grasslands, dry hillsides and woodlands of the Pacific Northwest west of the Cascades, especially the Willamette Valley. Portland Plant List - yes.",
+    "Special features & uses": "wildlife favorite; drought-tolerant; edible acorns; landscape uses include pollinator gardens, erosion control, habitat hedgerows and windbreaks"
+   },
+   "lightTags": [
+    "full sun"
+   ],
+   "lights": [
+    "full-sun"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil"
+   ],
+   "canopy": [
+    "large tree"
+   ],
+   "collections": [
+    "oakscape",
+    "sunny yard"
+   ],
+   "special": [
+    "wildlife favorite",
+    "drought tolerant"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Images and plant profile from Sparrowhawk Native Plants; image credits remain with the original photographers.",
+   "productUrl": "https://sparrowhawknativeplants.com/products/oregon-white-oak",
+   "handle": "oregon-white-oak",
+   "companions": []
   }
  ]
 }
