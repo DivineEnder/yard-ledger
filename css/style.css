@@ -202,6 +202,15 @@ button { cursor: pointer; }
   transition: width 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
+.stats-banner {
+  border-bottom: 1px solid var(--line-2);
+  background: linear-gradient(90deg, rgba(118, 81, 60, 0.13), transparent 55%);
+}
+.stats-banner .stats {
+  padding-block: 1.15rem 1.25rem;
+  border-top: 0;
+}
+
 .hero__figure { margin: 0; }
 .hero__frame {
   position: relative;
