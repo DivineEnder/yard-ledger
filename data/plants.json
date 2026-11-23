@@ -1,6 +1,25 @@
 {
  "source": "https://sparrowhawknativeplants.com",
- "updated": "2026-11-21",
+ "updated": "2026-11-23",
+ "companionMethod": "Habitat-fit suggestions: shared light and moisture first, then native ecosystem affinity, canopy layering, and nursery collection overlap. These are regional plant-community matches—not strict horticultural prescriptions.",
+ "companionSources": [
+  {
+   "label": "Xerces Maritime Northwest native plant list",
+   "url": "https://xerces.org/publications/plant-lists/native-plants-for-pollinators-and-beneficial-insects-maritime-northwest"
+  },
+  {
+   "label": "OSU Extension native plant gardening",
+   "url": "https://extension.oregonstate.edu/collection/native-plant-gardening"
+  },
+  {
+   "label": "US Forest Service: Pacific bleeding-heart habitat profile",
+   "url": "https://www.fs.usda.gov/managing-land/wildflowers/plant-of-the-week/dicentra-formosa"
+  },
+  {
+   "label": "Washington Native Plant Society directory",
+   "url": "https://www.wnps.org/native-plant-directory"
+  }
+ ],
  "lightLabels": {
   "full-sun": "Full sun",
   "part-shade": "Part sun / part shade",
@@ -83,20 +102,6 @@
    "handle": "yarrow",
    "companions": [
     {
-     "name": "Blue Elderberry",
-     "lights": [
-      "full-sun",
-      "part-shade"
-     ],
-     "moisture": [
-      "dry soil",
-      "moist soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/blue-elderberry",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
      "name": "Kinnikinnick",
      "lights": [
       "full-sun"
@@ -125,6 +130,20 @@
      "why": "also on your list"
     },
     {
+     "name": "Blue Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/blue-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
      "name": "Common Chokecherry",
      "lights": [
       "full-sun",
@@ -137,6 +156,20 @@
      "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
      "inList": true,
      "why": "also on your list"
+    },
+    {
+     "name": "Big Leaf Maple",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/big-leaf-maple",
+     "inList": false,
+     "why": "shares beat the heat"
     }
    ]
   },
@@ -217,6 +250,48 @@
    "handle": "red-columbine",
    "companions": [
     {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Kinnikinnick",
+     "lights": [
+      "full-sun"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/kinnikinnick",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Early Blue Violet",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/early-blue-violet",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
      "name": "Black Twinberry",
      "lights": [
       "full-sun",
@@ -231,7 +306,7 @@
      "why": "also on your list"
     },
     {
-     "name": "Blue Elderberry",
+     "name": "Big Leaf Maple",
      "lights": [
       "full-sun",
       "part-shade"
@@ -240,38 +315,22 @@
       "dry soil",
       "moist soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/blue-elderberry",
-     "inList": true,
-     "why": "also on your list"
+     "url": "https://sparrowhawknativeplants.com/products/big-leaf-maple",
+     "inList": false,
+     "why": "shares newbie"
     },
     {
-     "name": "Common Chokecherry",
+     "name": "Hairy Honeysuckle",
      "lights": [
-      "full-sun",
-      "part-shade"
-     ],
-     "moisture": [
-      "moist soil",
-      "wet soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
-     "name": "Common Camas",
-     "lights": [
-      "full-sun",
       "part-shade"
      ],
      "moisture": [
       "dry soil",
-      "moist soil",
-      "wet soil"
+      "moist soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
-     "inList": true,
-     "why": "also on your list"
+     "url": "https://sparrowhawknativeplants.com/products/hairy-honeysuckle",
+     "inList": false,
+     "why": "same light and moisture"
     }
    ]
   },
@@ -365,6 +424,21 @@
      "why": "also on your list"
     },
     {
+     "name": "Nootka Rose",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/nootka-rose",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
      "name": "Common Camas",
      "lights": [
       "full-sun",
@@ -380,19 +454,32 @@
      "why": "also on your list"
     },
     {
-     "name": "Lady Fern",
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Vine Maple",
      "lights": [
       "full-sun",
       "part-shade",
       "full-shade"
      ],
      "moisture": [
-      "moist soil",
-      "wet soil"
+      "moist soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/lady-fern",
-     "inList": false,
-     "why": "shares newbie"
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "also on your list"
     },
     {
      "name": "Red Alder",
@@ -485,20 +572,6 @@
    "handle": "oregon-oxalis",
    "companions": [
     {
-     "name": "Salal",
-     "lights": [
-      "part-shade",
-      "full-shade"
-     ],
-     "moisture": [
-      "dry soil",
-      "moist soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/salal",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
      "name": "Early Blue Violet",
      "lights": [
       "full-sun",
@@ -510,6 +583,20 @@
       "moist soil"
      ],
      "url": "https://sparrowhawknativeplants.com/products/early-blue-violet",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
      "inList": true,
      "why": "also on your list"
     },
@@ -540,6 +627,35 @@
      "url": "https://sparrowhawknativeplants.com/products/vine-maple",
      "inList": true,
      "why": "also on your list"
+    },
+    {
+     "name": "Grand Fir",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/grand-fir",
+     "inList": false,
+     "why": "shares newbie"
+    },
+    {
+     "name": "Orange Honeysuckle",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/orange-honeysuckle-1",
+     "inList": false,
+     "why": "shares shady woodland"
     }
    ]
   },
@@ -617,6 +733,47 @@
    "handle": "false-lily-of-the-valley",
    "companions": [
     {
+     "name": "Candyflower",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/candy-flower",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Early Blue Violet",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/early-blue-violet",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Spreading Wood Fern",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/spreading-wood-fern",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
      "name": "Evergreen Huckleberry",
      "lights": [
       "full-sun",
@@ -645,21 +802,9 @@
      "why": "also on your list"
     },
     {
-     "name": "Candyflower",
+     "name": "Grand Fir",
      "lights": [
-      "part-shade",
-      "full-shade"
-     ],
-     "moisture": [
-      "moist soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/candy-flower",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
-     "name": "Salal",
-     "lights": [
+      "full-sun",
       "part-shade",
       "full-shade"
      ],
@@ -667,9 +812,9 @@
       "dry soil",
       "moist soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/salal",
-     "inList": true,
-     "why": "also on your list"
+     "url": "https://sparrowhawknativeplants.com/products/grand-fir",
+     "inList": false,
+     "why": "shares newbie"
     }
    ]
   },
@@ -798,6 +943,34 @@
      "url": "https://sparrowhawknativeplants.com/products/vine-maple",
      "inList": true,
      "why": "also on your list"
+    },
+    {
+     "name": "Candyflower",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/candy-flower",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Grand Fir",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/grand-fir",
+     "inList": false,
+     "why": "shares shady woodland"
     }
    ]
   },
@@ -905,21 +1078,48 @@
      "why": "also on your list"
     },
     {
-     "name": "Common Chokecherry",
+     "name": "Spreading Wood Fern",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/spreading-wood-fern",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Vine Maple",
      "lights": [
       "full-sun",
-      "part-shade"
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Western Red Cedar",
+     "lights": [
+      "part-shade",
+      "full-shade"
      ],
      "moisture": [
       "moist soil",
       "wet soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
-     "inList": true,
-     "why": "also on your list"
+     "url": "https://sparrowhawknativeplants.com/products/western-red-cedar",
+     "inList": false,
+     "why": "shares rain garden"
     },
     {
-     "name": "Salal",
+     "name": "Orange Honeysuckle",
      "lights": [
       "part-shade",
       "full-shade"
@@ -928,9 +1128,9 @@
       "dry soil",
       "moist soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/salal",
-     "inList": true,
-     "why": "also on your list"
+     "url": "https://sparrowhawknativeplants.com/products/orange-honeysuckle-1",
+     "inList": false,
+     "why": "shares shady woodland"
     }
    ]
   },
@@ -1011,6 +1211,34 @@
    "handle": "kinnikinnick",
    "companions": [
     {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Western Yarrow",
+     "lights": [
+      "full-sun"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/yarrow",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
      "name": "Blue Elderberry",
      "lights": [
       "full-sun",
@@ -1025,17 +1253,15 @@
      "why": "also on your list"
     },
     {
-     "name": "Common Camas",
+     "name": "Mahala Mat",
      "lights": [
       "full-sun",
       "part-shade"
      ],
      "moisture": [
-      "dry soil",
-      "moist soil",
-      "wet soil"
+      "dry soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "url": "https://sparrowhawknativeplants.com/products/mahala-mat",
      "inList": true,
      "why": "also on your list"
     },
@@ -1163,17 +1389,29 @@
      "why": "also on your list"
     },
     {
-     "name": "Western Serviceberry",
+     "name": "Yellow Monkeyflower",
      "lights": [
       "full-sun",
       "part-shade"
      ],
      "moisture": [
-      "dry soil",
       "moist soil",
       "wet soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/western-serviceberry",
+     "url": "https://sparrowhawknativeplants.com/products/yellow-monkeyflower",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Kinnikinnick",
+     "lights": [
+      "full-sun"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/kinnikinnick",
      "inList": true,
      "why": "also on your list"
     },
@@ -1205,6 +1443,19 @@
      "url": "https://sparrowhawknativeplants.com/products/red-alder",
      "inList": false,
      "why": "shares newbie"
+    },
+    {
+     "name": "Hairy Honeysuckle",
+     "lights": [
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/hairy-honeysuckle",
+     "inList": false,
+     "why": "same light and moisture"
     }
    ]
   },
@@ -1286,21 +1537,6 @@
    "handle": "black-twinberry",
    "companions": [
     {
-     "name": "Common Camas",
-     "lights": [
-      "full-sun",
-      "part-shade"
-     ],
-     "moisture": [
-      "dry soil",
-      "moist soil",
-      "wet soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
      "name": "Common Chokecherry",
      "lights": [
       "full-sun",
@@ -1330,19 +1566,60 @@
      "why": "also on your list"
     },
     {
-     "name": "Lady Fern",
+     "name": "Yellow Monkeyflower",
      "lights": [
       "full-sun",
-      "part-shade",
-      "full-shade"
+      "part-shade"
      ],
      "moisture": [
       "moist soil",
       "wet soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/lady-fern",
+     "url": "https://sparrowhawknativeplants.com/products/yellow-monkeyflower",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Red Alder",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-alder",
      "inList": false,
      "why": "shares newbie"
+    },
+    {
+     "name": "Hairy Honeysuckle",
+     "lights": [
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/hairy-honeysuckle",
+     "inList": false,
+     "why": "same light and moisture"
     }
    ]
   },
@@ -1427,21 +1704,6 @@
    "handle": "nootka-rose",
    "companions": [
     {
-     "name": "Common Camas",
-     "lights": [
-      "full-sun",
-      "part-shade"
-     ],
-     "moisture": [
-      "dry soil",
-      "moist soil",
-      "wet soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
      "name": "Western Serviceberry",
      "lights": [
       "full-sun",
@@ -1457,6 +1719,20 @@
      "why": "also on your list"
     },
     {
+     "name": "Blue Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/blue-elderberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
      "name": "Common Chokecherry",
      "lights": [
       "full-sun",
@@ -1467,6 +1743,35 @@
       "wet soil"
      ],
      "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
      "inList": true,
      "why": "also on your list"
     },
@@ -1580,6 +1885,20 @@
      "why": "also on your list"
     },
     {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
      "name": "Common Camas",
      "lights": [
       "full-sun",
@@ -1595,16 +1914,15 @@
      "why": "also on your list"
     },
     {
-     "name": "Common Chokecherry",
+     "name": "Kinnikinnick",
      "lights": [
-      "full-sun",
-      "part-shade"
+      "full-sun"
      ],
      "moisture": [
-      "moist soil",
-      "wet soil"
+      "dry soil",
+      "moist soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "url": "https://sparrowhawknativeplants.com/products/kinnikinnick",
      "inList": true,
      "why": "also on your list"
     },
@@ -1622,6 +1940,19 @@
      "url": "https://sparrowhawknativeplants.com/products/red-alder",
      "inList": false,
      "why": "shares sunny yard"
+    },
+    {
+     "name": "Hairy Honeysuckle",
+     "lights": [
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/hairy-honeysuckle",
+     "inList": false,
+     "why": "same light and moisture"
     }
    ]
   },
@@ -1704,21 +2035,6 @@
    "handle": "blue-elderberry",
    "companions": [
     {
-     "name": "Common Camas",
-     "lights": [
-      "full-sun",
-      "part-shade"
-     ],
-     "moisture": [
-      "dry soil",
-      "moist soil",
-      "wet soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
      "name": "Nootka Rose",
      "lights": [
       "full-sun",
@@ -1730,6 +2046,21 @@
       "wet soil"
      ],
      "url": "https://sparrowhawknativeplants.com/products/nootka-rose",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Western Serviceberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/western-serviceberry",
      "inList": true,
      "why": "also on your list"
     },
@@ -1748,6 +2079,21 @@
      "why": "also on your list"
     },
     {
+     "name": "Common Camas",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
      "name": "Kinnikinnick",
      "lights": [
       "full-sun"
@@ -1759,6 +2105,20 @@
      "url": "https://sparrowhawknativeplants.com/products/kinnikinnick",
      "inList": true,
      "why": "also on your list"
+    },
+    {
+     "name": "Big Leaf Maple",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/big-leaf-maple",
+     "inList": false,
+     "why": "shares newbie"
     }
    ]
   },
@@ -1857,16 +2217,17 @@
      "why": "also on your list"
     },
     {
-     "name": "Black Twinberry",
+     "name": "Nootka Rose",
      "lights": [
       "full-sun",
       "part-shade"
      ],
      "moisture": [
+      "dry soil",
       "moist soil",
       "wet soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/black-twinberry",
+     "url": "https://sparrowhawknativeplants.com/products/nootka-rose",
      "inList": true,
      "why": "also on your list"
     },
@@ -1898,6 +2259,34 @@
      "url": "https://sparrowhawknativeplants.com/products/lady-fern",
      "inList": false,
      "why": "shares rain garden"
+    },
+    {
+     "name": "Red Alder",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-alder",
+     "inList": false,
+     "why": "shares rain garden"
+    },
+    {
+     "name": "Hairy Honeysuckle",
+     "lights": [
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/hairy-honeysuckle",
+     "inList": false,
+     "why": "same light and moisture"
     }
    ]
   },
@@ -1975,30 +2364,17 @@
    "handle": "purple-monkeyflower",
    "companions": [
     {
-     "name": "Black Twinberry",
+     "name": "Nootka Rose",
      "lights": [
       "full-sun",
       "part-shade"
      ],
      "moisture": [
+      "dry soil",
       "moist soil",
       "wet soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/black-twinberry",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
-     "name": "Common Chokecherry",
-     "lights": [
-      "full-sun",
-      "part-shade"
-     ],
-     "moisture": [
-      "moist soil",
-      "wet soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "url": "https://sparrowhawknativeplants.com/products/nootka-rose",
      "inList": true,
      "why": "also on your list"
     },
@@ -2018,6 +2394,20 @@
      "why": "also on your list"
     },
     {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
      "name": "Red Alder",
      "lights": [
       "full-sun",
@@ -2029,6 +2419,20 @@
       "wet soil"
      ],
      "url": "https://sparrowhawknativeplants.com/products/red-alder",
+     "inList": false,
+     "why": "shares rain garden"
+    },
+    {
+     "name": "Rosy Spiraea",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/rosy-spiraea",
      "inList": false,
      "why": "shares rain garden"
     }
@@ -2111,35 +2515,6 @@
    "handle": "grand-collomia-seed-packet",
    "companions": [
     {
-     "name": "Blue Elderberry",
-     "lights": [
-      "full-sun",
-      "part-shade"
-     ],
-     "moisture": [
-      "dry soil",
-      "moist soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/blue-elderberry",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
-     "name": "Nootka Rose",
-     "lights": [
-      "full-sun",
-      "part-shade"
-     ],
-     "moisture": [
-      "dry soil",
-      "moist soil",
-      "wet soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/nootka-rose",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
      "name": "Common Camas",
      "lights": [
       "full-sun",
@@ -2151,6 +2526,33 @@
       "wet soil"
      ],
      "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Kinnikinnick",
+     "lights": [
+      "full-sun"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/kinnikinnick",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Blue Elderberry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/blue-elderberry",
      "inList": true,
      "why": "also on your list"
     },
@@ -2167,6 +2569,33 @@
      "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
      "inList": true,
      "why": "also on your list"
+    },
+    {
+     "name": "Big Leaf Maple",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/big-leaf-maple",
+     "inList": false,
+     "why": "shares newbie"
+    },
+    {
+     "name": "Hairy Honeysuckle",
+     "lights": [
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/hairy-honeysuckle",
+     "inList": false,
+     "why": "same light and moisture"
     }
    ]
   },
@@ -2249,20 +2678,6 @@
    "handle": "early-blue-violet",
    "companions": [
     {
-     "name": "Evergreen Huckleberry",
-     "lights": [
-      "full-sun",
-      "part-shade",
-      "full-shade"
-     ],
-     "moisture": [
-      "moist soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/evergreen-huckleberry",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
      "name": "Vine Maple",
      "lights": [
       "full-sun",
@@ -2277,9 +2692,8 @@
      "why": "also on your list"
     },
     {
-     "name": "Baldhip Rose",
+     "name": "Oregon Oxalis",
      "lights": [
-      "full-sun",
       "part-shade",
       "full-shade"
      ],
@@ -2287,9 +2701,36 @@
       "dry soil",
       "moist soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/baldhip-rose",
-     "inList": false,
-     "why": "shares newbie"
+     "url": "https://sparrowhawknativeplants.com/products/oregon-oxalis",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Evergreen Huckleberry",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/evergreen-huckleberry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Spreading Wood Fern",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/spreading-wood-fern",
+     "inList": true,
+     "why": "also on your list"
     },
     {
      "name": "Grand Fir",
@@ -2305,6 +2746,20 @@
      "url": "https://sparrowhawknativeplants.com/products/grand-fir",
      "inList": false,
      "why": "shares newbie"
+    },
+    {
+     "name": "Orange Honeysuckle",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/orange-honeysuckle-1",
+     "inList": false,
+     "why": "shares shady woodland"
     }
    ]
   },
@@ -2409,16 +2864,15 @@
      "why": "also on your list"
     },
     {
-     "name": "Salal",
+     "name": "Spreading Wood Fern",
      "lights": [
       "part-shade",
       "full-shade"
      ],
      "moisture": [
-      "dry soil",
       "moist soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "url": "https://sparrowhawknativeplants.com/products/spreading-wood-fern",
      "inList": true,
      "why": "also on your list"
     },
@@ -2435,6 +2889,34 @@
      "url": "https://sparrowhawknativeplants.com/products/vine-maple",
      "inList": true,
      "why": "also on your list"
+    },
+    {
+     "name": "Western Red Cedar",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/western-red-cedar",
+     "inList": false,
+     "why": "shares rain garden"
+    },
+    {
+     "name": "Orange Honeysuckle",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/orange-honeysuckle-1",
+     "inList": false,
+     "why": "shares shady woodland"
     }
    ]
   },
@@ -2512,7 +2994,7 @@
    "handle": "mahala-mat",
    "companions": [
     {
-     "name": "Nootka Rose",
+     "name": "Common Camas",
      "lights": [
       "full-sun",
       "part-shade"
@@ -2522,7 +3004,33 @@
       "moist soil",
       "wet soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/nootka-rose",
+     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Western Yarrow",
+     "lights": [
+      "full-sun"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/yarrow",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Kinnikinnick",
+     "lights": [
+      "full-sun"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/kinnikinnick",
      "inList": true,
      "why": "also on your list"
     },
@@ -2541,21 +3049,6 @@
      "why": "also on your list"
     },
     {
-     "name": "Common Camas",
-     "lights": [
-      "full-sun",
-      "part-shade"
-     ],
-     "moisture": [
-      "dry soil",
-      "moist soil",
-      "wet soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
      "name": "Big Leaf Maple",
      "lights": [
       "full-sun",
@@ -2568,6 +3061,22 @@
      "url": "https://sparrowhawknativeplants.com/products/big-leaf-maple",
      "inList": false,
      "why": "shares beat the heat"
+    },
+    {
+     "name": "Douglas Hawthorn",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/douglas-hawthorn",
+     "inList": false,
+     "why": "shares sunny yard"
     }
    ]
   },
@@ -2693,6 +3202,35 @@
      "url": "https://sparrowhawknativeplants.com/products/vine-maple",
      "inList": true,
      "why": "also on your list"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Grand Fir",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/grand-fir",
+     "inList": false,
+     "why": "shares shady woodland"
     }
    ]
   },
@@ -2775,21 +3313,6 @@
    "handle": "evergreen-huckleberry",
    "companions": [
     {
-     "name": "Early Blue Violet",
-     "lights": [
-      "full-sun",
-      "part-shade",
-      "full-shade"
-     ],
-     "moisture": [
-      "dry soil",
-      "moist soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/early-blue-violet",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
      "name": "Vine Maple",
      "lights": [
       "full-sun",
@@ -2819,7 +3342,7 @@
      "why": "also on your list"
     },
     {
-     "name": "Baldhip Rose",
+     "name": "Early Blue Violet",
      "lights": [
       "full-sun",
       "part-shade",
@@ -2829,9 +3352,52 @@
       "dry soil",
       "moist soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/baldhip-rose",
+     "url": "https://sparrowhawknativeplants.com/products/early-blue-violet",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Grand Fir",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/grand-fir",
      "inList": false,
      "why": "shares newbie"
+    },
+    {
+     "name": "Orange Honeysuckle",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/orange-honeysuckle-1",
+     "inList": false,
+     "why": "shares shady woodland"
     }
    ]
   },
@@ -2912,35 +3478,6 @@
    "handle": "salal",
    "companions": [
     {
-     "name": "Oregon Oxalis",
-     "lights": [
-      "part-shade",
-      "full-shade"
-     ],
-     "moisture": [
-      "dry soil",
-      "moist soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/oregon-oxalis",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
-     "name": "Early Blue Violet",
-     "lights": [
-      "full-sun",
-      "part-shade",
-      "full-shade"
-     ],
-     "moisture": [
-      "dry soil",
-      "moist soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/early-blue-violet",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
      "name": "Red Elderberry",
      "lights": [
       "full-sun",
@@ -2968,6 +3505,62 @@
      "url": "https://sparrowhawknativeplants.com/products/vine-maple",
      "inList": true,
      "why": "also on your list"
+    },
+    {
+     "name": "Oregon Oxalis",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/oregon-oxalis",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Spreading Wood Fern",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/spreading-wood-fern",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Grand Fir",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/grand-fir",
+     "inList": false,
+     "why": "shares shady woodland"
+    },
+    {
+     "name": "Orange Honeysuckle",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/orange-honeysuckle-1",
+     "inList": false,
+     "why": "shares shady woodland"
     }
    ]
   },
@@ -3089,6 +3682,20 @@
      "why": "also on your list"
     },
     {
+     "name": "Common Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
      "name": "Grand Fir",
      "lights": [
       "full-sun",
@@ -3102,6 +3709,20 @@
      "url": "https://sparrowhawknativeplants.com/products/grand-fir",
      "inList": false,
      "why": "shares newbie"
+    },
+    {
+     "name": "Orange Honeysuckle",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/orange-honeysuckle-1",
+     "inList": false,
+     "why": "shares shady woodland"
     }
    ]
   },
@@ -3184,21 +3805,6 @@
    "handle": "red-elderberry",
    "companions": [
     {
-     "name": "Common Camas",
-     "lights": [
-      "full-sun",
-      "part-shade"
-     ],
-     "moisture": [
-      "dry soil",
-      "moist soil",
-      "wet soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/tall-camas",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
      "name": "Common Chokecherry",
      "lights": [
       "full-sun",
@@ -3213,9 +3819,8 @@
      "why": "also on your list"
     },
     {
-     "name": "Lady Fern",
+     "name": "Pacific Bleeding Heart",
      "lights": [
-      "full-sun",
       "part-shade",
       "full-shade"
      ],
@@ -3223,9 +3828,9 @@
       "moist soil",
       "wet soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/lady-fern",
-     "inList": false,
-     "why": "shares rain garden"
+     "url": "https://sparrowhawknativeplants.com/products/pacific-bleeding-heart",
+     "inList": true,
+     "why": "also on your list"
     },
     {
      "name": "Black Twinberry",
@@ -3240,6 +3845,49 @@
      "url": "https://sparrowhawknativeplants.com/products/black-twinberry",
      "inList": true,
      "why": "also on your list"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Red Alder",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-alder",
+     "inList": false,
+     "why": "shares rain garden"
+    },
+    {
+     "name": "Orange Honeysuckle",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/orange-honeysuckle-1",
+     "inList": false,
+     "why": "shares shady woodland"
     }
    ]
   },
@@ -3311,6 +3959,32 @@
    "handle": "vanilla-leaf",
    "companions": [
     {
+     "name": "Spreading Wood Fern",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/spreading-wood-fern",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Candyflower",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/candy-flower",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
      "name": "Evergreen Huckleberry",
      "lights": [
       "full-sun",
@@ -3321,35 +3995,6 @@
       "moist soil"
      ],
      "url": "https://sparrowhawknativeplants.com/products/evergreen-huckleberry",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
-     "name": "Red Elderberry",
-     "lights": [
-      "full-sun",
-      "part-shade",
-      "full-shade"
-     ],
-     "moisture": [
-      "moist soil",
-      "wet soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/red-elderberry",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
-     "name": "Salal",
-     "lights": [
-      "part-shade",
-      "full-shade"
-     ],
-     "moisture": [
-      "dry soil",
-      "moist soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/salal",
      "inList": true,
      "why": "also on your list"
     },
@@ -3366,6 +4011,35 @@
      "url": "https://sparrowhawknativeplants.com/products/vine-maple",
      "inList": true,
      "why": "also on your list"
+    },
+    {
+     "name": "Grand Fir",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/grand-fir",
+     "inList": false,
+     "why": "shares shady woodland"
+    },
+    {
+     "name": "Orange Honeysuckle",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/orange-honeysuckle-1",
+     "inList": false,
+     "why": "shares shady woodland"
     }
    ]
   },
@@ -3446,20 +4120,6 @@
    "handle": "candy-flower",
    "companions": [
     {
-     "name": "Evergreen Huckleberry",
-     "lights": [
-      "full-sun",
-      "part-shade",
-      "full-shade"
-     ],
-     "moisture": [
-      "moist soil"
-     ],
-     "url": "https://sparrowhawknativeplants.com/products/evergreen-huckleberry",
-     "inList": true,
-     "why": "also on your list"
-    },
-    {
      "name": "Red Elderberry",
      "lights": [
       "full-sun",
@@ -3475,8 +4135,9 @@
      "why": "also on your list"
     },
     {
-     "name": "Salal",
+     "name": "Early Blue Violet",
      "lights": [
+      "full-sun",
       "part-shade",
       "full-shade"
      ],
@@ -3484,7 +4145,20 @@
       "dry soil",
       "moist soil"
      ],
-     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "url": "https://sparrowhawknativeplants.com/products/early-blue-violet",
+     "inList": true,
+     "why": "also on your list"
+    },
+    {
+     "name": "Spreading Wood Fern",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/spreading-wood-fern",
      "inList": true,
      "why": "also on your list"
     },
@@ -3501,6 +4175,35 @@
      "url": "https://sparrowhawknativeplants.com/products/vine-maple",
      "inList": true,
      "why": "also on your list"
+    },
+    {
+     "name": "Grand Fir",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/grand-fir",
+     "inList": false,
+     "why": "shares newbie"
+    },
+    {
+     "name": "Orange Honeysuckle",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/orange-honeysuckle-1",
+     "inList": false,
+     "why": "shares shady woodland"
     }
    ]
   }

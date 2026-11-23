@@ -7,6 +7,8 @@
 
   const state = {
     plants: [],
+    companionMethod: "",
+    companionSources: [],
     lights: new Set(),
     stock: false,
     query: "",
@@ -293,9 +295,11 @@
 
     const comps = (p.companions || []).length
       ? `<h3>Companion plants</h3>
+         ${state.companionMethod ? `<p class="companion-note">${esc(state.companionMethod)}</p>` : ""}
          <ul class="comp-list">${p.companions
            .map((c) => `<li><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)}</a>${c.inList ? '<span class="why inlist">on your list</span>' : `<span class="why">${esc(c.why)}</span>`}</li>`)
-           .join("")}</ul>`
+           .join("")}</ul>
+         ${state.companionSources.length ? `<p class="companion-sources">Regional references: ${state.companionSources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join(" · ")}</p>` : ""}`
       : "";
 
     const quote = p.companionText
@@ -481,6 +485,8 @@
     })
     .then((data) => {
       state.plants = data.plants;
+      state.companionMethod = data.companionMethod || "";
+      state.companionSources = data.companionSources || [];
       state.plants.forEach((p, i) => ORDER.set(p.id, i));
 
       const species = state.plants.length;

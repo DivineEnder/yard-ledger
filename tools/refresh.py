@@ -17,6 +17,7 @@ import re
 import urllib.request
 
 from PIL import Image
+from ecosystem import COMPANION_METHOD, COMPANION_SOURCES, ECOSYSTEM_TAGS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CATALOG = os.path.join(ROOT, "tools", "catalog.json")
@@ -221,17 +222,19 @@ def main():
             if not shared_light or not shared_moist:
                 continue
             shared_col = set(pl["collections"]) & set(info["collections"])
+            shared_eco = ECOSYSTEM_TAGS.get(pl["catalogName"], set()) & ECOSYSTEM_TAGS.get(p["title"], set())
             score = 2.0 * len(shared_light) + 2.0 * len(shared_moist)
+            score += 2.4 * min(len(shared_eco), 2)
             score += 1.2 * min(len(shared_col), 2)
             if set(pl["canopy"]) != set(info["canopy"]):
                 score += 1.0
             if p["title"] in list_titles:
                 score += 2.5
-            scored.append((score, p["title"], info, shared_col))
+            scored.append((score, p["title"], info, shared_col, shared_eco))
         scored.sort(key=lambda x: (-x[0], x[1]))
 
         comps, layers = [], set()
-        for _, name, info, shared_col in scored:
+        for _, name, info, shared_col, shared_eco in scored:
             layer = info["canopy"][0] if info["canopy"] else ""
             if layer in layers and len(comps) >= 2:
                 continue
@@ -243,13 +246,16 @@ def main():
                 "url": info["productUrl"],
                 "inList": name in list_titles,
                 "why": "also on your list" if name in list_titles else (
-                    "shares " + sorted(shared_col)[0] if shared_col else "same light and moisture"),
+                    "same native habitat" if shared_eco else (
+                        "shares " + sorted(shared_col)[0] if shared_col else "same light and moisture")),
             })
-            if len(comps) == 4:
+            if len(comps) == 6:
                 break
         pl["companions"] = comps
 
-    payload = {"source": BASE, "updated": "2026-11-21",
+    payload = {"source": BASE, "updated": "2026-11-23",
+               "companionMethod": COMPANION_METHOD,
+               "companionSources": COMPANION_SOURCES,
                "lightLabels": {"full-sun": "Full sun", "part-shade": "Part sun / part shade", "full-shade": "Full shade"},
                "plants": plants}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
