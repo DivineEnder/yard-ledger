@@ -634,14 +634,19 @@ button { cursor: pointer; }
 .card__qty { font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.02em; }
 .card__note { color: var(--clay); font-size: 0.78rem; font-style: italic; }
 .card__nursery {
-  margin: 0 0 0.55rem;
-  color: var(--muted);
+  margin: 0 0 0.65rem;
+  padding: 0.48rem 0.6rem;
+  border: 1px solid var(--line-2);
+  border-left: 2px solid var(--moss-2);
+  background: rgba(42, 60, 45, 0.5);
+  color: var(--ink-2);
   font-family: var(--mono);
-  font-size: 0.59rem;
+  font-size: 0.62rem;
   letter-spacing: 0.01em;
   line-height: 1.55;
 }
-.card__nursery strong { color: var(--moss-2); font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; }
+.card__nursery-label { display: block; margin-bottom: 0.18rem; color: var(--moss-2); font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; }
+.card__nursery-value { display: block; color: var(--ink-2); }
 
 .card__comp {
   margin: 0;
@@ -746,7 +751,9 @@ button { cursor: pointer; }
 .grid.is-compact .lights__glyphs svg { width: 13px; height: 13px; }
 .grid.is-compact .lights__text { font-size: 0.54rem; }
 .grid.is-compact .card__meta { font-size: 0.72rem; margin: 0; }
-.grid.is-compact .card__nursery { font-size: 0.54rem; line-height: 1.35; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.grid.is-compact .card__nursery { font-size: 0.54rem; line-height: 1.35; margin: 0; padding: 0.25rem 0.4rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.grid.is-compact .card__nursery-label { display: inline; margin-right: 0.35rem; }
+.grid.is-compact .card__nursery-value { display: inline; }
 .grid.is-compact .card__comp { font-size: 0.7rem; line-height: 1.35; -webkit-line-clamp: 1; }
 .grid.is-compact .card__foot { grid-column: 3; grid-row: 1; margin: 0; padding: 0; border: 0; flex-direction: column; align-items: flex-end; gap: 0.45rem; }
 .grid.is-compact .card__link { font-size: 0.52rem; }

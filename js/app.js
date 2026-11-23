@@ -155,7 +155,7 @@
     const text = shown.map((r) => {
       const now = Number(r.availableNow) || 0;
       const spring = Number(r.spring) || 0;
-      const availability = now ? `${now.toLocaleString()} now` : (spring ? `${spring.toLocaleString()} spring` : "none now");
+      const availability = now ? `${now.toLocaleString()} available now` : (spring ? `${spring.toLocaleString()} projected for spring` : "none available now");
       return `${r.size} · ${formatMoney(Number.isFinite(Number(r.price)) ? Number(r.price) : null)} · ${availability}`;
     });
     return text.join("  /  ") + (shown.length < (rows.length || allRows.length) ? "  /  +more sizes" : "");
@@ -301,7 +301,7 @@
             <span class="lights__text">${esc((p.lights || []).length ? lightPhrase(p.lights) : "Light not recorded")}</span>
           </div>
           <p class="card__meta">${meta.join("")}</p>
-          <p class="card__nursery"><strong>Beaver Lake</strong> ${esc(nurseryCardText(p))}</p>
+          <div class="card__nursery"><strong class="card__nursery-label">Beaver Lake availability</strong><span class="card__nursery-value">${esc(nurseryCardText(p))}</span></div>
           ${p.note && p.available ? `<p class="card__meta"><span class="card__note">${esc(p.note)}</span></p>` : ""}
           <p class="card__comp"><strong>Good with</strong> ${esc(comps.join(", "))}${extra ? ` +${extra}` : ""}</p>
         </div>
