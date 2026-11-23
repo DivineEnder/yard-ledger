@@ -121,6 +121,35 @@
     return "Listed, none available now";
   }
 
+  function sizeKey(text) {
+    return norm(text)
+      .replace(/inches?|\"|''/g, " inch")
+      .replace(/gallons?|gal/g, " gallon")
+      .replace(/(\d)(?=gallon)/g, "$1 ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function priceFor(item) {
+    const rows = availabilityFor({ ...item, size: "" });
+    const exact = rows.find((r) => Number.isFinite(Number(r.price)) && Number(r.price) >= 0 && sizeKey(r.size) === sizeKey(item.size));
+    const fallback = rows.find((r) => Number.isFinite(Number(r.price)) && Number(r.price) >= 0);
+    return exact ? Number(exact.price) : (fallback ? Number(fallback.price) : null);
+  }
+
+  function formatMoney(value) {
+    return value == null ? "—" : `$${Number(value).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+  }
+
+  function budgetTotals() {
+    return state.orders.reduce((out, item) => {
+      const unit = priceFor(item);
+      if (unit == null) out.unknown += 1;
+      else out.total += unit * (Number(item.qty) || 0);
+      return out;
+    }, { total: 0, unknown: 0 });
+  }
+
   const esc = (s) =>
     String(s == null ? "" : s).replace(/[&<>"']/g, (c) =>
       ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])
@@ -312,6 +341,8 @@
     set("plants", plantsToBuy);
     set("stock", inStock);
     set("planted", planted);
+    const budget = budgetTotals();
+    set("budget", budget.total ? formatMoney(budget.total) : (budget.unknown ? "—" : formatMoney(0)));
     const bar = $("#planted-bar");
     if (bar) bar.style.width = `${total ? (planted / total) * 100 : 0}%`;
   }
@@ -450,11 +481,14 @@
           <label>Qty<input type="number" min="1" step="1" data-order-field="qty" value="${Number(item.qty) || 1}"></label>
           <label>Pot size<input type="text" data-order-field="size" value="${esc(item.size || "1 Gallon")}"></label>
           <div class="availability-status ${availabilityFor(item).length ? "is-listed" : "is-missing"}">${esc(availabilitySummary(item))}</div>
+          <div class="order-row__cost">${priceFor(item) == null ? "Price not in snapshot" : `${formatMoney(priceFor(item))} ea · ${formatMoney(priceFor(item) * (Number(item.qty) || 0))} est.`}</div>
           <button class="order-remove" type="button" data-order-remove aria-label="Remove ${esc(item.name)}">Remove</button>
         </div>`).join("");
     }
     const total = state.orders.reduce((n, x) => n + (Number(x.qty) || 0), 0);
-    els.orderStatus.textContent = `${state.orders.length} ${state.orders.length === 1 ? "plant" : "plants"} · ${total} total plants`;
+    const budget = budgetTotals();
+    const budgetText = budget.unknown ? `${formatMoney(budget.total)} estimated · ${budget.unknown} price${budget.unknown === 1 ? "" : "s"} unknown` : `${formatMoney(budget.total)} estimated`;
+    els.orderStatus.textContent = `${state.orders.length} ${state.orders.length === 1 ? "plant" : "plants"} · ${total} total plants · ${budgetText}`;
   }
 
   function openOrderEditor() {

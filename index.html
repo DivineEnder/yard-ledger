@@ -64,6 +64,10 @@
           <dd><span data-stat="planted">0</span><span class="stat__unit"> of 26</span></dd>
           <div class="stat__bar" aria-hidden="true"><i id="planted-bar"></i></div>
         </div>
+        <div class="stat stat--budget">
+          <dt>Estimated order</dt>
+          <dd><span data-stat="budget">—</span></dd>
+        </div>
       </dl>
     </div>
   </section>
@@ -192,7 +196,7 @@
     <div class="order-dialog__content">
       <p class="drawer__kicker">Order notebook<span class="sep"></span>Local to this browser</p>
       <h2 id="order-title">Build your order</h2>
-      <p class="drawer__desc">Change quantities, remove plants, or add a new one. Each row checks the latest Beaver Lake availability snapshot by plant and pot size.</p>
+      <p class="drawer__desc">Change quantities, remove plants, or add a new one. Each row checks Beaver Lake availability and estimates cost from the selected pot size.</p>
       <div id="order-status" class="order-status" aria-live="polite"></div>
       <div id="order-rows" class="order-rows"></div>
       <form id="add-plant-form" class="add-plant-form">
@@ -206,7 +210,7 @@
         <button class="btn" type="submit">Add to order</button>
         <p id="add-plant-match" class="add-plant-match"></p>
       </form>
-      <p class="availability-foot">Beaver Lake availability snapshot: <span id="availability-date">November 2026</span>. Quantities can change; <a href="https://beaverlakenursery.com/" target="_blank" rel="noopener">open the nursery site</a> or <a href="https://img1.wsimg.com/blobby/go/df08d2a5-9308-49f3-9e70-6c4751548f66/downloads/796cff73-5de1-49fb-bc3d-a4bf700d6112/Beaverlake%20Nursery%20Fall%20Availability%20R2.xlsx" target="_blank" rel="noopener">download its spreadsheet</a> before ordering.</p>
+      <p class="availability-foot">Beaver Lake availability and prices are a snapshot from <span id="availability-date">November 2026</span>. Unknown plants or pot sizes are excluded from the estimate. Quantities and prices can change; <a href="https://beaverlakenursery.com/" target="_blank" rel="noopener">open the nursery site</a> or <a href="https://img1.wsimg.com/blobby/go/df08d2a5-9308-49f3-9e70-6c4751548f66/downloads/796cff73-5de1-49fb-bc3d-a4bf700d6112/Beaverlake%20Nursery%20Fall%20Availability%20R2.xlsx" target="_blank" rel="noopener">download its spreadsheet</a> before ordering.</p>
     </div>
   </div>
 </dialog>
