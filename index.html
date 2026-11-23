@@ -202,10 +202,10 @@
       <form id="add-plant-form" class="add-plant-form">
         <h3>Add a plant</h3>
         <div class="add-plant-form__grid">
-          <label>Plant name<input id="new-plant-name" name="name" required placeholder="e.g. Douglas fir"></label>
+          <label class="plant-picker">Plant name<input id="new-plant-name" name="name" required placeholder="Search Sparrowhawk plants…" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="plant-suggestions" aria-expanded="false"><div id="plant-suggestions" class="plant-suggestions" role="listbox" hidden></div></label>
           <label>Scientific name <span>(optional)</span><input id="new-plant-scientific" name="scientificName" placeholder="e.g. Pseudotsuga menziesii"></label>
           <label>Quantity<input id="new-plant-qty" name="qty" type="number" min="0" step="1" value="1" required></label>
-          <label>Pot size<input id="new-plant-size" name="size" placeholder="e.g. 1 Gallon" value="1 Gallon" required></label>
+          <label>Pot size<select id="new-plant-size" name="size" required><option value="1 Gallon">1 Gallon</option></select></label>
         </div>
         <button class="btn" type="submit">Add to order</button>
         <p id="add-plant-match" class="add-plant-match"></p>
@@ -215,6 +215,6 @@
   </div>
 </dialog>
 
-<script src="js/app.js?v=c626c6c"></script>
+<script src="js/app.js?v=typeahead-20261123"></script>
 </body>
 </html>

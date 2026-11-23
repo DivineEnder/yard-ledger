@@ -1191,7 +1191,8 @@ button { cursor: pointer; }
 .order-row__name strong { font-family: var(--serif); font-weight: 400; font-size: 1.05rem; }
 .order-row__name em { font-family: var(--serif); color: var(--muted); font-size: .76rem; }
 .order-row label, .add-plant-form label { display: flex; flex-direction: column; gap: .25rem; font-family: var(--mono); font-size: .57rem; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); }
-.order-row input, .add-plant-form input { width: 100%; padding: .42rem .48rem; border: 1px solid var(--line-2); background: rgba(28,42,32,.55); color: var(--ink); font-size: .86rem; letter-spacing: normal; text-transform: none; }
+.order-row input, .order-row select, .add-plant-form input, .add-plant-form select { width: 100%; padding: .42rem .48rem; border: 1px solid var(--line-2); background: rgba(28,42,32,.55); color: var(--ink); font-size: .86rem; letter-spacing: normal; text-transform: none; }
+.order-row select, .add-plant-form select { appearance: auto; }
 .availability-status { font-size: .72rem; line-height: 1.35; color: var(--clay); }
 .availability-status.is-listed { color: var(--moss-2); }
 .order-remove { border: 0; background: transparent; color: var(--muted); font-family: var(--mono); font-size: .58rem; text-transform: uppercase; letter-spacing: .08em; padding: .35rem; }
@@ -1200,6 +1201,13 @@ button { cursor: pointer; }
 .add-plant-form { margin-top: 1.5rem; padding-top: .2rem; border-top: 1px solid var(--line-2); }
 .add-plant-form__grid { display: grid; grid-template-columns: 1.35fr 1.35fr .65fr .9fr; gap: .7rem; }
 .add-plant-match { min-height: 1.4rem; margin: .8rem 0 0; color: var(--moss-2); font-size: .8rem; }
+.plant-picker { position: relative; }
+.plant-suggestions { position: absolute; left: 0; right: 0; top: calc(100% - .15rem); z-index: 20; padding: .25rem; border: 1px solid var(--line-2); background: var(--card); box-shadow: 0 14px 28px rgba(0,0,0,.35); }
+.plant-suggestions[hidden] { display: none; }
+.plant-suggestion { display: flex; width: 100%; flex-direction: column; gap: .05rem; padding: .45rem .5rem; border: 0; background: transparent; color: var(--ink); text-align: left; }
+.plant-suggestion:hover, .plant-suggestion:focus-visible { background: rgba(120,147,102,.22); }
+.plant-suggestion strong { font-family: var(--serif); font-size: .95rem; font-weight: 400; }
+.plant-suggestion em { color: var(--muted); font-family: var(--serif); font-size: .72rem; }
 .availability-foot { margin: 1.7rem 0 0; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .76rem; line-height: 1.55; }
 .availability-foot a { color: var(--moss-2); }
 .card__placeholder { aspect-ratio: 4 / 3.15; display: grid; place-items: center; background: linear-gradient(135deg, rgba(118,81,60,.25), rgba(42,60,45,.95)); color: var(--moss-2); font-family: var(--serif); font-size: 2.5rem; }

@@ -41,7 +41,13 @@
     orderStatus: $("#order-status"),
     addForm: $("#add-plant-form"),
     addMatch: $("#add-plant-match"),
+    plantName: $("#new-plant-name"),
+    plantScientific: $("#new-plant-scientific"),
+    plantSize: $("#new-plant-size"),
+    plantSuggestions: $("#plant-suggestions"),
   };
+
+  let selectedPlantId = "";
 
   /* ------------------------------ helpers ------------------------------ */
 
@@ -143,6 +149,24 @@
 
   function nurseryRowsFor(plant) {
     return availabilityFor({ name: plant.name, scientificName: plant.scientificName, size: "" });
+  }
+
+  function sizeOptionsFor(item) {
+    const matched = nurseryRowsFor(item);
+    const rows = matched.length ? matched : state.availability;
+    const seen = new Set();
+    return rows.filter((r) => {
+      const key = sizeKey(r.size);
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    }).map((r) => r.size);
+  }
+
+  function sizeOptionsHTML(item, current) {
+    const options = sizeOptionsFor(item);
+    if (current && !options.some((size) => sizeKey(size) === sizeKey(current))) options.unshift(current);
+    return options.map((size) => `<option value="${esc(size)}" ${sizeKey(size) === sizeKey(current) ? "selected" : ""}>${esc(size)}</option>`).join("");
   }
 
   function nurseryCardText(plant) {
@@ -515,7 +539,7 @@
         <div class="order-row" data-order-id="${esc(item.id)}">
           <div class="order-row__name"><strong>${esc(item.name)}</strong><em>${esc(item.scientificName || "Scientific name not recorded")}</em></div>
           <label>Qty<input type="number" min="1" step="1" data-order-field="qty" value="${Number(item.qty) || 1}"></label>
-          <label>Pot size<input type="text" data-order-field="size" value="${esc(item.size || "1 Gallon")}"></label>
+          <label>Pot size<select data-order-field="size">${sizeOptionsHTML(item, item.size || "1 Gallon")}</select></label>
           <div class="availability-status ${availabilityFor(item).length ? "is-listed" : "is-missing"}">${esc(availabilitySummary(item))}</div>
           <div class="order-row__cost">${priceFor(item) == null ? "Price not in snapshot" : `${formatMoney(priceFor(item))} ea · ${formatMoney(priceFor(item) * (Number(item.qty) || 0))} est.`}</div>
           <button class="order-remove" type="button" data-order-remove aria-label="Remove ${esc(item.name)}">Remove</button>
@@ -564,15 +588,70 @@
     els.addMatch.textContent = hit ? `Beaver Lake match: ${hit.name} (${hit.scientificName}) · ${availabilitySummary({ name: hit.name, scientificName: hit.scientificName, size: $("#new-plant-size").value })}` : "No exact Beaver Lake match yet — you can still add this as a custom plant.";
   }
 
+  function renderAddSizeOptions(item = { name: els.plantName.value, scientificName: els.plantScientific.value }, current = els.plantSize.value) {
+    const options = sizeOptionsFor(item);
+    if (!options.length) return;
+    els.plantSize.innerHTML = sizeOptionsHTML(item, current || options[0]);
+    updateAddMatch();
+  }
+
+  function closePlantSuggestions() {
+    els.plantSuggestions.hidden = true;
+    els.plantName.setAttribute("aria-expanded", "false");
+  }
+
+  function renderPlantSuggestions() {
+    const query = norm(els.plantName.value);
+    const matches = query ? state.plants.filter((p) => norm(`${p.name} ${p.scientificName}`).includes(query)).slice(0, 8) : [];
+    if (!matches.length) return closePlantSuggestions();
+    els.plantSuggestions.innerHTML = matches.map((p) => `<button type="button" class="plant-suggestion" role="option" data-plant-suggestion="${esc(p.id)}"><strong>${esc(p.name)}</strong><em>${esc(p.scientificName || "Scientific name not recorded")}</em></button>`).join("");
+    els.plantSuggestions.hidden = false;
+    els.plantName.setAttribute("aria-expanded", "true");
+  }
+
   /* -------------------------------- events -------------------------------- */
 
   $("#order-open").addEventListener("click", openOrderEditor);
   $("#order-close").addEventListener("click", closeOrderEditor);
   els.orderDialog.addEventListener("click", (e) => { if (e.target === els.orderDialog) closeOrderEditor(); });
   els.orderRows.addEventListener("input", (e) => { const row = e.target.closest("[data-order-id]"); const field = e.target.dataset.orderField; if (row && field) updateOrderItem(row.dataset.orderId, field, e.target.value); });
+  els.orderRows.addEventListener("change", (e) => { const row = e.target.closest("[data-order-id]"); const field = e.target.dataset.orderField; if (row && field) updateOrderItem(row.dataset.orderId, field, e.target.value); });
   els.orderRows.addEventListener("click", (e) => { const btn = e.target.closest("[data-order-remove]"); if (!btn) return; const row = btn.closest("[data-order-id]"); state.orders = state.orders.filter((x) => x.id !== row.dataset.orderId); state.plants = state.plants.filter((p) => p.id !== row.dataset.orderId); saveOrders(); render(); renderOrderRows(); });
-  ["#new-plant-name", "#new-plant-scientific", "#new-plant-size"].forEach((sel) => $(sel).addEventListener("input", updateAddMatch));
-  els.addForm.addEventListener("submit", (e) => { e.preventDefault(); const name = $("#new-plant-name").value.trim(); const scientificName = $("#new-plant-scientific").value.trim(); const qty = Math.max(1, Number($("#new-plant-qty").value) || 1); const size = $("#new-plant-size").value.trim() || "1 Gallon"; if (!name) return; const hit = findAvailability(name, scientificName); const id = `custom-${slugify(name)}-${Date.now()}`; const p = { id, name: hit ? hit.name : name, scientificName: hit ? hit.scientificName : scientificName, qty, size, available: Boolean(hit && availabilityFor({ name: hit.name, scientificName: hit.scientificName, size }).some((r) => r.availableNow > 0)), note: hit ? "Beaver Lake snapshot match" : "Custom plant", lights: [], images: [], companions: [], fields: {}, productUrl: "" }; state.plants.push(p); ORDER.set(id, state.plants.length - 1); state.orders.push({ id, name: p.name, scientificName: p.scientificName, qty, size }); saveOrders(); render(); renderOrderRows(); els.addForm.reset(); $("#new-plant-qty").value = 1; $("#new-plant-size").value = "1 Gallon"; els.addMatch.textContent = `${p.name} added to your order.`; });
+  els.plantName.addEventListener("input", () => { if (!selectedPlantId) els.plantScientific.value = ""; selectedPlantId = ""; renderPlantSuggestions(); renderAddSizeOptions(); updateAddMatch(); });
+  els.plantScientific.addEventListener("input", () => { selectedPlantId = ""; renderAddSizeOptions(); updateAddMatch(); });
+  els.plantSize.addEventListener("change", updateAddMatch);
+  els.plantSuggestions.addEventListener("click", (e) => {
+    const option = e.target.closest("[data-plant-suggestion]");
+    if (!option) return;
+    const plant = state.plants.find((p) => p.id === option.dataset.plantSuggestion);
+    if (!plant) return;
+    selectedPlantId = plant.id;
+    els.plantName.value = plant.name;
+    els.plantScientific.value = plant.scientificName || "";
+    renderAddSizeOptions(plant, plant.size || "");
+    closePlantSuggestions();
+    updateAddMatch();
+  });
+  document.addEventListener("click", (e) => { if (!e.target.closest(".plant-picker")) closePlantSuggestions(); });
+  els.addForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const name = els.plantName.value.trim();
+    const scientificName = els.plantScientific.value.trim();
+    const qty = Math.max(1, Number($("#new-plant-qty").value) || 1);
+    const size = els.plantSize.value || "1 Gallon";
+    if (!name) return;
+    const source = selectedPlantId ? state.plants.find((p) => p.id === selectedPlantId) : null;
+    const hit = source ? null : findAvailability(name, scientificName);
+    const id = source ? source.id : `custom-${slugify(name)}-${Date.now()}`;
+    const p = source || { id, name: hit ? hit.name : name, scientificName: hit ? hit.scientificName : scientificName, qty, size, available: Boolean(hit && availabilityFor({ name: hit.name, scientificName: hit.scientificName, size }).some((r) => r.availableNow > 0)), note: hit ? "Beaver Lake snapshot match" : "Custom plant", lights: [], images: [], companions: [], fields: {}, productUrl: "" };
+    p.qty = qty; p.size = size;
+    if (!source) { state.plants.push(p); ORDER.set(id, state.plants.length - 1); }
+    const existing = orderFor(id);
+    if (existing) { existing.qty = qty; existing.size = size; }
+    else state.orders.push({ id, name: p.name, scientificName: p.scientificName, qty, size });
+    saveOrders(); render(); renderOrderRows();
+    selectedPlantId = ""; els.addForm.reset(); els.plantSize.innerHTML = `<option value="1 Gallon">1 Gallon</option>`; $("#new-plant-qty").value = 1; els.addMatch.textContent = `${p.name} added to your order.`; closePlantSuggestions();
+  });
 
   els.grid.addEventListener("click", (e) => {
     const openBtn = e.target.closest("[data-open]");
@@ -704,6 +783,7 @@
       state.companionSources = data.companionSources || [];
       state.availability = availability && availability.rows ? availability.rows : [];
       state.availabilityMeta = availability || {};
+      renderAddSizeOptions();
       state.orders = readOrders(state.plants);
       state.orders.forEach((o) => { const p = state.plants.find((x) => x.id === o.id); if (p) { p.qty = o.qty; p.size = o.size; } });
       state.plants.forEach((p, i) => ORDER.set(p.id, i));
