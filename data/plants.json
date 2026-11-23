@@ -4426,6 +4426,1201 @@
    "productUrl": "https://sparrowhawknativeplants.com/products/oregon-white-oak",
    "handle": "oregon-white-oak",
    "companions": []
+  },
+  {
+   "id": "sword-fern",
+   "name": "Sword Fern",
+   "catalogName": "Sword Fern",
+   "scientificName": "Polystichum munitum",
+   "productUrl": "https://sparrowhawknativeplants.com/products/sword-fern",
+   "handle": "sword-fern",
+   "description": "Sword fern is an iconic evergreen Northwest understory fern with tall, arching fronds and durable year-round structure. It provides cover and nesting habitat while supporting a wide range of woodland wildlife.",
+   "gardening": "Plant sword fern in a shady woodland setting with humus-rich soil. It tolerates a wide range of conditions, including summer drought once established, but performs best in shade with organic matter and moderate moisture.",
+   "fields": {
+    "Plant type/canopy layer": "evergreen, perennial, fern",
+    "Size at maturity": "2-4 ft tall, 2-3 ft wide",
+    "Light requirements": "full shade, part sun/part shade",
+    "Moisture requirements": "moist to dry soil",
+    "Bloom time": "n/a, spores usually mature in July",
+    "Growth rate/ease": "medium growth rate, easy to grow",
+    "Wildlife support": "fronds provide cover and nesting sites for birds, small mammals and amphibians; overall plant is a caterpillar host plant and larval food source for native butterflies and moths",
+    "Native habitat/range": "understory of moist coniferous forests and meadows throughout the Pacific Northwest from southeast Alaska to southern California; Portland Plant List - yes.",
+    "Special features & uses": "evergreen; deer resistant; woodland garden and habitat plant"
+   },
+   "lightTags": [
+    "full shade",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil"
+   ],
+   "canopy": [
+    "small shrub/fern"
+   ],
+   "collections": [
+    "shady woodland",
+    "newbie"
+   ],
+   "special": [
+    "deer resistant",
+    "evergreen",
+    "fern"
+   ],
+   "evergreen": [
+    "evergreen"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Photo Credits: Nikkie West and Tara Lemezis, Sparrowhawk Native Plants",
+   "companionText": "",
+   "qty": null,
+   "size": "",
+   "note": "Added to catalogue; check Beaver Lake availability before ordering.",
+   "available": false,
+   "images": [
+    {
+     "src": "images/sword-fern-1.png",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/sword-fern-2.jpg",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/sword-fern-3.jpg",
+     "w": 1024,
+     "h": 1024
+    }
+   ],
+   "companions": [
+    {
+     "name": "Douglas Fir",
+     "lights": [],
+     "moisture": [],
+     "url": "",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Oregon Grape",
+     "lights": [],
+     "moisture": [],
+     "url": "",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Pacific Bleeding Heart",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/pacific-bleeding-heart",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "False Solomon's Seal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/starry-false-solomons-seal",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Western Redcedar",
+     "lights": [],
+     "moisture": [],
+     "url": "",
+     "inList": true,
+     "why": "habitat-fit companion"
+    }
+   ]
+  },
+  {
+   "id": "douglas-fir",
+   "name": "Douglas Fir",
+   "catalogName": "Douglas Fir",
+   "scientificName": "Pseudotsuga menziesii",
+   "productUrl": "https://sparrowhawknativeplants.com/products/douglas-fir",
+   "handle": "douglas-fir",
+   "description": "Douglas fir is Oregon’s state tree and the defining evergreen overstory conifer of the Pacific Northwest. Its cones, seeds, foliage and mature snags support an exceptionally broad range of wildlife.",
+   "gardening": "Reserve Douglas fir for a very spacious site away from structures and overhead lines. It grows quickly in sun or part shade and prefers well-drained soil with organic matter, though it tolerates a broad moisture range.",
+   "fields": {
+    "Plant type/canopy layer": "evergreen, perennial, large tree",
+    "Size at maturity": "usually 100-125 ft tall in garden settings, 30-50 ft wide canopy",
+    "Light requirements": "full sun, part sun/part shade",
+    "Moisture requirements": "dry to seasonally wet soil",
+    "Bloom time": "n/a",
+    "Growth rate/ease": "fast growing, very easy to grow",
+    "Wildlife support": "seeds feed birds and small mammals; foliage and twigs support wildlife; host plant for around 80 species of native butterflies and moths; snags provide cavity-nesting habitat",
+    "Native habitat/range": "common in forests from western Canada through the Pacific Coast and interior mountains; Portland Plant List - yes.",
+    "Special features & uses": "evergreen; wildlife favorite; erosion control, windbreak and woodland tree"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "large tree"
+   ],
+   "collections": [
+    "oakscape",
+    "shady woodland",
+    "beat the heat"
+   ],
+   "special": [
+    "evergreen",
+    "wildlife favorite",
+    "large tree"
+   ],
+   "evergreen": [
+    "evergreen"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Photo Credits: Sparrowhawk Native Plants product photography and credited contributors",
+   "companionText": "",
+   "qty": null,
+   "size": "",
+   "note": "Added to catalogue; check Beaver Lake availability before ordering.",
+   "available": false,
+   "images": [
+    {
+     "src": "images/douglas-fir-1.png",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/douglas-fir-2.jpg",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/douglas-fir-3.jpg",
+     "w": 1024,
+     "h": 1024
+    }
+   ],
+   "companions": [
+    {
+     "name": "Sword Fern",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/sword-fern",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Oceanspray",
+     "lights": [],
+     "moisture": [],
+     "url": "",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Oregon Grape",
+     "lights": [],
+     "moisture": [],
+     "url": "",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Pacific Bleeding Heart",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/pacific-bleeding-heart",
+     "inList": true,
+     "why": "habitat-fit companion"
+    }
+   ]
+  },
+  {
+   "id": "oceanspray",
+   "name": "Oceanspray",
+   "catalogName": "Oceanspray",
+   "scientificName": "Holodiscus discolor",
+   "productUrl": "https://sparrowhawknativeplants.com/products/oceanspray",
+   "handle": "oceanspray",
+   "description": "Oceanspray is a fast-growing, carefree deciduous shrub with cascading creamy flower plumes, strong pollinator value, and excellent year-round habitat structure.",
+   "gardening": "Use oceanspray in sunny to lightly shaded woodland edges, hedgerows, slopes, or paths. It is drought tolerant once established and naturally forms a vase shape that can be pruned up for clearance.",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, large shrub",
+    "Size at maturity": "10-20 ft tall, 8-12 ft wide",
+    "Light requirements": "full sun to mostly shady, intolerant of deep shade",
+    "Moisture requirements": "moist to dry soil",
+    "Bloom time": "May - August",
+    "Growth rate/ease": "fast growing, very easy to grow",
+    "Wildlife support": "flowers provide nectar for pollinators; seeds feed birds; host plant for native butterflies and moths; provides cover for birds, small mammals and amphibians",
+    "Native habitat/range": "open forests, coastal bluffs and disturbed sites across western North America, especially the Pacific Northwest; Portland Plant List - yes.",
+    "Special features & uses": "drought tolerant; deer resistant; pollinator, insect and wildlife favorite; erosion control"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade",
+    "full shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil"
+   ],
+   "canopy": [
+    "large shrub"
+   ],
+   "collections": [
+    "beat the heat",
+    "oakscape",
+    "pollinator meadow",
+    "sunny yard"
+   ],
+   "special": [
+    "deer resistant",
+    "pollinator plant - blooms mid-season",
+    "wildlife favorite"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Photo Credits: Nikkie West and Tara Lemezis, Sparrowhawk Native Plants",
+   "companionText": "",
+   "qty": null,
+   "size": "",
+   "note": "Added to catalogue; check Beaver Lake availability before ordering.",
+   "available": false,
+   "images": [
+    {
+     "src": "images/oceanspray-1.jpg",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/oceanspray-2.jpg",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/oceanspray-3.jpg",
+     "w": 1024,
+     "h": 1024
+    }
+   ],
+   "companions": [
+    {
+     "name": "Douglas Fir",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/douglas-fir",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Oregon Grape",
+     "lights": [],
+     "moisture": [],
+     "url": "",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Pacific Ninebark",
+     "lights": [],
+     "moisture": [],
+     "url": "",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Sword Fern",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/sword-fern",
+     "inList": true,
+     "why": "habitat-fit companion"
+    }
+   ]
+  },
+  {
+   "id": "pacific-ninebark",
+   "name": "Pacific Ninebark",
+   "catalogName": "Pacific Ninebark",
+   "scientificName": "Physocarpus capitatus",
+   "productUrl": "https://sparrowhawknativeplants.com/products/pacific-ninebark",
+   "handle": "pacific-ninebark",
+   "description": "Pacific ninebark is a large, full deciduous shrub with peeling reddish bark and abundant white flowers that make it one of the strongest native butterfly and pollinator shrubs for wet garden edges.",
+   "gardening": "Plant Pacific ninebark in a sunny to partly shaded rain garden, bioswale, moist woodland edge, or slope. Its dense form helps stabilize soil and it thrives where summer moisture is retained.",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, large shrub",
+    "Size at maturity": "8-16 ft tall, 4-7 ft wide",
+    "Light requirements": "full sun, part sun/part shade",
+    "Moisture requirements": "moist to seasonally wet soil",
+    "Bloom time": "May - August",
+    "Growth rate/ease": "fast growing, easy to grow",
+    "Wildlife support": "flowers provide nectar for butterflies and bees; fruits feed native birds; host plant for native butterflies and moths",
+    "Native habitat/range": "riparian and moist forest habitats from southern Alaska to southern California and east to Montana and Utah; Portland Plant List - yes.",
+    "Special features & uses": "butterfly favorite; erosion control; rain gardens, bioswales and woodland gardens"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "large shrub"
+   ],
+   "collections": [
+    "rain garden",
+    "pollinator meadow",
+    "shady woodland"
+   ],
+   "special": [
+    "pollinator plant - blooms mid-season",
+    "wildlife favorite",
+    "erosion control"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Photo Credits: Sparrowhawk Native Plants and credited contributors",
+   "companionText": "",
+   "qty": null,
+   "size": "",
+   "note": "Added to catalogue; check Beaver Lake availability before ordering.",
+   "available": false,
+   "images": [
+    {
+     "src": "images/pacific-ninebark-1.png",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/pacific-ninebark-2.jpg",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/pacific-ninebark-3.jpg",
+     "w": 1024,
+     "h": 1024
+    }
+   ],
+   "companions": [
+    {
+     "name": "Red Osier Dogwood",
+     "lights": [],
+     "moisture": [],
+     "url": "",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Red Alder",
+     "lights": [],
+     "moisture": [],
+     "url": "",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Chokecherry",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/common-chokecherry",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Nootka Rose",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/nootka-rose",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Sword Fern",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/sword-fern",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "habitat-fit companion"
+    }
+   ]
+  },
+  {
+   "id": "red-alder",
+   "name": "Red Alder",
+   "catalogName": "Red Alder",
+   "scientificName": "Alnus rubra",
+   "productUrl": "https://sparrowhawknativeplants.com/products/red-alder",
+   "handle": "red-alder",
+   "description": "Red alder is a fast-growing pioneer tree of Northwest riverbanks and moist forests. Its catkins, seeds, branches, and nitrogen-fixing roots make it an important restoration and wildlife species.",
+   "gardening": "Use red alder only where there is ample room and where naturalistic growth is welcome. Keep it away from structures because it spreads vigorously and has relatively brittle wood; it is especially useful for riparian restoration, erosion control, and large hedgerows.",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, large tree",
+    "Size at maturity": "40-80 ft tall, 30-40 ft wide",
+    "Light requirements": "full sun, part sun/part shade",
+    "Moisture requirements": "wet to dry soil",
+    "Bloom time": "February - April",
+    "Growth rate/ease": "very fast growing, easy to grow",
+    "Wildlife support": "seeds feed birds; branches and cavities provide roosting habitat; host plant for native moths and butterflies including swallowtails; supports deer, beaver and many insects",
+    "Native habitat/range": "riverbanks, bogs and moist riparian forests across the Pacific Northwest from Alaska to California; Portland Plant List - yes.",
+    "Special features & uses": "wildlife favorite; nitrogen fixing; ecological restoration, erosion control and windbreaks"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "large tree"
+   ],
+   "collections": [
+    "rain garden",
+    "oakscape",
+    "sunny yard"
+   ],
+   "special": [
+    "large tree",
+    "wildlife favorite",
+    "erosion control"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Photo Credit 1: Tara Lemezis. Photo Credits 2-3: credited contributors via Sparrowhawk Native Plants",
+   "companionText": "",
+   "qty": null,
+   "size": "",
+   "note": "Added to catalogue; check Beaver Lake availability before ordering.",
+   "available": false,
+   "images": [
+    {
+     "src": "images/red-alder-1.jpg",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/red-alder-2.jpg",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/red-alder-3.jpg",
+     "w": 1024,
+     "h": 1024
+    }
+   ],
+   "companions": [
+    {
+     "name": "Pacific Ninebark",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/pacific-ninebark",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Red Osier Dogwood",
+     "lights": [],
+     "moisture": [],
+     "url": "",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Sword Fern",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/sword-fern",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Pacific Bleeding Heart",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/pacific-bleeding-heart",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "habitat-fit companion"
+    }
+   ]
+  },
+  {
+   "id": "red-osier-dogwood",
+   "name": "Red Osier Dogwood",
+   "catalogName": "Red Osier Dogwood",
+   "scientificName": "Cornus sericea",
+   "productUrl": "https://sparrowhawknativeplants.com/products/red-osier-dogwood",
+   "handle": "red-osier-dogwood",
+   "description": "Red osier dogwood is a large, thicket-forming shrub with vivid red winter stems, white flowers, bird-supporting berries, and exceptional value for wetland and riparian habitat.",
+   "gardening": "Plant it in moist to wet soil, rain gardens, bioswales, pond edges, or erosion-prone areas. It becomes large and dense, so allow room for suckering and seasonal pruning.",
+   "fields": {
+    "Plant type/canopy layer": "deciduous, perennial, large shrub",
+    "Size at maturity": "15 ft tall, 9-12 ft wide",
+    "Light requirements": "full sun, part sun/part shade",
+    "Moisture requirements": "moist to wet soil",
+    "Bloom time": "May - August",
+    "Growth rate/ease": "fast growing, easy to grow",
+    "Wildlife support": "flowers attract pollinators; berries feed birds; stems provide browse and cover; host plant for native butterflies and moths",
+    "Native habitat/range": "meadows, ponds, bogs, riparian areas, floodplains and open woodlands across the Pacific Northwest; Portland Plant List - yes.",
+    "Special features & uses": "winter color; rain gardens and bioswales; erosion control; habitat hedgerow"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade"
+   ],
+   "moistureTags": [
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "large shrub"
+   ],
+   "collections": [
+    "rain garden",
+    "pollinator meadow",
+    "sunny yard"
+   ],
+   "special": [
+    "wildlife favorite",
+    "pollinator plant - blooms mid-season",
+    "erosion control"
+   ],
+   "evergreen": [
+    "deciduous"
+   ],
+   "growth": [
+    "fast"
+   ],
+   "photoCredit": "Photo Credits: Sparrowhawk Native Plants and credited contributors",
+   "companionText": "",
+   "qty": null,
+   "size": "",
+   "note": "Added to catalogue; check Beaver Lake availability before ordering.",
+   "available": false,
+   "images": [
+    {
+     "src": "images/red-osier-dogwood-1.jpg",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/red-osier-dogwood-2.jpg",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/red-osier-dogwood-3.jpg",
+     "w": 1024,
+     "h": 1024
+    }
+   ],
+   "companions": [
+    {
+     "name": "Douglas Fir",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/douglas-fir",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Pacific Ninebark",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/pacific-ninebark",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Red Alder",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-alder",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Sword Fern",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/sword-fern",
+     "inList": true,
+     "why": "habitat-fit companion"
+    }
+   ]
+  },
+  {
+   "id": "tall-oregon-grape",
+   "name": "Tall Oregon Grape",
+   "catalogName": "Tall Oregon Grape",
+   "scientificName": "Mahonia aquifolium",
+   "productUrl": "https://sparrowhawknativeplants.com/products/tall-oregon-grape",
+   "handle": "tall-oregon-grape",
+   "description": "Tall Oregon grape is an evergreen shrub with glossy holly-like foliage, early yellow flowers, blue berries, and strong value for birds, bees, woodland edges, and difficult dry shade.",
+   "gardening": "Use it for woodland borders, habitat hedgerows, slopes, or dry shady gaps. It prefers well-drained soil and partial shade but tolerates sun, drought, and a wide range of conditions once established.",
+   "fields": {
+    "Plant type/canopy layer": "evergreen, perennial, large shrub",
+    "Size at maturity": "5-15 ft tall, 2-8 ft wide",
+    "Light requirements": "full sun, part sun/part shade, full shade",
+    "Moisture requirements": "dry to moist soil, prefers well-drained",
+    "Bloom time": "March - June",
+    "Growth rate/ease": "medium growth rate, easy to grow",
+    "Wildlife support": "flowers provide nectar for bees and other pollinators; berries feed birds and mammals; host plant for native butterflies and moths",
+    "Native habitat/range": "open woods and shrublands across the Pacific Northwest from British Columbia through California and east to Montana and Idaho; Portland Plant List - yes.",
+    "Special features & uses": "evergreen; drought tolerant; deer resistant; erosion control and woodland edge plant"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade",
+    "full shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "dry soil",
+    "moist soil"
+   ],
+   "canopy": [
+    "large shrub"
+   ],
+   "collections": [
+    "beat the heat",
+    "oakscape",
+    "shady woodland",
+    "sunny yard"
+   ],
+   "special": [
+    "evergreen",
+    "deer resistant",
+    "pollinator plant - blooms early"
+   ],
+   "evergreen": [
+    "evergreen"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Photo Credits: Tara Lemezis and credited contributors via Sparrowhawk Native Plants",
+   "companionText": "",
+   "qty": null,
+   "size": "",
+   "note": "Added to catalogue; check Beaver Lake availability before ordering.",
+   "available": false,
+   "images": [
+    {
+     "src": "images/tall-oregon-grape-1.png",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/tall-oregon-grape-2.jpg",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/tall-oregon-grape-3.jpg",
+     "w": 1024,
+     "h": 1024
+    }
+   ],
+   "companions": [
+    {
+     "name": "Douglas Fir",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/douglas-fir",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Sword Fern",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/sword-fern",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Oceanspray",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/oceanspray",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Salal",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/salal",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Yarrow",
+     "lights": [],
+     "moisture": [],
+     "url": "",
+     "inList": true,
+     "why": "habitat-fit companion"
+    }
+   ]
+  },
+  {
+   "id": "western-redcedar",
+   "name": "Western Red Cedar",
+   "catalogName": "Western Red Cedar",
+   "scientificName": "Thuja plicata",
+   "productUrl": "https://sparrowhawknativeplants.com/products/western-red-cedar",
+   "handle": "western-red-cedar",
+   "description": "Western red cedar is a massive, aromatic evergreen tree with layered habitat value, elegant foliage, and exceptional cultural and ecological significance across the Pacific Northwest.",
+   "gardening": "Plant only where there is abundant room and reliably moist soil. It is especially suited to riparian and moist woodland settings, screens, windbreaks, and large naturalistic groves; provide deep summer watering while young.",
+   "fields": {
+    "Plant type/canopy layer": "evergreen, perennial, large tree",
+    "Size at maturity": "100-230 ft tall",
+    "Light requirements": "mostly sunny to full shade",
+    "Moisture requirements": "moist to wet soil",
+    "Bloom time": "March - June",
+    "Growth rate/ease": "moderate growth rate, easy to grow in the right conditions",
+    "Wildlife support": "seeds feed birds; foliage and twigs support deer and elk; cavities provide shelter; bark and wood support insects, fungi, ferns and lichen; host plant for over 30 species of native moths and butterflies",
+    "Native habitat/range": "moist forests and riparian areas from southeast Alaska to northern California and east to Alberta, Idaho and Montana; Portland Plant List - yes.",
+    "Special features & uses": "evergreen; wildlife favorite; stormwater management, erosion control, windbreak, screen and woodland tree"
+   },
+   "lightTags": [
+    "full sun",
+    "part sun / part shade",
+    "full shade"
+   ],
+   "lights": [
+    "full-sun",
+    "part-shade",
+    "full-shade"
+   ],
+   "moistureTags": [
+    "moist soil",
+    "wet soil"
+   ],
+   "canopy": [
+    "large tree"
+   ],
+   "collections": [
+    "rain garden",
+    "shady woodland"
+   ],
+   "special": [
+    "evergreen",
+    "large tree",
+    "wildlife favorite",
+    "erosion control"
+   ],
+   "evergreen": [
+    "evergreen"
+   ],
+   "growth": [
+    "medium"
+   ],
+   "photoCredit": "Photo Credits: credited contributors via Sparrowhawk Native Plants",
+   "companionText": "",
+   "qty": null,
+   "size": "",
+   "note": "Added to catalogue; check Beaver Lake availability before ordering.",
+   "available": false,
+   "images": [
+    {
+     "src": "images/western-redcedar-1.png",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/western-redcedar-2.jpg",
+     "w": 1024,
+     "h": 1024
+    },
+    {
+     "src": "images/western-redcedar-3.jpg",
+     "w": 1024,
+     "h": 1024
+    }
+   ],
+   "companions": [
+    {
+     "name": "Sword Fern",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/sword-fern",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Tall Oregon Grape",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "dry soil",
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/tall-oregon-grape",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Red Osier Dogwood",
+     "lights": [
+      "full-sun",
+      "part-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/red-osier-dogwood",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Pacific Bleeding Heart",
+     "lights": [
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil",
+      "wet soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/pacific-bleeding-heart",
+     "inList": true,
+     "why": "habitat-fit companion"
+    },
+    {
+     "name": "Vine Maple",
+     "lights": [
+      "full-sun",
+      "part-shade",
+      "full-shade"
+     ],
+     "moisture": [
+      "moist soil"
+     ],
+     "url": "https://sparrowhawknativeplants.com/products/vine-maple",
+     "inList": true,
+     "why": "habitat-fit companion"
+    }
+   ]
   }
  ]
 }
