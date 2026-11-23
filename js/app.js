@@ -141,6 +141,26 @@
     return value == null ? "—" : `$${Number(value).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
   }
 
+  function nurseryRowsFor(plant) {
+    return availabilityFor({ name: plant.name, scientificName: plant.scientificName, size: "" });
+  }
+
+  function nurseryCardText(plant) {
+    const allRows = nurseryRowsFor(plant);
+    if (!allRows.length) return "Not listed in snapshot";
+    const order = orderFor(plant.id);
+    const selectedKey = order ? sizeKey(order.size) : "";
+    const rows = selectedKey ? allRows.filter((r) => sizeKey(r.size) === selectedKey) : allRows;
+    const shown = (rows.length ? rows : allRows).slice(0, 3);
+    const text = shown.map((r) => {
+      const now = Number(r.availableNow) || 0;
+      const spring = Number(r.spring) || 0;
+      const availability = now ? `${now.toLocaleString()} now` : (spring ? `${spring.toLocaleString()} spring` : "none now");
+      return `${r.size} · ${formatMoney(Number.isFinite(Number(r.price)) ? Number(r.price) : null)} · ${availability}`;
+    });
+    return text.join("  /  ") + (shown.length < (rows.length || allRows.length) ? "  /  +more sizes" : "");
+  }
+
   function budgetTotals() {
     return state.orders.reduce((out, item) => {
       const unit = priceFor(item);
@@ -281,6 +301,7 @@
             <span class="lights__text">${esc((p.lights || []).length ? lightPhrase(p.lights) : "Light not recorded")}</span>
           </div>
           <p class="card__meta">${meta.join("")}</p>
+          <p class="card__nursery"><strong>Beaver Lake</strong> ${esc(nurseryCardText(p))}</p>
           ${p.note && p.available ? `<p class="card__meta"><span class="card__note">${esc(p.note)}</span></p>` : ""}
           <p class="card__comp"><strong>Good with</strong> ${esc(comps.join(", "))}${extra ? ` +${extra}` : ""}</p>
         </div>

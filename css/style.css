@@ -466,6 +466,24 @@ button { cursor: pointer; }
   margin: 0;
 }
 .section-note { margin: 0; font-size: 0.82rem; color: var(--muted); }
+.order-button {
+  appearance: none;
+  border: 1px solid var(--moss-2);
+  background: var(--moss);
+  color: #f4eee2;
+  padding: 0.48rem 0.8rem;
+  border-radius: 2px;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 3;
+}
+.order-button:hover, .order-button:focus-visible { background: var(--moss-2); color: #1c2a20; text-shadow: none; }
 
 .view-switch {
   display: inline-flex;
@@ -615,6 +633,15 @@ button { cursor: pointer; }
 .card__meta span { display: inline-flex; align-items: center; gap: 0.3rem; }
 .card__qty { font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.02em; }
 .card__note { color: var(--clay); font-size: 0.78rem; font-style: italic; }
+.card__nursery {
+  margin: 0 0 0.55rem;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.59rem;
+  letter-spacing: 0.01em;
+  line-height: 1.55;
+}
+.card__nursery strong { color: var(--moss-2); font-weight: 500; text-transform: uppercase; letter-spacing: 0.08em; }
 
 .card__comp {
   margin: 0;
@@ -719,6 +746,7 @@ button { cursor: pointer; }
 .grid.is-compact .lights__glyphs svg { width: 13px; height: 13px; }
 .grid.is-compact .lights__text { font-size: 0.54rem; }
 .grid.is-compact .card__meta { font-size: 0.72rem; margin: 0; }
+.grid.is-compact .card__nursery { font-size: 0.54rem; line-height: 1.35; margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .grid.is-compact .card__comp { font-size: 0.7rem; line-height: 1.35; -webkit-line-clamp: 1; }
 .grid.is-compact .card__foot { grid-column: 3; grid-row: 1; margin: 0; padding: 0; border: 0; flex-direction: column; align-items: flex-end; gap: 0.45rem; }
 .grid.is-compact .card__link { font-size: 0.52rem; }
@@ -1183,3 +1211,7 @@ button { cursor: pointer; }
 @media (max-width: 520px) {
   .order-row__cost { grid-column: 1 / -1; }
 }
+
+/* Keep the primary order control legible after the editor styles. */
+.section-head .order-button { color: #f4eee2; background: var(--moss); border-color: var(--moss-2); }
+.section-head .order-button:hover, .section-head .order-button:focus-visible { color: #1c2a20; background: var(--moss-2); }
